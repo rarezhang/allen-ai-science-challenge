@@ -59,8 +59,7 @@ def lucene_retriever(q_string, version, use_BM25=False):
 
     query = QueryParser(version, 'text', analyzer).parse(q_string)
     # search
-    hitsPerPage = 10
-    #reader = IndexReader.open(index)
+    hitsPerPage = 10  # keep top 10
     reader = IndexReader.open(index)
     searcher = IndexSearcher(reader)
 
@@ -73,7 +72,7 @@ def lucene_retriever(q_string, version, use_BM25=False):
     searcher.search(query, collector)
     hs = collector.topDocs().scoreDocs  # hists
 
-    def sorted_doc(hists, rev=True):
+    def sorted_doc(hists):
         """return sorted document+score by score"""
         def doc_score(hists):
             """return doc_name & score"""
@@ -85,13 +84,10 @@ def lucene_retriever(q_string, version, use_BM25=False):
                 text = doc.get("text")
                 score = h.score
                 yield (file_name, doc_name, score, text)
-        return sorted(doc_score(hists), key=lambda tup: tup[1], reverse=rev)
+        return sorted(doc_score(hists), key=lambda tup: tup[2], reverse=True)
     results = sorted_doc(hs)
     reader.close()
     return results
-
-
-
 
 
 def read_file(f_name):
@@ -100,7 +96,6 @@ def read_file(f_name):
     :param path:
     :return: python list: document_names, texts
     """
-    print f_name
     doc_names, tes = [], []
     path = "..\\data\\corpus\\"+f_name
     with io.open(path, mode='r', encoding='utf-8') as f:
@@ -125,7 +120,7 @@ def read_file(f_name):
                 line = line.split("\t")
                 dn = "doc" + str(i)
                 doc_names.append(dn)
-                tes.append(line[0] + " " + line[1] + " " + line[2])
+                tes.append(line[0] + " " + line[1] + " " + line[2].strip())
                 i += 1
         elif f_name in ["Science_Dictionary_for_Kids_book_filtered.txt"]:
             # format: word
@@ -136,7 +131,7 @@ def read_file(f_name):
                     doc_names.append(word)
                 else:
                     explanation = line.strip()
-                    tes.append(word + " " +explanation)
+                    tes.append(word + " " + explanation)
     return doc_names, tes
 
 import time
