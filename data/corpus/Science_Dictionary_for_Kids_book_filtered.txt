@@ -1,0 +1,1032 @@
+Anemometer
+	A weather instrument used to measure wind force and speed.
+Barometer
+	A weather instrument used to measure atmospheric pressure. Below 29 is considered rainy or stormy while 30 or above is considered fair weather.
+Beaker
+	A container used to transport, pour, or mix liquids. It cannot measure an exact amount of liquid.
+Bunsen Burner
+	A small burner used in the laboratory. It is connected to a gas source and uses a very hot flame. When heating, the hottest area is at the top of the inner core.
+Compass
+	An instrument used to find direction. It usually is made of a magnetic needle that is free to move until it is lined up with Earth's magnetic field.
+Compound Light Microscope
+	A light microscope that has more than one lens that is used to magnify a small object or specimen.
+Erlenmeyer Flask
+	A flat-bottomed, cone-shaped flask used for mixing and heating liquid. A stopper can be used to seal it.
+Eyedropper
+	A tube with a rubber bulb on the end that is used to pull liquid into the tube. It is used for transporting small amounts of liquid.
+Eyewash
+	Safety equipment that is used to flush the eyes in case something gets into them during a lab experiment.
+Funnel
+	A utensil used to pour small solids or liquids into small-mouthed containers. It is usually made of either plastic or glass.
+Goggles
+	Safety equipment used to protect your eyes during an experiment.
+Graduated Cylinder
+	A cylinder that has been marked with different "graduations," or lines and numbers, to show the level of the liquid put in it. Always read the meniscus, or the bottom of the curved liquid, when using a glass graduated cylinder.
+Hand Lens
+	A hand-held magnifying glass that allows you to look closely at objects. The typical magnification is 10x; it makes the object 10 times bigger.
+Hot Plate
+	A device used to heat beakers or flasks, it has either coils or a ceramic plate for heating. Always be sure the cord is tucked away for safety!
+Hydrion Paper
+	A special kind of litmus paper that turns different colors depending on the pH (acidity or alkalinity) of the substance being tested.
+Litmus Paper
+	Paper used to determine pH. The paper changes color depending on whether it has been put in an acid, base, or neutral substance. Red litmus paper will turn blue when placed in a base and blue litmus paper will turn red when placed in an acid.
+Meniscus
+	The lowest part of the curve created by water when it is placed in a glass graduated cylinder. When reading the exact amount in a glass graduated cylinder, you look at where the meniscus lies.
+Meter Stick
+	A common instrument for measuring length in the classroom.
+Pan Balance
+	A balance that uses two different pans to find the mass of an object.
+Petri Dish
+	A shallow dish approximately 10 centimeters in diameter, used for growing bacteria cultures or evaporating crystals.
+Ring Stand
+	A metal stand that usually includes a ring and is used to support glassware during heating or other lab equipment during an experiment.
+Spring Scale
+	A measuring device or scale that uses a spring to measure the weight of an object. The most common unit measured using a spring scale is Newtons; 4.45 Newtons equals 1 pound.
+Stopper
+	A cork or plug that is placed in glassware to seal it. It can be made of cork, plastic, or rubber and can either be solid or have holes in it to allow glass tubing to pass through.
+Stream Table
+	A long table that is used to show weathering, erosion, and water flow in streams and bodies of water.
+Telescope
+	An instrument that uses lenses and mirrors to view faraway objects. There are three types: refracting, reflecting, and radio, which does not have any lenses or mirrors but depends on radio waves given off by faraway objects in space.
+Test Tube
+	A long glass tube that has one end open with the other end rounded. It can be used for heating, mixing, or collecting chemicals. Because it has a rounded bottom and cannot stand on its own, it usually needs to be kept in a rack.
+Test Tube Clamp
+	A clamp designed specifically to hold test tubes while they are being heated. To open the clamp, squeeze the middle loops.
+Test Tube Rack
+	A rack made out of wood or plastic specifically designed to hold test tubes while they are being used. Some also have a row of rods in the back on which to place the test tubes upside down for drying.
+Thermometer
+	A device used to measure temperature. It contains mercury or colored alcohol, which expands and rises in the thermometer as the temperature increases. Thermometers measure temperatures in Celsius or Fahrenheit, or both. Some current thermometers provide digital readings.
+Triple Beam Balance
+	A balance that is used to determine the mass of an object.
+The Scientific Process
+Bar Graph
+	A graph or chart that shows information using bars. It should be used to compare qualities of data.
+Conclusion
+	A summarization of the results of the experiment and their impact on the hypothesis.
+Control (Controlled Variables)
+	All of the aspects of an experiment that are kept constant and not changed. In a well-planned experiment, all of the factors should be controlled except the independent (manipulated) variable.
+	Example: When testing how the height of a ramp affects the time it takes a car to go down it, the following are controlled: same ramp, same car, same timer, same person who takes the time, and same release technique of the car.
+Control (Control Group)
+	When designing an experiment, this group or object remains as it is; no changes are made to it.
+Data
+	A group of facts or measurements gathered either through research or experimentation.
+Data Table
+	A table that is designed to record quantitative information gained in an experiment.
+Dependent Variable
+	The outcome or results of the experiment; another name for the responding variable.
+	Example: When testing how the amount of sunlight affects the height of a bean plant, the height of the bean plant is the dependent variable.
+Hypothesis
+	An educated guess or prediction (based on either research or previous experience) about the result of an experiment.
+	Examples: If a ramp is raised higher, it will take less time for a car to travel down it. Based on previous experiments, the bigger the wheels on the car, the faster it will travel.
+Independent Variable
+	The variable that is changed in an experiment; another name for a manipulated variable.
+	Example: When testing how the amount of sunlight affects the height of a bean plant, the amount of sunlight is the independent variable.
+Inference
+	Using an observation to come to a conclusion.
+	Example: In the picture we can observe a broken window and a baseball on the floor. Based on the observations, we could make an inference that the baseball broke the window.
+Line Graph
+	A graph that shows information using lines; usually used to show data that were collected over time.
+Manipulated Variable
+	The variable that is changed in an experiment; another name for an independent variable.
+	Example: When testing how the amount of sunlight affects the height of a bean plant, the amount of sunlight is the manipulated variable.
+Observation
+	The act of gathering data by using one or more of the five senses.
+Problem
+	The question to be considered and addressed in an experiment. The hypothesis usually answers this question.
+	Examples: How does the number of batteries affect the strength of the current in a circuit? Does water temperature affect the breathing rate of goldfish?
+Procedure
+	The steps or plans that need to be followed to complete an experiment.
+Qualitative Observations
+	Characteristics or qualities that describe what is being observed; based on a person's opinion. Do not involve numbers or measurements.
+	Examples: Color, texture, taste, likes or dislikes, comparisons (e.g., Stan is taller than me.)
+Quantitative Observations
+	Observations that can be measured and recorded using quantities or numbers.
+	Examples: Mass, length, volume, number of something, recorded time
+Responding Variable
+	The outcome of the experiment; another name for the dependent variable.
+	Example: When testing how the amount of sunlight affects the height of a bean plant, the height of the bean plant is the responding variable.
+Scientific Method
+	A tool used by scientists to find the answer to a question or problem. The steps of the scientific method are:
+	1. Identify the Problem
+	2. Conduct Research
+	3. Create a Hypothesis
+	4. Perform an Experiment
+	5. Analyze the Data
+	6. Develop a Conclusion
+Theory
+	A general principle or idea that explains facts or past events or that can be used to predict future events.
+Trial
+	A test that is conducted more than once during an experiment.
+Measurements and Units
+Ampere (A)
+	The unit for electric current or the amount of electrons passing a point in a certain amount of time.
+Astronomical Unit (AU)
+	The unit used to measure long distances in space. It is equal to the distance from the Earth to the sun.
+	1 AU = 149,597,870,691 km (149.60 × 109 km)
+	1 AU = 93 million miles (9.3 × 106 mi)
+Calorie (cal)
+	A unit of energy; kilocalories (1,000 calories) are commonly used to describe the amount of energy found in food.
+	1,000 calories = 1 kilocalorie
+	1 calorie = 4.18 joules
+Celsius (°C)
+	The metric temperature scale on which water freezes at 0° and boils at 100°.
+Fahrenheit (°F)
+	The standard temperature scale at which water freezes at 32° and boils at 212°.
+Gram (g)
+	The basic metric unit used to measure mass.
+	1 gram = 1,000 milligrams
+	1,000 grams = 1 kilogram
+Gravity Constant (gc)
+	The speed at which an object will accelerate as it falls toward Earth (until it reaches terminal velocity). It is also called the acceleration (due to gravity).
+	gc = 9.8 m/sec2
+Hertz (Hz)
+	The metric unit for frequency. It is the number of waves that pass a certain point in one second.
+	1 Hertz = 1 wave/second
+Joule (J)
+	The metric unit for energy and heat.
+	1 joule = 1 Newton of force - 1 meter
+	1 joule = 1 watt/1 second
+	4.18 joules = 1 calorie
+Kelvin (°K)
+	The temperature scale that begins at absolute zero, where there is no molecular movement. Water freezes at 273°K and boils at 373°K.
+	°Kelvin = °Celsius + 273
+Light Year (ly)
+	The amount of distance light can travel through space in one year. It is used to measure long distances in space. A light year equals about 9.461 trillion (9.461 × 1012) kilometers or 5.879 (5.879 × 1012) trillion miles.
+	Example: Our nearest star is 4.4 light years away, so it takes light from that star 4.4 years to reach the Earth.
+Liter (l)
+	A metric unit for volume.
+	1,000 liters = 1 cubic meter (m3)
+	1 liter = 1,000 milliliters
+	1,000 liters = 1 kiloliter
+Meter (m)
+	The basic metric unit of length.
+	1 meter = 1,000 millimeters
+	1 meter = 100 centimeters
+	1,000 meters = 1 kilometer
+Newton (N)
+	The metric unit for force. It is equal to the amount of force needed to accelerate a mass of one kilogram at a rate of one meter per second per second.
+	1 Newton = 1 kg•m/s2
+	4.45 Newtons = 1 pound
+Ohm (Ω)
+	The metric unit for resistance.
+	1 ohm = 1 volt/1 ampere
+Volt (V)
+	The standard metric unit for voltage or the force of electricity.
+	1 volt = 1 ohm - 1 ampere
+Watts (W)
+	The standard metric unit for power. It is equal to one joule of energy per second.
+	1 watt = 1 joule/1 sec
+	1,000 watts = 1 kilowatt
+	1,000,000 watts = 1 megawatt
+Life Sciences
+Acquired Traits
+	Abilities that are helpful to an organism but are not passed on from a parent.
+	Example: Large arm muscles developed by training for a sporting event
+Allele
+	A letter that represents a genetic trait and a member of a pair of genes on a chromosome. Written in pairs and used in Punnett Squares.
+Amphibian
+	A cold-blooded vertebrate that is born under water, using its gills to breathe, then spends the rest of its life on land, using lungs to breathe.
+	Examples: Frogs, toads, newts, salamanders
+Anaphase
+	The stage of mitosis and meiosis when the chromosomes are separated from each other.
+Anther
+	The part of the flower that produces and contains the pollen.
+Biome
+	A large geographical area of the Earth's surface that has a certain set of characteristics.
+	Examples: Tundra, taiga, grassland, fresh water, salt water, deciduous forest, desert, tropical rainforest
+Camouflage
+	An adaptation that helps an animal blend into its surrounding and helps it avoid predators.
+	Example: The arctic fox has white fur in the winter and brown fur in the summer.
+Carbon (Dioxide) Cycle
+	The way in which carbon (in the form of carbon dioxide) is removed from the atmosphere by living things and ultimately returned to the atmosphere.
+Carnivore
+	Any living thing with a diet consisting mostly of meat.
+	Examples: Lion, venus flytrap, bear
+Cell
+	The smallest functional unit of all living things.
+Cell Membrane
+	The barrier around a cell's cytoplasm (see cell).
+Cold-Blooded
+	A living thing that cannot control its body temperature. Its temperature is determined by its environment.
+	Example: In order to get warm, a lizard or snake will lay on warm sand or in direct sunlight to bring up its body temperature.
+Commensalism
+	A symbiotic relationship between organisms in which one of them benefits from the relationship and the other is not affected.
+	Example: Barnacles that attach themselves to whales (and ships)
+Compound Light Microscope
+	A light microscope that is used to create an enlarged image of an object.
+Consumer
+	An organism that feeds on plants or other animals.
+Decomposer
+	An organism that breaks down dead animals and decaying matter into other substances.
+	Examples: Bacteria, fungi
+Dichotomous Key
+	A key that allows you to identify an item based on a series of choices.
+DNA (Deoxyribonucleic Acid)
+	The molecule that carries the genetic information in a cell. It has a "twisted ladder" or double helix shape.
+Dominant Trait
+	A trait that will appear in children (offspring) if one of the parents has the trait. It is written with a capital letter when writing the alleles for the traits in a Punnett square.
+	Example: Because tall is a dominant trait in pea plants, the tall trait would be written as T.
+Endoplasmic Reticulum
+	A group of pathways in the cytoplasm of the cell that help move materials through the cell.
+Epidermis
+	1. The outermost layer of the skin.
+	2. The outermost layer of a leaf.
+Filament
+	The long tube-like structure that holds up the anther of a plant.
+Food Chain
+	The sequence of how living things eat each other in a biological community. It always starts with a primary energy source (usually the sun).
+Food Web
+	Two or more food chains interconnected together.
+Fruit
+	The fleshy part of a plant that contains the seeds.
+	Examples: Tomato, apple, orange
+Genotype
+	The genetic makeup of an organism as shown by the alleles or letters that represent the trait.
+	Example: The genotype for a heterogeneous tall pea plant would be: Tt.
+Genotypic Ratio
+	The ratio of the genotypes of predicted offspring using a Punnett square.
+	Example: By using a Punnett square, you can calculate that the four possible offspring would be: TT, Tt, Tt, and tt. The genotypic ratio for this would be 1:2:1.
+Golgi Apparatus
+	An organelle found in the cytoplasm of cells that processes and packages substances the cell needs.
+Habitat
+	The area or environment where an organism normally lives or has its needs met.
+Herbivore
+	An organism that depends on plants for most of its food and energy.
+Heterozygous
+	When an organism has two different alleles for a genetic trait.
+	Examples: Tt is a heterozygous tall plant or Rr would be a heterozygous round seed.
+Hibernation
+	A state of inactivity in which an organism conserves energy through the colder months.
+Homozygous
+	When an organism has two of the same alleles for a genetic trait.
+	Examples: TT is a homozygous tall plant or tt would be a homozygous short plant.
+Hybrid
+	Another term for having heterozygous alleles for a certain trait.
+	Examples: Tt is a hybrid or heterozygous tall plant, and Rr is a hybrid or heterozygous round seed.
+Inherited Trait
+	Traits that come from a parent or other ancestor.
+	Examples: Eye or hair color
+Instinct
+	A behavior that an organism is born with and does without thinking or training.
+	Example: Birds migrating south for the winter
+Interphase
+	The phase of mitosis where the cell is resting. Growth and maturing are taking place during this phase.
+Invertebrates
+	Animals that do not have a backbone.
+	Examples: Jellyfish, insect, spider, clam, starfish, ant
+Learned Behavior
+	An action or set of actions that an organism learns and changes based on its experiences.
+	Examples: Tying your shoes, or when a cat comes to the sound of the can opener as a can of food is opened
+Frog Life Cycle
+Life Cycle
+	The life sequence of any organism as it passes from egg to adult.
+Mammals
+	Animals that are warm-blooded, have body hair, and provide milk for their young. There are three groups: marsupials, monotremes, and placentals.
+	Examples: Kangaroo, elephant, anteater, bat
+Marsupials
+	Mammals whose young stay in pouches for the first part of their life.
+	Examples: Koalas, kangaroos
+Meiosis
+	The process of cell division in which a parent cell divides and produces four daughter cells (sex cells) that have half of the chromosomes of the parent.
+Metaphase
+	The phase of mitosis where the chromosomes line up in the middle of the cell.
+Mimicry
+	When one organism looks like another organism, helping it survive in its environment.
+	Example: The harmless scarlet king snake (red with yellow and black stripes, in which the red color is next to the black stripes) resembles the poisonous coral snake (red, black, and yellow stripes, but the red is next to the yellow stripes). Predators leave the scarlet king snake alone because it resembles the poisonous coral snake.
+Mitochondria
+	An organelle found in the cytoplasm of cell that helps the cell convert food into useable energy.
+Mitosis
+	The process of cell division in which a parent cell divides and produces two identical daughter cells, each with the same number of chromosomes as the parent cell.
+Monotremes
+	Mammals that lay eggs.
+	Examples: Anteaters, duck-billed platypus
+Mutation
+	A permanent change in an organism's DNA.
+Mutualism
+	A symbiotic relationship in which both organisms benefit from the relationship.
+	Example: Clown fish benefit from the protection of sea anemone, while the sea anemone benefit by eating the larger fish the clown fish attract as well as the clown fish's scraps.
+Natural Selection
+	The idea that if an organism has characteristics or traits that help it survive better in its environment, it will survive to produce more offspring than other organisms that do not have the helpful trait. This will lead to the helpful trait becoming more and more evident in future generations.
+Niche
+	The special area or function an organism has in its habitat.
+Nitrogen cycle.
+Nitrogen Cycle
+	The steps by which nitrogen is taken out of soil and water by living things and ultimately returned back to the soil.
+Nucleus
+	The control center for the cell that contains the genetic material, DNA.
+Omnivore
+	An organism that eats both plants and animals as its food source.
+Organ
+	A part of an organism that performs a specific function.
+Organelle
+	A structure in the cell that has a specific function.
+	Examples: Cell wall, cell membrane, nucleus, cytoplasm, nuclear membrane, endoplasmic reticulum, ribosome, mitochondrion, vacuole, lysosome, chloroplast
+Organ System
+	A group of organs in the human body that work together to carry out a vital function.
+	Examples: Digestive, circulatory, respiratory, integumentary, endocrine, muscular, lymphatic, nervous, reproductive, skeletal, and excretory systems
+Ovary
+	The part of a flowering plant that contains the seeds. It will mature into a fruit.
+Parasitism
+	A symbiotic relationship in which one organism benefits from the relationship and the other organism is harmed.
+	Example: A dog and its fleas
+Petals
+	The brightly colored parts of the flower that surround and help protect the reproductive parts of the flower.
+Phenotype
+	The way an organism looks based on its genetic makeup or alleles.
+	Example: The phenotype for a plant with a genotype of Tt would be tall.
+Phenotypic Ratio
+	The ratio of the phenotypes of predicted offspring using a Punnett square.
+	Example: By using a Punnett square, you can calculate that the four possible offspring would be: TT (tall), Tt (tall), Tt (tall), and tt (short). The phenotypic ratio for this would be 3:1, or 3 tall plants for every 1 short plant.
+Phloem
+	The tissue in the stem of the plant that transports the food and nutrients throughout the plant
+Photosynthesis
+	The process in which plants use sunlight to combine carbon dioxide and water to create food. Its chemical formula is:
+	6 CO2 + 6 H2O + energy 6 O2 + C6H12O6
+	carbon dioxide + water + sunlightoxygen + carbohydrate (sugar)
+Pistil
+	The female reproductive parts of a flowering plant. It includes the stigma, style, and ovary.
+Prey
+	An animal that is hunted or caught for food.
+Producer
+	An organism that produces its own food and is a food for other organisms; usually a green plant.
+Prophase
+	The phase of mitosis where chromosomes copy themselves and the nucleus starts to disappear.
+Punnett Square
+	A method used to predict the outcomes of genetic crosses.
+Purebred
+	Another term for having homozygous alleles for a certain trait.
+	Examples: TT is a purebred, or homozygous tall plant, or tt would be a purebred short plant.
+Recessive Trait
+	A trait that has to be contributed by both parents in order to appear in the offspring. It will always be overridden by the dominant trait. Its allele is shown by using a lowercase letter.
+	Example: A short plant would have the genotype tt because tall is dominant (T).
+Reptiles
+	A group of cold-blooded animals that have scales, breathe air, and usually lay eggs.
+	Examples: Turtles, lizard, snakes, crocodiles, alligators
+Respiration
+	The way that an organism exchanges gasses with its environment.
+Ribosome
+	An organelle where protein synthesis takes place. It is found either in the cytoplasm of a cell or on an endoplasmic reticulum.
+RNA (Ribonucleic Acid)
+	A long single strand of nucleic acid that assists a cell in making proteins.
+Scavenger
+	An organism that feeds on dead or decaying animals.
+Sepal
+	A modified leaf, sometimes looking like a petal, that is found at the base of the flower blossom.
+Stamen
+	The male reproductive parts of a flowering plant. It includes the anther and the filament.
+Stigma
+	The part of the female reproductive system in flowering plants that receives the pollen from the anthers. It is located at the top or end of the style.
+Style
+	This female reproductive organ in flowering plants connects the stigma with the ovary.
+Telephase
+	The phase of mitosis where the division between the two new cells forms.
+Tissue
+	A group of similar cells that work together to perform a specific function for an organism.
+	Examples: Muscle, nerve, connective, epidermal
+Trait
+	A feature or characteristic of an organism.
+Transpiration
+	A process in plants in which they lose water through the undersides of their leaves.
+Tropism
+	When an organism (usually a plant) moves toward or away from something.
+	Example: Plants grow toward sunlight or heat; hang a plant upside down and it will grow upright.
+Vacuole
+	An organelle found in the cytoplasm of cells that is used to store water or nutrients. It usually is quite large in plant cells and smaller in animal cells.
+Vertebrate
+	Animals that have a backbone.
+	Examples: Humans, dogs, horses, fish, reptiles, birds, amphibians, frogs
+Warm-Blooded
+	An organism that can maintain a relatively constant body temperature no matter its environment.
+Xylem
+	The tissue in the stem of the plant that transports water throughout the plant and helps support it.
+Zygote
+	A cell formed from two cells--one from the mother and one from the father; the first cell of an offspring.
+Physical Sciences
+Acceleration
+	The amount velocity changes in a certain amount of time. Usually expressed in m/sec2. A negative acceleration means the object is slowing down.
+	Calculating Acceleration:
+	- Use the formula:
+	- A = acceleration
+	- Vf = the final velocity
+	- Vi = the initial or starting velocity
+	- t = the time for the acceleration to take place
+Acid
+	A material that has a pH less than 7. It turns blue litmus paper red.
+	Examples: Citric acid (found in sodas and lemon juice), battery acid
+Atom
+	The smallest piece of an element. Made up of a nucleus and a cloud of electrons.
+Atomic Mass
+	The total mass of an atom; the number of protons and neutrons in an atom. Shown by the unit u, or the unified atomic mass unit.
+	Example: Silver's atomic mass is 107.87 u.
+Atomic Number
+	The number of protons in an atomic nucleus.
+Base
+	A material that has a pH greater than 7. It turns red litmus paper blue.
+	Examples: Baking soda, drain cleaner
+Bohr Model of Chlorine
+Bohr Model
+	A model that shows the approximate location of the protons, neutrons, and electrons in an atom, with the electrons traveling in orbits around the nucleus.
+Boiling Point
+	The temperature at which a liquid boils. Water boils at 100°C or 212°F.
+Buoyancy
+	The capacity to float in either air or liquid. The principal of buoyancy, which states that in order for an object to float it has to displace enough of the fluid around it, is attributed to Archimedes.
+Chemical Change (Chemical Reaction)
+	Any change that creates a new substance by altering the chemical makeup of a compound. Evidence of a chemical change could be change in temperature, light, heat, or sound given off, or the formation of gasses.
+	Examples: Combustion (wood burning), oxidation (iron rusting), cooking (or baking)
+Chemical Property
+	A property of a substance that can be observed during a chemical change.
+	Example: Combustibility (ability to burn), reactivity (with other elements)
+Circuit
+	A closed path that electricity follows. There are two basic types: series and parallel.
+Combustibility
+	How easily a material will ignite or burn. It also is a chemical property.
+Compound
+	A substance made up of two or more elements that cannot be separated by a physical change.
+	Examples: Salt (NaCl), water (H2O), sugar (C12H22O11)
+Conductivity
+	The ability of an object to conduct or transmit heat, electricity, or sound.
+Conductor
+	A material that can allow heat, light, sound, or electricity to pass through it easily.
+	Example: Metal is a good conductor of heat and electricity because it transmits them so easily.
+Current
+	The rate of flow of electrons (electric charges) or water. Electric current is measured in Amperes (A).
+	Calculating Current Given the Resistance:
+	- Use Ohm's Law formula: I=
+	- I = current (amps)
+	- V = voltage (volts)
+	- R = resistance (ohms Ω)
+	Calculating Current Given the Power:
+	- Use Ohm's Law formula: I=
+	- I = current (amps)
+	- P = power (watts)
+	- V = voltage (volts)
+Density
+	A measure of the compactness of the molecules of a material. The closer the particles are to one another, the higher the density of the material. The mass per unit of volume of a material.
+	Calculating Density:
+	- Use the formula: D=
+	- D = density
+	- m = mass
+	- v = velocity
+Diatomic Molecule
+	A molecule that is made up of two atoms. It always will be bonded with another atom, even it is more of the same kind of atom.
+	Examples: Hydrogen (H2), Oxygen (O2), Fluorine (F2), Iodine (I2), Bromine (Br2), Chlorine (Cl2), Nitrogen (N2)
+Diffract/Diffraction
+	The bending of waves around an obstacle or the spreading of waves as they go through an opening.
+Doppler Effect/Doppler Shift
+	When the frequency of a light or sound wave is changed because the object producing the wave is in motion. In sound, the higher the frequency, the higher the pitch; in light, the higher frequency light is blue while the lower frequency light is red.
+	Example: As an ambulance with its sirens blaring approaches you, the sound waves in front of it are compressed, giving it a higher frequency and therefore a higher pitch. As it passes you, the waves spread out so the frequency is lower and the pitch is lower as well.
+Element
+	A substance made up of all of the same atoms. Found on the periodic table.
+Electrons
+	Tiny negatively charged participles that move around the nucleus of the atom. Their mass is about 1/1836 of a proton or neutron so they do not calculate into the atomic mass.
+	Calculating the Number of Electrons in an Atom:
+	- In an electrically stable atom, the number of electrons equals the number of protons (atomic number).
+	- Hydrogen has an atomic number of 1, which means it has one proton and one electron.
+Electromagnet
+	Wrapped wire around an iron core that acts like a magnet when electric current flows through the wire.
+Energy
+	The ability to do work. Measured in joules.
+Families
+	The vertical columns of the periodic table; also called groups. Families have certain common characteristics or traits. There are 18 families in the standard periodic table.
+	Examples: Alkali metals, Alkaline Earth metals, halogens, noble gasses
+Force
+	A push or a pull.
+Frequency
+	The amount of waves that pass a certain point in one second. It is measured in Hertz (Hz).
+	Calculating Frequency:
+	- Use the formula: F=
+	- F = frequency (Hertz)
+	- v = speed (usually in m/sec)
+	- λ = wavelength (in meters)
+Friction
+	A force that resists motion when two objects move against each other.
+Gas
+	A state of matter that does not have a definite shape or volume. It will fill the container in which it is placed. The particles have high energy and are in motion.
+Gravity
+	A natural force of attraction between bodies in space with great mass and other objects in space as well as the objects on their surfaces. Gravity determines weight. Acceleration due to gravity: 9.8 m/sec2
+Groups
+	The vertical columns of the periodic table; also called families. Groups have common characteristics or traits. There are 18 groups in the standard periodic table.
+	Examples: Alkali metals, Alkaline Earth metals, halogens, noble gasses
+Half-Life
+	The amount of time it takes for half of a radioactive material to decay.
+Heterogeneous Mixture
+	A mixture in which the materials are different sizes and often different states of matter. It is easy to tell the difference between the different components in the mixture.
+	Examples: Cereal and milk, chicken noodle soup, snack mix, nuts and bolts
+Homogenous Mixture
+	A mixture in which the different materials appear to be the same state of matter. The particles of the materials in the mixture are similar sizes so the different materials are difficult to tell apart.
+	Examples: Powered drinks in water, salt water, bronze
+Inclined Plane
+	A simple machine consisting of a sloped surface or ramp used to raise a load.
+	Calculating the Mechanical Advantage (MA) of an Inclined Plane:
+	- Use the formula:
+	- Distanceeffort = length of the ramp
+	- Distanceresistance = height of the ramp
+Indicator
+	Any substance that can show the presence or absence of a chemical or substance.
+	Examples: Litmus paper (acids or bases), Hydrion paper (pH)
+Inertia (Newton's First Law of Motion)
+	The tendency of a body to resist changing its motion. An object at rest will tend to remain at rest, while an object in motion will tend to remain in motion in a straight line unless acted upon by an outside force.
+	Examples: A soccer ball will continue on a straight path toward the goal unless blocked. A large rock at the top of a hill will remain where it is unless gravity acts upon it to pull it down.
+Insoluble
+	A substance that cannot be dissolved in another substance.
+Insulator
+	Material that slows down or does not allow the passing of heat, light, sound, or electricity.
+	Example: Rubber is a good insulator for both electricity and heat.
+Ion
+	An atom or group of atoms that has acquired a charge because it has gained or lost electrons.
+	Example: A hydrogen atom has one proton (one positive charge) and one electron (one negative charge). This makes the atom electrically neutral. When hydrogen loses an electron, it loses one negative so that gives it a total charge of 1 positive. It is a +1 ion.
+Isotope
+	Two atoms that have the same atomic number but different mass numbers, and therefore different numbers of neutrons. It is usually expressed with the element name and its mass (e.g., Carbon-14), and it may be radioactive.
+	Examples:
+	- Carbon-12 (its mass matches the periodic table)
+	- Atomic Number = 6, so it has 6 protons
+	- Atomic Mass = 12, so it has 6 neutrons
+	- Carbon-14 (it has a mass of 14--does not match the mass written on the periodic table)
+	- Atomic Number = 6, so it has 6 protons
+	- Atomic Mass = 14, so it has 8 neutrons
+	- Carbon-14 is an isotope of carbon.
+Law of Conservation of Energy
+	A principle that states that energy is neither lost nor gained in any system or energy transfer.
+Law of Conservation of Mass
+	A principle that states that mass is neither lost nor gained in any chemical reaction.
+Lever
+	A simple machine made up of a bar that pivots around a fixed point.
+	Calculating Mechanical Advantage of a Lever
+	- Use the formula:
+	- Distance force or effort = measure of the length from the force to the fulcrum
+	- Distance load or resistance = measure of the length from the fulcrum to the load
+Liquid
+	A state of matter with a definite volume but no definite shape. It takes the shape of its container. Its molecules have energy and roll past each other.
+Longitudinal (Compressional) Wave
+	A wave that travels parallel through its medium. The closer the particles of the medium, the faster the longitudinal wave can travel through it.
+	Examples: Sound waves, earthquake waves
+Mass
+	The amount of matter inside an object. It does not change based on gravity. It is usually measured in grams or kilograms.
+Matter
+	Something that has mass and takes up space. It can be solid, liquid, gas, or plasma.
+Mechanical Advantage (MA)
+	The number of times a machine multiplies the force applied to it.
+	Calculating Mechanical Advantage:
+	- Use the formula: MA=
+Melting Point
+	The temperature at which a solid changes to a liquid. Ice (water) melts at 0 °C or 32 °F.
+Metalloid
+	An element on the periodic table that has properties of both metals and nonmetals. Located along the stairstep separating the metals from the nonmetals.
+Metals
+	Substances found on the left side of the periodic table. They usually are good conductors of heat and energy.
+Mixture
+	A combination of one or more substances in which each component retains its own properties and still can be separated. There are two types: heterogeneous mixtures and homogenous mixtures.
+	Examples: Cereal and milk, salad, powdered drinks, snack mix
+Molecule
+	Consisting of two or more atoms joined together, it is the smallest particle of a substance that still has all of the properties of the substance.
+	Example: Water molecule is H2O, with two atoms of hydrogen and one atom of oxygen.
+Momentum
+	The amount of motion of a moving object.
+	Calculating Momentum:
+	- Use the formula: p = mv
+	- p = momentum (kg - m/sec)
+	- m = mass (kg)
+	- v = velocity (m/sec)
+Neutral
+	1. An atom or particle that does not carry a charge.
+	2. A solution that has a pH of 7. Pure water is a neutral substance.
+Neutron
+	A neutral particle found in the nucleus of the atom. It has an approximate mass of 1 unified atomic mass unit.
+	Calculating the Number of Neutrons in an Atom:
+	1. Find the atomic mass (found on the periodic table) of an atom; it is equal to number of protons and neutrons together.
+	2. Calculate the number of neutrons by subtracting the number of protons (atomic number) from the atomic mass.
+	Example: Lithium has an atomic mass of 6.9 or 7. Based on its atomic number, it has 3 protons. Lithium has 4 neutrons.
+Newton's First Law of Motion
+	An object at rest will remain at rest unless acted upon by an outside force; an object will continue to travel in a straight line unless acted upon by an outside force. Also called the Law of Inertia.
+	Example: When riding in a car, if the car suddenly stops, a rider not wearing a seat belt will continue moving at the speed of the car.
+Newton's Laws of Motion
+	Three laws that show the relationships between forces acting on an object and the motion of the body.
+Newton's Second Law of Motion
+	In order for an object to accelerate or move in the direction of the force placed upon it, you have to have enough force to overcome its mass.
+	Example: The more mass in the car, the more force it will take to move it. The faster you want it to move, the more force you will need.
+Newton's Third Law of Motion
+	For every action, there is an equal and opposite reaction.
+	Example: In order for a rocket to leave the ground, hot gasses have to push downward while the rocket moves up.
+Nonmetals
+	Substances found on the right side of the periodic table. They generally are not good conductors of heat and energy and most are gasses at room temperature.
+Nucleus
+	The central part of an atom that contains the protons and neutrons.
+Parallel Circuit
+	An electric circuit that has more than one path for the current to follow. If one light bulb (or resistor) is turned off or breaks, the current will follow the other path.
+Particle
+	A very small piece or part of a substance or object.
+Pendulum
+	An object suspended from a fixed point so it can swing (or oscillate) freely back and forth.
+	Calculating the Period of a Pendulum:
+	- Using a stopwatch, measure the amount of time it takes for the pendulum to make one complete swing out and return to its starting point.
+Period
+	1. A horizontal row on the periodic table.
+	2. Time needed for one complete swing out and back to a pendulum.
+pH (Potential of Hydrogen)
+	A measure of how acidic or basic a solution; 7 is considered neutral, while 1-6 are acidic and 8-14 are basic. The further away from neutral, the stronger the acid or base. See page 121 for a list of common acids and bases.
+Phase
+	Another term for state of matter. There are four phases of matter: solid, liquid, gas, and plasma.
+Physical Change
+	A change in size, shape, or state of matter that does not change a substance's composition.
+	Examples: Water melting or freezing, crumpling a piece of paper, liquid evaporating, breaking glass
+Physics
+	The study of matter, energy, and force.
+Pitch
+	How high or low a sound is. It is determined by the frequency. The higher the frequency (amount of waves in a second), the higher the pitch. The lower the frequency, the lower the pitch.
+Plasma
+	1. A very hot, gas-like state of matter that occurs naturally on the sun and other stars. It also can be produced in fluorescent lights and plasma display televisions.
+	2. The liquid part of blood.
+Power
+	1. The rate at which work is done. Measured in watts.
+	Calculating Power (Work):
+	- Use the formula: P=
+	- P = power (watts)
+	- W = work (joules)
+	- t = time (seconds, minutes, hours)
+	2. The amount of electricity being used. Measured in watts.
+	Calculating Power (Electricity):
+	- Use the formula: P = V - I
+	- P = power (watts)
+	- V = voltage (volts)
+	- I = current (amps)
+Product
+	The substance or substances that are formed in a chemical reaction.
+Property
+	Characteristics of an object or substance.
+	Examples: Chemical properties (flammability), physical properties (density)
+Protons
+	Positively charged particles that are located in the nucleus of the atom. They have an atomic mass of 1 u.
+	Calculating the Number of Protons in an Atom:
+	- In an electrically stable atom, the element's atomic number equals the number of protons.
+	Example: Hydrogen has an atomic number of 1, which means it has just one proton.
+Pulley
+	A simple machine made up of a grooved wheel that can turn freely in a frame called a block. There are two basic kinds: fixed (the pulley doesn't move) and moveable (the pulley moves along the rope). In addition, a block and tackle pulley is made of more than one pulley working together.
+Reactant
+	A substance that is participating in a chemical reaction.
+Reflect (Reflection)
+	To throw or bend back light or sound when it hits a surface.
+	Examples: Mirrors reflect light, echoes are reflected sound
+Refract (Refraction)
+	To bend light as it passes through a material or lens or from one state of matter to another.
+Resistance
+	A measure of how much a material slows down or stops electricity. Measured in ohms.
+	Examples: Rubber has higher resistance so it is a poor conductor of electricity. Copper has low resistance so it is a good conductor of electricity.
+	Calculating Resistance:
+	- Use the formula: R=
+	- R = resistance (ohms Ω)
+	- V = voltage (volts)
+	- I = current (amps)
+Saturated Solution
+	A solution that has dissolved all of a substance that it is able to dissolve at a certain temperature.
+Screw
+	An inclined plane wrapped around a cylinder core.
+	Examples: Car jack, c-clamp, corkscrew
+Series Circuit
+	An electric circuit that has only one path for the current to follow. If one light bulb (or resistor) is turned off or breaks, the path is broken and the current will stop.
+Simple Machine
+	A device without moving parts that is used to make work easier. There are six different kinds: lever, wheel and axle, pulley, wedge, inclined plane, and screw.
+Solid
+	A state of matter with a definite shape and volume. Its particles have the lowest energy of all of the states of matter.
+Solubility
+	The amount of substance or solute that can be dissolved in a certain amount of solvent.
+Solubility Graph
+	A graph that shows the relationship between temperature and the amount of a certain solute that can be dissolved in water.
+Soluble
+	Able to be dissolved into another substance.
+Solute
+	A substance that is being dissolved into something else.
+	Example: In making a powered drink, the powder is the solute.
+Solution
+	A homogenous mixture of two or more substances; can be solids, gasses, or liquids.
+	Example: Air (solution of various gasses), soda (solution of gas in a liquid), bronze (solid solution of copper and tin)
+Solvent
+	The substance into which something is being dissolved.
+	Example: In salt water, the solvent is water.
+Speed
+	The rate of motion of an object. It is represented by the distance over the time an object travels.
+	Calculating Speed:
+	- Use the formula: S=
+	- S = speed
+	- d = distance
+	- t = time
+Supersaturated Solution
+	A solution that has more substance dissolved in it than it would normally be able to have dissolved at a certain temperature.
+	Example: Heating and stirring water to dissolve sugar for sugar rock candy. If you just heated the water, it would not be able to dissolve as much as when it is stirred as well.
+Temperature
+	Measure of the kinetic energy or motion of the molecules of a substance. It is expressed in Celsius, Fahrenheit, or Kelvin.
+	Calculating Celsius When Given Fahrenheit:
+	- Use the formula: °C = (5/9)(°F - 32)
+	Calculating Fahrenheit When Given Celsius:
+	- Use the formula: °F = (1.8 × °C) + 32
+	Calculating Kelvin When Given Celsius:
+	- Use the formula: °K = °C + 273
+Transverse Wave
+	A wave that travels at a 90° angle to the medium it is moving through.
+	Examples: Water waves, light waves
+Unsaturated Solution
+	A solution that can still have more of a certain substance dissolved it in.
+Valence Electrons
+	The electrons located in the outermost electron shell of an atom. They are the electrons involved in chemical reactions.
+	Example: Oxygen has two rings of electrons; the innermost one has two electrons. The second, or outermost, ring has six. These are the valence electrons. Oxygen has six valence electrons.
+Voltage
+	The strength or force of the electrons or electrical current in a circuit. Technically, voltage is the difference of potential energy between two points of an electrical circuit. A good analogy is comparing electricity to water. High voltage is like water that is coming out of a power washer versus water that is coming out of a garden hose (lower voltage)
+	Example: High voltage signs warn that the current traveling through the circuit has a lot of energy and strength and could be dangerous.
+	Calculating Voltage Using Resistance:
+	- Use the formula: V = IR
+	- V = voltage (volts)
+	- I = current (amps)
+	- R = resistance (ohms Ω)
+	Calculating Voltage Using Power:
+	- Use the formula: V=
+	- V = voltage (volts)
+	- P = power (watts)
+	- I = current (amps)
+Volume
+	The amount of space an object occupies. Usually measured in L, mL, or cm3 using a graduated cylinder.
+Wavelength
+	The distance between two crests or two troughs in a transverse wave or the length of one compression and one rarefaction in a compressional wave.
+	Calculating the Wavelength:
+	- Use the formula:
+	- λ = wavelength (in meters)
+	- F = frequency (Hertz)
+	- v = speed (usually in m/sec)
+Wedge
+	A simple machine with an inclined plane on one or both sides.
+	Examples: Knife, axe, nail
+Weight
+	A measure of how much gravity pulls on an object. It is measured using a scale and is expressed in Newtons.
+Wheel and Axle
+	A large wheel secured to a smaller wheel or shaft called an axle.
+	Examples: Door knob, screwdriver, steering wheel
+	Calculating the Mechanical Advantage of a Wheel and Axle:
+	- Measure the radius of the wheel and divide by the radius of the axle.
+Work
+	A force acting through a distance.
+	Calculating Work:
+	Use the formula: W = F - d
+	W = work (joules)
+	F = force (Newtons)
+	d = distance (meters)
+Earth Sciences
+Abrasion
+	The process of wearing away of rock by particles carried by wind, water, or ice.
+	Example: Rocks in the bottom of a glacier rub or scrape the bedrock as the glacier moves over it.
+Asthenosphere
+	A relatively thin layer of the Earth, located in the upper part of the mantle, on which the Earth's plates rest and move.
+Biomass
+	Plant material, animal waste, or vegetation that is used as a fuel or energy source.
+	Example: Wood, manure, yard clippings
+Biosphere
+	The part of the Earth and its atmosphere that supports life.
+Cementation
+	The last step in the formation of some sedimentary rocks. Minerals seep into the cracks between the sediments and cement them together.
+Chemical Weathering
+	A form of weathering in which rocks and minerals are transformed into new substances.
+	Example: A rock with iron in it will react with the oxygen in the air and the rock will begin to "rust" and break off.
+Cirrus
+	A high altitude cloud, having a thin white and wispy appearance.
+Cleavage
+	A line or plane that a rock will break along naturally.
+Compaction
+	The compressing of rock and sediments that can form sedimentary rocks.
+Condensation
+	When water vapor changes into liquid. In the water cycle, this step leads to precipitation.
+Conduction
+	The transfer of heat or electricity by direct contact.
+	Example: The handle of a metal spoon gets hot when it is left in a pot of boiling water.
+Continental Drift
+	The theory that the continents are able to move and drift freely on the surface of the Earth; usually credited to Alfred Wegener.
+Convection
+	A heat transfer through liquids and gasses. Also known as convection currents.
+Convergent Boundary
+	A place where two or more plates come together.
+Core
+	The innermost part of the Earth. It is composed of an iron and nickel liquid outer core and a solid iron inner core.
+Crust
+	The outermost layer of the Earth's surface. It is broken into large pieces called plates, ranging from approximately 3 miles (5 km) to 47 miles (75 km) in thickness.
+Cumulus
+	A dense, fluffy white cloud with a flat base and rounded top.
+Delta
+	A fan-shaped landform formed at the mouth of a river as the river slows down and sediments are deposited.
+Deposition
+	The dropping of material that has been picked up and transported by wind, water, or ice.
+Divergent Boundary
+	A boundary in which two plates are moving away from each other.
+	Example: The Mid-Atlantic Ridge found in the center of the Atlantic Ocean
+Epicenter
+	The point on the Earth's surface that is directly above the focus of an earthquake.
+Era
+	The longest division of geologic time.
+	Examples: Precambrian, Paleozoic, Mesozoic, Cenozoic
+Erosion
+	The process of moving soil and rock by water, wind, or glacial action.
+Evaporation
+	The process in the water cycle in which water from the oceans and lakes is heated up enough by the sun to turn into water vapor in the atmosphere.
+Exosphere
+	The uppermost region of the Earth's atmosphere; where the atmosphere mixes with space.
+Extrusive
+	Igneous rocks that are formed from lava above the Earth's surface. Usually have very small or no crystals.
+	Examples: Pumice, obsidian, basalt
+Fault (Fault Line)
+	A crack or fracture in the Earth's crust along which movement occurs. There are three main types: normal fault (the hanging wall slips down), reverse fault (the hanging wall is pushed up), and slip strike (the pieces of crust move past one another).
+Fission
+	A nuclear reaction in which an atomic nucleus is split into fragments, releasing a significant amount of energy.
+Focus
+	The exact location where the crust moved, causing an earthquake.
+Fold
+	A bend in the layers of rock.
+Foliated
+	A rock that has a layered appearance. This is usually associated with metamorphic rocks.
+Fusion
+	A nuclear reaction in which smaller atomic nuclei are brought together to form a larger nuclei, releasing energy. This occurs naturally in stars and our sun.
+Generator
+	A machine that converts mechanical energy (energy in motion) to electrical energy.
+Geothermal (Hydrothermal) Energy
+	Using the heat from within the Earth to create energy. Hydrothermal energy is specifically using the hot steam in the Earth's crust.
+Glacier
+	A large river of ice slowly flowing over a landmass as its mass and gravity forces it forward. Although it stays year-round, it will move forward or recede based on the snowfall and temperatures.
+Half-Life
+	The amount of time it takes for half of a radioactive material to decay.
+Humus
+	The organic part of soil. Usually dark in color, it is created by the decomposition of living material.
+Igneous Rock
+	A rock formed from molten material, either at or below the Earth's surface.
+	Examples: Pumice, basalt, granite, obsidian
+Inexhaustible Resource
+	A natural resource that will not be exhausted or consumed completely.
+	Examples: Solar energy, wind energy
+Intrusive
+	Igneous rocks that are formed from magma below the Earth's surface. Usually have larger crystals.
+	Examples: Granite, diorite, gabbro
+Lava
+	Molten rock at or above the Earth's surface.
+Lithosphere
+	The strong outer layer of the Earth that is divided into 12 major plates and many more smaller ones.
+Luster
+	A description of the surface of a crystal, rock, or mineral.
+	Examples: Metallic, nonmetallic, dull
+Magma
+	Molten rock below the Earth's surface; contains dissolved gasses.
+Mantle
+	The middle layer of the Earth. Although considered solid, it can move. Comprises most of the Earth's mass.
+Meander
+	A bend in a river formed by erosion and deposition along its banks. It can eventually be cut off and turn into an oxbow lake.
+Mesosphere
+	The middle layer of the Earth's atmosphere. Temperatures decrease in this layer as altitude is increased.
+Metamorphic Rock
+	A rock formed by heat and pressure deep within the Earth's crust.
+	Examples: Slate, gneiss, marble
+Meteorologist
+	A scientist who predicts and reports weather conditions.
+Mineral
+	A naturally occurring solid that has a definite chemical composition, color, hardness, and crystalline structure.
+	Examples: Diamond, quartz, gold, silver
+Moraine
+	An accumulation of the sediments left behind by a glacier.
+Nonrenewable Resource
+	A natural resource that cannot be restored after use or is being used at such a rate that it cannot be replaced as quickly as it is being consumed.
+	Examples: Oil, natural gas, petroleum
+Ore
+	A mineral that can be mined for profit.
+	Examples: Aluminum, iron, copper
+Pangaea
+	The name of a supercontinent that is believed to have existed before the continents drifted apart. Proposed by Alfred Wegener as part of the theory of continental drift.
+Period
+	The division of geologic time into which eras are divided.
+	Examples: The Mesozoic Era is divided into the Cretaceous, Jurassic, and Triassic periods.
+Permeability
+	The ability of a material to transmit fluids. An aquifer must have permeable rock for the water to move through it.
+Physical or Mechanical Weathering
+	The process of breaking down rocks into smaller fragments using physical means.
+	Example: Ice wedging (water gets into cracks in rocks and freezes, breaking the rock apart)
+Plate Tectonics
+	The theory that the crust of the Earth is broken into large pieces called plates that are being pushed and moved through convection currents in the Earth's mantle.
+Precipitation
+	Any form of water that falls to the Earth's surface.
+	Examples: Rain, snow, sleet, hail
+Radiation
+	A transfer of energy that does not require matter to take place.
+	Examples: Sunlight, heat lamps
+Renewable Resource
+	A natural resource that can be replenished at the current rate it is currently being consumed by humans.
+	Examples: Fresh water, wood, biomass, geothermal power
+Rock Cycle
+	The sequence of events that shows how rocks are initially formed and changed over time.
+Runoff
+	Water that is not absorbed by rocks or soil so it flows over the ground.
+Sedimentary Rock
+	A rock formed by the compaction or cementation of layers of sediment being laid down on top of each other.
+	Examples: Coal, limestone, conglomerate, shale
+Sediments
+	Weathered materials that have been carried and deposited by wind, water, or ice.
+Seismograph
+	An instrument that detects and records the intensity, direction, and duration of an earthquake.
+Solar Power
+	An inexhaustible energy source in which the energy of the sun is captured and converted into useful types of energy. The energy usually is captured with large solar panels located in direct sunlight.
+Stratosphere
+	The layer of the atmosphere immediately above the troposphere. It contains the ozone layer.
+Stratus
+	A grey cloud with layers that is close to the ground.
+	Example: Fog
+Streak
+	The color of the powder left behind when a mineral is rubbed against a hard surface (usually a streak plate).
+Subduction Zone
+	An area where one edge of a crustal plate is forced below another plate; associated with a convergent plate boundary.
+Thermosphere
+	The layer of the Earth's atmosphere directly beneath the exosphere. Temperatures increase in this layer as altitude is increased.
+Tidal Power
+	Energy created by ocean waves that is captured and used to turn a turbine.
+Topographic Map
+	A map that is a two-dimensional representation of a three-dimensional land surface. These maps show the size, shape, and elevation of various land features.
+Transform Boundary
+	A boundary in which two plates are passing beside each other.
+	Example: San Andreas Fault
+Troposphere
+	The layer of the atmosphere that is closest to the surface of the Earth. Clouds and weather are found in this layer.
+Tsunami
+	A huge wave that is caused when the waves from an underwater earthquake travel through the water. As the waves get closer to shore, they begin to pile up until they smash on shore.
+Water Cycle
+	The cycle that shows how water is transferred and changed from the bodies of water into the atmosphere and then back to the ocean.
+Weather Map Symbols
+	Symbols or letters used on a weather map to show the current weather. A complete list is included in the quick reference guide on page 124.
+	Common symbols:
+Weathering
+	The process of breaking down rock into smaller pieces and sediments. There are two types: physical and chemical.
+Wind Power
+	A renewable energy source in which the energy of wind is captured and converted into useful types of energy. Usually captured with large wind turbines located in areas of constant wind.
+Space Sciences
+Asteroid
+	Any of the rocks or bodies in space that revolve around the sun, usually located between Mars and Jupiter.
+Black Hole
+	An area in space with such strong gravitational pull that even light cannot escape its pull.
+Comet
+	A body in space that travels in a long orbit around the sun. It is made up a solid head with a long vapor tail that always points away from the sun.
+	Examples: Halley's Comet (appears every 76 years) and Hale-Bopp (appears every 2,400 years)
+Constellation
+	A formation of stars that seem to form pictures in the night sky.
+	Examples: Cassiopeia, Orion, Cygnus, the astrological signs
+Corona
+	The plasma-like atmosphere of the sun. It is what is visible during a total solar eclipse.
+Crescent
+	One of the phases of the moon, associated with the coming (waxing) or going (waning) of the new moon.
+Eclipse
+	When a body in space is either partially or completely blocked from sight.
+	Lunar
+	- Occurs when the Earth's shadow falls on the moon, blocking it from sight. Occurs about every 6 months.
+	Solar
+	- Occurs when the moon passes directly between the Earth and sun, so the sun is blocked from view. Usually lasts less than 8 minutes.
+Elliptical Galaxy
+	A galaxy with no spiral structure that seems to have an elliptical shape, containing mostly older stars.
+	Examples: Messier 32, Messier 87, Leo I
+Full Moon
+	The phase of the moon when it is directly behind the Earth and completely lit by the sun's light.
+Galaxy
+	A large group of stars, dust, gas, and other bodies held together by gravity. They are classified by their shapes. There are three main types: elliptical, spiral, and irregular.
+Gibbous
+	The moon's phases in which more than half of the moon's surface is visible.
+Irregular Galaxy
+	A galaxy that has a unique shape and is not symmetrical. Comprised of both young and older stars, it is the least common shape for galaxies.
+	Examples: Large Magellanic Cloud, Messier Objects
+Light Year
+	The amount of distance light can travel through space in one year. It is used to measure long distances in space. A light year equals about 9.46 trillion (9.46 × 1012) kilometers or 5.88 (5.88 × 1012) trillion miles.
+	Example: Our nearest star is 4.4 light years away, so it takes light from that star 4.4 years to reach the Earth.
+Meteorite
+	A rock or piece of metal that has fallen to Earth's surface from space.
+Moon or Lunar Phases
+	The change in the appearance of the moon to an observer on Earth as the moon revolves around the Earth. See page 125 of the quick reference guide for a full lunar phase chart.
+Nebula
+	A large cloud of space dust or gasses.
+New Moon
+	A phase of the moon in which the moon is between the sun and the Earth so the side facing the Earth does not receive any sunlight.
+Orbit
+	The path an object follows when it goes around another object.
+	Example: The moon orbits the Earth.
+Prominence
+	An arc of flaming gas erupting from the sun's surface.
+Protostar
+	A tightly packed cloud of material that is in the process of becoming a star.
+Quarter
+	The phase of the moon in which half of the illuminated side of the moon is visible to Earth.
+Radio Telescope
+	A telescope that collects radio waves given off by bodies in space. The radio waves then are translated into photographs based on the types of radio waves received. Scientists cannot look through radio telescopes.
+Reflecting Telescope
+	A telescope in which light for a faraway object is gathered, reflected, and focused by mirrors before being passed through the eyepiece to the observer.
+Refracting Telescope
+	A telescope in which light from a faraway object is gathered and focused by various lenses before being magnified one more time as it passes through the eyepiece lens to the observer.
+Revolution
+	The movement of a body around another in space. The Earth revolves around the sun, which accounts for our seasons. 1 orbit = 1 year.
+Rotation
+	The turning on a center point or axis. The Earth's rotation on its axis causes day and night. 1 rotation = 1 day.
+Satellite
+	A body in space that orbits a planet. It can be natural like a moon or man-made.
+Solar Flare
+	A sudden eruption of hydrogen gas on the surface of the sun; appears as a very bright spot. It usually occurs near sunspots.
+Spiral Galaxy
+	A galaxy that has arms that seem to "spiral" out from a compacted center. Made up of mostly young bright stars.
+	Examples: Milky Way Galaxy, Pinwheel Galaxy
+Sun Spot
+	Cool, dark spots that appear on the sun's surface.
+Supernova
+	The explosion of a star that gives off lots of light and energy.
+White Dwarf
+	The remains of a star after it has collapsed. Its particles are very tightly packed and it does not give off much light. It is near the end of the cycle of a star.

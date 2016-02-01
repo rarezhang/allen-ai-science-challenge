@@ -1,0 +1,1303 @@
+5.1.1.1.1	A review and study guide for the Virginia End of Course Standards of Learning Assessment for Earth Science
+5.1.2.1.1	See if you can answer the questions that are being asked.
+5.1.2.1.2	If you are having difficulty answering questions in a particular unit, spend more time reviewing those sections in the pages that discusses each topic.
+5.1.2.1.3	Analyze the Sample SOL Questions provided with each unit.
+5.1.2.1.4	There should be at least one sample question for each topic within a given unit.
+5.1.2.2.1	Please study this information well.
+5.1.2.2.2	Knowing this information will make an enormous difference in your success on the SOL.
+5.1.2.2.3	Study it often.
+5.1.2.2.4	Read over it at least once a day.
+5.1.2.2.5	You will get to the point where you are tired of reading it because it has become so familiar.
+5.1.2.2.6	this is a good thing!
+5.1.2.2.7	It means that you are learning it and your brain is storing it.
+5.1.2.2.8	Spend time reviewing the graphic organizer pages and add information as necessary.
+5.1.2.2.9	You may find there are things that would be helpful to add.
+5.1.2.2.10	please do!
+5.1.2.3.1	Remember, what you get out of something is directly proportional to what you put into it.
+5.1.2.3.2	If you put in the time and effort preparing, you will be rewarded with a passing score.
+5.1.2.4.1	I wish you success on all of your SOL's!
+5.1.3.1.1	Scientific Investigation
+5.1.3.2.1	Essential Questions
+5.1.3.2.2	You should be able to answer the following questions with confidence about this topic.
+5.1.3.2.3	Scientists ask and answer questions and compare the answers with what is already known.
+5.1.3.2.4	How do scientists ask and answer questions?
+5.1.3.2.5	Scientists plan and conduct experiments and use tools to gather and verify data.
+5.1.3.2.6	How do scientists conduct and verify data?
+5.1.3.2.7	How do scientists plan experiments?
+5.1.3.2.8	How do scientists use systematic processes to test hypotheses?
+5.1.3.2.9	How does the type of question determine the type of investigation?
+5.1.3.2.10	Scientists use reasoning and logic to analyze and interpret data, reach a scientific conclusion and communicate their results.
+5.1.3.2.11	How do scientists use reasoning and logic to communicate their results?
+5.1.4.1.1	Part One: The Scientific Method
+5.1.4.1.2	In any scientific investigation there are 5 basic steps: determine the problem make a hypothesis test the hypothesis analyze the results
+5.1.4.1.3	draw conclusions
+5.1.4.1.4	Key Vocabulary: conclusion, hypothesis, law, research, theory, trial,
+5.1.5.1.1	Part Two: Variables and Constants
+5.1.5.1.2	Variables are the things that change in an experiment.
+5.1.5.1.3	There are two variables.
+5.1.5.1.4	The independent variable is changed by the experimenter.
+5.1.5.1.5	The dependent variable responds to the changes in the independent variable.
+5.1.5.1.6	On a graph of plotted experiment data.
+5.1.5.1.7	the independent variable is plotted on the x-axis (horizontal)
+5.1.5.1.8	the dependent variable is plotted on the y-axis (vertical).
+5.1.5.1.9	The constants (controlled variables) are the things that you keep the same.
+5.1.5.1.10	The difference between tables and graphs.
+5.1.5.1.11	A table is what you use to record data.
+5.1.5.1.12	The data gets plotted on to a chart or graph.
+5.1.5.1.13	Key Vocabulary: constant, control, dependent variable, graph, independent variable, table
+5.1.6.1.1	Part Three: Measurement
+5.1.6.1.2	The International System of Units (SI unit) is the measuring system used by most people around the world.
+5.1.6.1.3	It is the modern version of the metric system.
+5.1.6.1.4	The meter (m) ­ used to measure length.
+5.1.6.1.5	The liter (L) is the unit of volume, it is a measure of how much space an object occupies.
+5.1.6.1.6	Liquids measured in liters.
+5.1.6.1.7	Solids are measured in cm : L x W x H = V.
+5.1.6.1.8	The volume of an irregular object is found by water displacement.
+5.1.6.1.9	Mass is a measure of the amount of matter in an object.
+5.1.6.1.10	The SI unit of mass is the gram (g).
+5.1.6.1.11	Gravity is a pull which all matter exerts on all other matter, the more mass, the stronger the pull.
+5.1.6.1.12	Weight is a measure of the pull of the earth's gravity on an object.
+5.1.6.1.13	There are 3 main states of matter: solid, liquid, gas
+5.1.6.1.14	Key Vocabulary: area, gas, length, liquid, mass, metric system, SI unit, solid, temperature, volume, weight
+5.1.7.1.1	Part Four: Density
+5.1.7.1.2	Density is a measure of the amount of matter that occupies a particular space.
+5.1.7.1.3	It is determined by dividing the mass of an object by its volume.
+5.1.7.1.4	The formula for density is: Density = Mass / Volume.
+5.1.7.1.5	The SI units are g/cm or g/mL.
+5.1.7.1.6	Density measures how tightly packed a substance is.
+5.1.7.1.7	Example: If a rock has a volume of 20cm and a mass of 30g.
+5.1.7.1.8	What is the density?
+5.1.7.1.9	D = 30g / 20cm = 1.
+5.1.7.1.10	5g / cm .
+5.1.7.1.11	Warm (air, water, magma) rises because it is less dense.
+5.1.7.1.12	Cold (air, water, magma) sinks because it is more dense.
+5.1.7.1.13	As pressure increases so does density.
+5.1.7.1.14	Specific Gravity is the comparison of the density of a substance to the density of water.
+5.1.7.1.15	Key Vocabulary: mass, volume, density, specific gravity
+5.1.8.1.1	Measurements: 
+5.1.8.1.2	Measuring Tools: indicate what SI unit is SI for distance/length: _______ determined when using these tools and what SI for volume: ________ or ________ they are used to measure. 
+5.1.8.1.3	(units)
+5.1.8.1.4	SI for mass: _________
+5.1.8.1.5	DV (units)
+5.1.8.1.6	SI for density of regular solids: SI for density of irregular solids: SI for temperature: Mapping the Earth
+5.1.8.1.7	(E.S. 3a- d)
+5.2.1.1.1	Mapping the Earth
+5.2.1.1.2	Essential Questions
+5.2.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.2.1.1.4	Scientists use maps, globes, models, charts, technology and imagery to interpret and measure the world.
+5.2.1.1.5	How do they use these tools to interpret the world?
+5.2.2.1.1	Part One: Latitude and Longitude and Basic Map Reading
+5.2.2.1.2	Scientists use many different types of maps to relate information.
+5.2.2.1.3	Here are a few of them and what they show.
+5.2.2.1.4	Road map:­ shows the locations of primary and secondary roadways, cities, places of interest 
+5.2.2.1.5	Topographic map:­ shows the elevation of a specific location (see Part Two for more detail) 
+5.2.2.1.6	Bathymetric map:­ shows the depths of the ocean floor or large bodies of water 
+5.2.2.1.7	Geologic map:­ shows the underlying geologic formations, fault lines, etc. of an area 
+5.2.2.1.8	Star Chart:­ a map showing the location of constellations, planets, and deep sky objects in the sky 
+5.2.2.1.9	Weather Map:­ a map showing current or forecast weather conditions for an area 
+5.2.2.1.10	Physical Relief map:­ a map that uses color and shading to indicate differences in elevation 
+5.2.2.1.11	Globe:­ a map of the world on a sphere (the most accurate projection) An imaginary grid system is used on Earth to precisely locate places.
+5.2.2.2.1	Latitude lines show distance in degrees North and South of the equator.
+5.2.2.2.2	The Northern Hemisphere runs from 0 to the North Pole.
+5.2.2.2.3	The Southern Hemisphere runs from 0 to the South Pole.
+5.2.2.2.4	Latitude lines are referred to as parallels.
+5.2.2.2.5	Equator (0 ), North Pole (90 N) South Pole (90 S).
+5.2.2.2.6	Longitude lines show distance in degrees East and West of the Prime Meridian.
+5.2.2.2.7	Longitude lines are referred to as meridians.
+5.2.2.2.8	The Prime Meridian is 0 longitude (runs through
+5.2.2.2.9	Greenwich, England).
+5.2.2.2.10	The International Date Line is 180 longitude (halfway around the Earth from the Prime Meridian, halfway between China and California in the middle of the Pacific Ocean).
+5.2.2.2.11	Meridians are closer together at the poles, further apart at the equator.
+5.2.2.3.1	There are 24 standard time zones.
+5.2.2.3.2	The four time zones in the US are: Pacific, Mountain, Central, and Eastern.
+5.2.2.3.3	Things you find on a map to help you identify features: compass rose, legend, map scale.
+5.2.2.3.4	Key Vocabulary: compass rose, coordinates, Equator, hemisphere, International Date Line, latitude, legend, longitude, map scale, meridian, parallel, Prime Meridian, time zones
+5.2.3.1.1	Part Two: Topographic Maps
+5.2.3.1.2	Topographic Maps show relief using contour lines.
+5.2.3.1.3	Relief is the highs and lows of the land.
+5.2.3.1.4	Elevation refers to the height above sea level of a certain place.
+5.2.3.1.5	Contour lines are lines drawn to connect points of the same elevation.
+5.2.3.1.6	A contour interval is the difference in elevation between neighboring contour lines.
+5.2.3.1.7	To make reading easier, on most maps, some lines are made heavier and the elevation marked index contour.
+5.2.3.1.8	A depression is a lower point on Earth than the surrounding area.
+5.2.3.1.9	These are shown on the topographic maps by placing tic marks that point towards the center called hachure lines.
+5.2.3.1.10	Example: a crater, a sinkhole.
+5.2.3.1.11	Gentle slopes are indicated by wide spaces between contour lines.
+5.2.3.1.12	Steep slopes are indicated by contour lines that are very close together.
+5.2.3.1.13	In fact, `The closer the lines, the steeper the climb'.
+5.2.3.1.14	A profile is a vertical section or side view.
+5.2.3.1.15	Hilltops are shown by concentric contour lines and the number values are going up.
+5.2.3.1.16	Valleys are indicated by a change in contour intervals with the number values going down.
+5.2.3.1.17	Rivers and streams are shown with a v contour line.
+5.2.3.1.18	The V always points upstream.
+5.2.3.1.19	A marked point of known and documented elevation is a benchmark.
+5.2.3.1.20	Key Vocabulary: benchmark, contour, contour interval, elevation, gentle slope, hachure, profile, steep slope, topographic map
+5.2.4.1.1	Part Three: Global Positioning Systems
+5.2.4.1.2	Global Positioning Systems (GPS) are used to identify places on Earth.
+5.2.4.1.3	It uses a system of satellites (24) that orbit the Earth, send out radio signals and communicate with base stations (or control stations) and user equipment.
+5.2.4.1.4	Things GPS can tell you: Latitude/Longitude, Speed of travel and direction of travel, elevation
+5.2.4.1.5	Things GPS cannot tell you: temperature (that's measured by a thermometer).
+5.2.4.1.6	but you knew that! right?
+5.2.4.1.7	When using a hand held unit, you record locations by marking them with a waypoint.
+5.2.4.1.8	Key Vocabulary: elevation, GPS, latitude, longitude, satellite, waypoint
+5.2.4.2.1	Things topographic maps show: General map features: Minerals and Rocks (E.S. 5a, b)
+5.3.1.1.1	Minerals and Rocks
+5.3.1.1.2	Essential Questions
+5.3.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.3.1.1.4	Earth undergoes regular patterns of change and natural cycles, both quickly and over time.
+5.3.1.1.5	Explain how minerals and rocks are a result of Earth's regular patterns of change and natural cycles.
+5.3.1.1.6	Mineral resources affect our everyday life.
+5.3.1.1.7	How do mineral resources affect our everyday life?
+5.3.1.1.8	Scientific evidence found in various types of rock is used to identify past events and environments.
+5.3.1.1.9	Describe how rocks are used to identify past events and environments.
+5.3.1.1.10	Mineral and rock resources are limited and their use impacts the environment and economy.
+5.3.1.1.11	Describe why minerals and rock resources are limited.
+5.3.1.1.12	How does the use of mineral and rock resources affect our environment and economy?
+5.3.2.1.1	Part One: Properties of Minerals
+5.3.2.1.2	There are four basic characteristics of minerals.
+5.3.2.1.3	All minerals are formed by natural processes
+5.3.2.1.4	inorganic solids
+5.3.2.1.5	elements or compounds with a chemical composition unique to that mineral crystal structures; that is the atoms in minerals are arranged in a pattern that is repeated over and over again.
+5.3.2.1.6	Minerals are formed out of molten earth material or magma, or when water containing dissolved ions evaporates i.e. halite (salt) from evaporating sea water.
+5.3.2.1.7	Minerals can be changed into different minerals by heat, pressure, or the chemical action of water.
+5.3.2.1.8	Minerals are classified according to composition, classes are: silicates, carbonates, sulfides, sulfates, halides, hydroxides, and phosphates.
+5.3.2.1.9	Key Vocabulary: crystal, mineral, inorganic
+5.3.3.1.1	Part Two: Mineral Identification
+5.3.3.1.2	Mineral identification refers to the way to tell one mineral from another.
+5.3.3.1.3	The color is the most obvious but one of the least reliable methods of identifying minerals.
+5.3.3.4.1	Hardness is a measure of how easily a mineral can be scratched.
+5.3.3.4.2	The Mohs hardness scale lists hardness of ten minerals with 1 being softest and 10 the hardest.
+5.3.3.4.3	We can determine the approximate hardness of a mineral by running a group of tests.
+5.3.3.4.4	Scratch the mineral in question with a fingernail, penny, iron nail, or glass slide.
+5.3.3.4.5	If the mineral shows a scratch mark from one of the testing materials, the mineral is said to be less hard than the mineral that scratched it.
+5.3.3.4.6	Example: A piece of pink feldspar will not be scratched by a fingernail, penny, or an iron nail, but will be scratched by a glass slide.
+5.3.3.4.7	The feldspar is said to be harder than the first three testing materials but not as hard as the glass slide.
+5.3.3.5.1	Luster describes how light is reflected from a mineral's surface.
+5.3.3.5.2	Luster gives you an indication of how "shiny" a mineral is. The two main ways that geologists categorize a mineral's luster is metallic or non-metallic. 
+5.3.3.5.3	Metallic minerals look like metal (they may or may not be shiny), while non-metallic minerals vary greatly in their appearance and are usually described as shiny, pearly, waxy, glassy, etc.
+5.3.3.6.1	Streak is the color of the mineral when it is broken up into powder.
+5.3.3.6.2	Streak is a test used by a geologist to see the color of the mineral under the top layer or coating on the mineral.
+5.3.3.6.3	The mineral is rubbed on a "streak plate", which is a piece of porcelain.
+5.3.3.6.4	When the mineral is rubbed across the streak plate some of the mineral is broken off and ground into a powder.
+5.3.3.6.5	This allows the geologist to see under the outer layer which could have a different color due to the mineral being exposed to the atmosphere.
+5.3.3.6.6	When minerals are exposed to the atmosphere, gasses like oxygen can chemically combine with the mineral to change its outer color.
+5.3.3.7.1	Cleavage & Fracture refer to the way the mineral breaks.
+5.3.3.7.2	Some minerals have a tendency to split or crack along parallel or flat planes.
+5.3.3.7.3	This property is easily seen in some minerals and you can test the mineral by breaking it with a hammer or splitting off sheets with a pen knife.
+5.3.3.7.4	These planes along which the mineral breaks are called cleavage planes.
+5.3.3.7.5	If the mineral splits easily along these planes the mineral is then said to have perfect cleavage.
+5.3.3.7.6	Fracture is related to cleavage.
+5.3.3.7.7	Fracture occurs when a mineral breaks at random lines instead of at consistent cleavage planes.
+5.3.3.7.8	Many minerals that have no cleavage or poor cleavage fracture easily.
+5.3.3.7.9	Key Vocabulary: cleavage, color, fracture, hardness, luster, metallic, non-metallic, streak
+5.3.4.1.1	Part Three: Mineral Resources
+5.3.4.1.2	Minerals are very important and have many uses.
+5.3.4.1.3	Gems are highly prized minerals because they are rare and beautiful.
+5.3.4.1.4	Ores are minerals that contain a useful substance that can be mined at a profit.
+5.3.4.1.5	Examples: Bauxite can be refined to make aluminum. Hematite can be refined to make iron. Halite - salt.
+5.3.4.1.6	Graphite - pencil lead. Sulfur ­medicines. Magnetite - magnets. Talc - powder.
+5.3.4.2.1	Mineral types:
+5.3.4.2.2	Feldspars are the most abundant minerals found on the surface of the Earth.
+5.3.4.2.3	Feldspars can be glassy white, pink, and a variety of other colors.
+5.3.4.2.4	They contain silica, aluminum and potassium.
+5.3.4.2.5	Clays are usually composed of weathered feldspar.
+5.3.4.2.6	Micas are minerals that can be split into very thin sheets.
+5.3.4.2.7	Mica can be clear to very dark green or black in color.
+5.3.4.2.8	Hornblende is a mineral that is composed of magnesium, iron, silica, and aluminum.
+5.3.4.2.9	It is found in many igneous rocks.
+5.3.4.2.10	Quartz is a very common mineral that is found on the surface of the Earth.
+5.3.4.2.11	Its chemical formula is SiO (silicon dioxide).
+5.3.4.2.12	Sand is quartz crystals that have been weathered into small pieces.
+5.3.4.2.13	In Virginia, some of the important minerals are kyanite and pyrite.
+5.3.4.2.14	Key Vocabulary: gem, ore
+5.3.5.1.1	Part Four: Rock Identification and Rock Types
+5.3.5.1.2	The solid part of the earth is composed of substances collectively known as rock.
+5.3.5.1.3	Most rocks are composed of one or more naturally occurring inorganic crystalline substances called minerals.
+5.3.5.1.4	The three main rock classifications are Igneous, Sedimentary, and Metamorphic.
+5.3.5.1.5	Rocks are classified into these groups by the way they were formed.
+5.3.5.2.1	Igneous rock is molten material from a volcano (lava) or from deep inside the earth (magma) which cools and hardens comes from the Latin word ignis which means "fire" are usually found near volcanoes or divergent boundaries (separating plates) are classified by composition and texture 
+5.3.5.2.2	Extrusive Igneous Rock (Volcanic) is formed on Earth's surface when molten rock flows out of the earth (lava) and cools quickly at the surface to form fine crystals.
+5.3.5.2.3	Rocks formed in this way have a fine ­ grained texture.
+5.3.5.2.4	Examples of extrusive igneous rocks are Pumice, Basalt, and Obsidian.
+5.3.5.2.5	Intrusive Igneous Rock (Plutonic) is formed in the Earth when molten rock flows upward into the more solid part of the crust.
+5.3.5.2.6	Rocks formed this way have a coarse ­ grained texture.
+5.3.5.2.7	Granite is an example of an intrusive igneous rock.
+5.3.5.3.1	Sedimentary rock can form from particles of rock, from remains of plants or animals, or from chemical reactions are classified by their composition and by the way they were formed are formed from the cementing together of small pieces of rocks or shells are called sedimentary rocks are usually found near water are found in flat layers or strata.
+5.3.5.3.2	Fossils are found in these layers.
+5.3.5.3.3	Clastic sedimentary rocks come from fragments of other rocks.
+5.3.5.3.4	Examples: Shale, Sandstone.
+5.3.5.3.5	Non-clastic organic sedimentary rock comes from the remains of organisms. Examples: coal, limestone.
+5.3.5.3.6	Non-clastic chemical sedimentary rock is formed when mineral grains dissolved in water are precipitated or are left behind when a solution evaporates.
+5.3.5.3.7	Examples: rock salt, gypsum.
+5.3.5.4.1	Metamorphic rock forms from other rocks by heat and pressure are usually found near convergent boundaries (plates coming together) are classified according to texture 
+5.3.5.4.2	Foliated metamorphic rocks have mineral grains within the rock that are arranged in nearly parallel layers.
+5.3.5.4.3	Examples: slate, schist, and gneiss.
+5.3.5.4.4	Non-foliated metamorphic rocks have mineral grains that change, grow and rearrange but don't form parallel layers.
+5.3.5.4.5	Examples: quartzite, marble.
+5.3.5.4.6	Key Vocabulary: clastic, extrusive, foliated, igneous, intrusive, metamorphic, non-clastic, non-foliated, sedimentary
+5.3.5.5.1	Part Five: The Rock Cycle
+5.3.5.5.2	The rock cycle shows how the earth's rocks are changed again and again.
+5.3.5.5.3	The rocks can be changed at times to another type of rock.
+5.3.5.5.4	The rock cycle can begin anywhere in the cycle.
+5.3.5.5.5	Here's how it works.
+5.3.5.5.6	Igneous rocks start as magma.
+5.3.5.5.7	Technically, ALL rocks start as magma.
+5.3.5.5.8	The magma (molten rock under the surface) and lava (molten rock on the surface) hardens into igneous rock.
+5.3.5.5.9	The igneous rock then breaks apart over time through the process of weathering.
+5.3.5.5.10	These bits of broken rock are washed away by rains and deposited in a river.
+5.3.5.5.11	These pieces of igneous rocks are cemented together with other bits of rock and form a sedimentary rock called conglomerate.
+5.3.5.5.12	Over time sedimentary rocks can be buried by earthquakes or other geologic processes.
+5.3.5.5.13	Being buried deep under the surface in areas of high temperatures and pressures or coming in contact with magma can cause these sedimentary rocks to change to metamorphic rocks.
+5.3.5.5.14	Metamorphic, sedimentary or igneous rocks can be remelted to form magma, beginning at the beginning again.
+5.3.5.6.1	Rocks are changed by processes such as.
+5.3.5.6.2	weathering and erosion (and deposition) to form sediments
+5.3.5.6.3	-Weathering is the process that breaks rocks into smaller pieces called sediments.
+5.3.5.6.4	-Erosion is the movement of weathered materials to new locations, where they are then deposited.
+5.3.5.6.5	-Deposition is the laying down of rock forming material from any natural process.
+5.3.5.6.6	-Sediments are small pieces of loose materials such as rock fragments, mineral grains, and bits of plant and animal remains.
+5.3.5.6.7	compaction and cementation
+5.3.5.6.8	- Compaction occurs when small sediments stick together to form solid rock.
+5.3.5.6.9	- Cementation occurs when large sediments are glued together by minerals deposited between the sediments.
+5.3.5.6.10	melting :­ when rocks are buried deep enough to be melted back into magma cooling and hardening ­ allows crystals to form heat and pressure ­ when existing rocks are buried deep and are heated by a nearby source of magma
+5.3.5.6.11	Key Vocabulary: cementation/compaction, cooling and hardening, deposition, heat/pressure, lava, magma, melting, rock cycle, sediment, weathering/erosion 
+5.4.1.1.1	Geologic Processes and Features
+5.4.1.1.2	Essential Questions
+5.4.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.4.1.1.4	Earth's lithosphere and asthenosphere change constantly.
+5.4.1.1.5	How does the movement of material in the asthenosphere affect the lithosphere?
+5.4.1.1.6	Evidence from seismic waves provides information about earth's composition.
+5.4.1.1.7	How does evidence from seismic waves provide information about earth's composition?
+5.4.1.1.8	Plate tectonics causes changes in the earth's surface.
+5.4.1.1.9	How do plate tectonics change the earth's surface?
+5.4.2.1.1	Part One: Earth's Composition
+5.4.2.1.2	The Earth is composed of four different layers.
+5.4.2.1.3	Many geologists believe that as the Earth cooled the heavier, denser materials sank to the center and the lighter materials rose to the top.
+5.4.2.1.4	These four layers are.
+5.4.2.2.1	The crust is the outer layer of the Earth and is made of the lightest materials (rock- basalts and granites).
+5.4.2.2.2	The crust is the layer that you live on, and it is the most widely studied and understood.
+5.4.2.2.3	It is cool and brittle (rocky).
+5.4.2.3.1	The mantle is much hotter and has the ability to flow.
+5.4.2.3.2	It is the largest/thickest layer.
+5.4.2.3.3	The mantle is composed of very hot, dense, flowing rock.
+5.4.2.3.4	The material in the mantle flows because of convection currents.
+5.4.2.3.5	This causes the brittle crust to move as it floats on top of the mantle.
+5.4.2.3.6	It is like a warm plastic.
+5.4.2.3.7	It is also made up of two parts.
+5.4.2.3.8	the lithosphere (which is the top portion of the mantle as well as the crust) and the asthenosphere (which is the lower part of the mantle that has the convection currents).
+5.4.2.4.1	The outer core is even hotter, consists of heavy metals (nickel and iron) and is liquid.
+5.4.2.5.1	The inner core is hotter still with pressures so great that the heavy metals it is made of (nickel and iron) that they are in a solid state in spite of having the hottest temperatures.
+5.4.2.6.1	There are two types of crust material.
+5.4.2.6.2	The continental crust is thicker but lighter.
+5.4.2.6.3	It is made up of mostly granite which is less dense.
+5.4.2.6.4	The oceanic crust is thinner but heavier.
+5.4.2.6.5	It is made up of mostly basalt which is more dense.
+5.4.2.7.1	Convection currents are a circular current caused by the difference in temperatures from the bottom to the top of the mantle.
+5.4.2.7.2	It is because of these currents that the plates of the Earth have moved in the past and are moving today.
+5.4.2.7.3	These plate movements cause earthquakes, mountain building, and volcanism.
+5.4.2.7.4	Key Vocabulary: continental crust, convection, crust, inner core, mantle, oceanic crust, outer core
+5.4.3.1.1	Part Two: Plate Tectonic Processes and Landforms
+5.4.3.1.2	The Earth's crust is broken into many pieces.
+5.4.3.1.3	These pieces are called plates.
+5.4.3.1.4	The movement of these plates is called plate tectonics.
+5.4.3.1.5	There are twelve main plates on the Earth's surface.
+5.4.3.1.6	The Earth's plates are in constant, but very, very slow motion.
+5.4.3.1.7	They move at only 1/2 to 4 inches (1.3 to 10 centimeters) per year!
+5.4.3.1.8	The Continental Drift Theory states that the continents have moved and are still moving today.
+5.4.3.1.9	In 1912 Alfred Wegener introduced this theory, but he did not fully understand what caused the plates to move.
+5.4.3.1.10	Scientists believe that 250 millions years ago the Earth's seven continents were all grouped together into a super continent called Pangaea.
+5.4.3.1.11	Scientists have used magnetic bands in rocks to prove that the continents have drifted apart, fossils of tropical plants and animals that have been found in places like Antarctica and Greenland, and fossils of fish found in high mountain regions.
+5.4.3.2.1	A plate boundary occurs where two plates come together.
+5.4.3.2.2	There are three kinds of plate boundaries.
+5.4.3.3.1	A convergent boundary is where two plates collide to form mountains or one plate riding above the other driving the thinner denser plate down into the mantle creating a subduction zone.
+5.4.3.3.2	Trenches form at subduction zones.
+5.4.3.3.3	They are the deepest part of the oceans and the lowest points on the crust of the Earth.
+5.4.3.3.4	Subduction zones are areas of the world in which high amounts of earthquakes and volcanism is present.
+5.4.3.3.5	There are 3 types of convergent boundaries, all of which are the result of compression forces (pressing together).
+5.4.3.3.6	- ocean-to-ocean, where 2 oceanic plates collide, forming a subduction zone, a trench and a volcanic island arc chain (example: Aleutian Island Arc Chain, Alaska and the Japanese Island Arc Chain)
+5.4.3.3.7	- ocean-to-continent, where an oceanic plate collides with a continental plate, forming a subduction zone, a trench and continental volcanoes (example: Andes Mountains of South America)
+5.4.3.3.8	- continent-to-continent, where 2 continental plates collide forming folded and faulted mountains with no volcanoes (example: Appalachian Mountains and Himalayan Mountains) 
+5.4.3.4.1	A divergent boundary is where two plates are moving in opposite directions.
+5.4.3.4.2	Divergent boundaries cause the oceans to spread apart (as a result of tension force, pulling apart) while convergent boundaries cause the oceans to shrink.
+5.4.3.4.3	There are two types of divergent boundaries.
+5.4.3.4.4	- seafloor spreading is where two oceanic plates are moving apart and a mid-ocean ridge is formed.
+5.4.3.4.5	As they spread apart magma fills the void causing the formation of new crust.
+5.4.3.4.6	This separating is called rifting. In the middle of the mid-ocean ridge is a rift valley (example: Mid- Atlantic Ridge).
+5.4.3.4.7	- a rift valley can also be the result of two continental plates moving apart. It is the same as seafloor
+5.4.3.4.8	spreading except that it occurs on land (example: The Great African Rift Valley).
+5.4.3.5.1	A transform boundary is where two plates are sliding past each other by a force called shearing.
+5.4.3.5.2	Transform boundaries are like tears in the Earth's crust.
+5.4.3.5.3	An example is the San Andreas Fault.
+5.4.3.5.4	Key Vocabulary: compression force, continental drift, convergent boundary, divergent boundary, faulting, folding, island arc, mid-ocean ridge, plate tectonics, rifting, rift valley, seafloor spreading, shearing force, subduction, tension force, transform boundary, trench
+5.4.4.1.1	Part Three: Mountains
+5.4.4.1.2	The movement of tectonic plates is responsible for the formation of mountains.
+5.4.4.1.3	Folded mountains are a wave-like formation. Continental plates are pushed together and form tall mountains.
+5.4.4.1.4	Fault-block mountains occur when the plates are pushed together and break from the collision. 
+5.4.4.1.5	These mountains have very rough linear peaks.
+5.4.4.1.6	If one fault is present, it forms a tilted mountain.
+5.4.4.1.7	If two faults are present a lifted mountain is formed.
+5.4.4.1.8	Dome mountains form when plate collisions push an area of the crust up into a dome shape.
+5.4.4.1.9	The crust doesn't snap and break as in fault-block mountains.
+5.4.4.1.10	Key Vocabulary: dome mountain, fault-block mountain, folded mountain
+5.4.5.1.1	Part Four: Earthquakes and Faults
+5.4.5.1.2	Earthquake activity is associated with all plate boundaries because those plates are in motion.
+5.4.5.1.3	The plates do not move smoothly and evenly.
+5.4.5.1.4	Great stresses build up along the plate boundaries.
+5.4.5.1.5	An earthquake is a shaking of Earth's crust caused by a release of energy.
+5.4.5.1.6	When a plate moves suddenly a great amount of energy is released in the form of wave energy.
+5.4.5.1.7	These waves are what cause the damage from an earthquake.
+5.4.5.1.8	The focus is the point in Earth's interior where energy is released.
+5.4.5.1.9	This is where the first movement occurs.
+5.4.5.1.10	The epicenter is the point at the surface above the focus.
+5.4.5.2.1	Seismic Waves are the energy waves that move outward from the earthquake focus and make the ground quake.
+5.4.5.2.2	There are three types of seismic waves.
+5.4.5.2.3	Primary waves (P wave) move through Earth and cause particles in rocks to move in a push-pull motion.
+5.4.5.2.4	The force involved is compression.
+5.4.5.2.5	Secondary waves (S wave) move through Earth, causing particles to move side to side at right angles to the direction of the wave.
+5.4.5.2.6	The force involved is shearing.
+5.4.5.2.7	Surface or Long waves (L wave) move on the surface giving particles an elliptical and more rolling motion.
+5.4.5.2.8	When P and S waves reach the surface, they set up the L wave.
+5.4.5.2.9	The force involved is tension.
+5.4.5.3.1	Magnitude is the measure of the strength of the seismic waves that have been sent out from the focus.
+5.4.5.3.2	A seismograph is an instrument that records the length and severity of an earthquake on a seismogram. 
+5.4.5.3.3	The P- and S-wave information from 3 geographic locations is required to determine the
+5.4.5.3.4	actual location of an earthquake.
+5.4.5.3.5	The Richter scale is used to measure the strength of an earthquake.
+5.4.5.3.6	The scale ranges from a low of 1 to a high of 10.
+5.4.5.3.7	The Mercalli scale measures severity of damage of earthquakes that occurred before the invention of the seismograph.
+5.4.5.3.8	This scale ranges from a low of I to a high of XII.
+5.4.5.4.1	A fault is a break or crack in the Earth's surface along which movement has occurred.
+5.4.5.4.2	On either side of most faults is a hanging wall and a foot wall.
+5.4.5.4.3	The hanging wall is the rock above the fault.
+5.4.5.4.4	The foot wall is the rock below the fault.
+5.4.5.4.5	There are 4 basic types of faults.
+5.4.5.4.6	A normal fault is caused by the force of tension when rocks pull apart (divergent plates).
+5.4.5.4.7	A reverse fault is caused by forces of compression when rocks are pushed together (convergent plates).
+5.4.5.4.8	A thrust fault is like a reverse fault that is not only pushed together but where the hanging wall is pushed over and on top of the foot wall.
+5.4.5.4.9	Strike-slip Faults are caused by shearing forces when rocks slide past each other.
+5.4.5.4.10	Key Vocabulary: compression force, earthquake, epicenter, focus, Mercalli Scale, normal fault, reverse fault, Richter Scale, seismic waves (P,S,L), seismogram, seismograph, shearing force, strike-slip fault, tension force, thrust fault
+5.4.6.1.1	Part Five: Volcanoes
+5.4.6.1.2	The motion of the Earth's plates help scientists to understand why volcanoes occur.
+5.4.6.1.3	Volcanoes are openings in the earth's surface where magma is released as lava.
+5.4.6.1.4	Magma is molten rock that is under the Earth's crust.
+5.4.6.1.5	Lava is molten rock that that reaches the Earth's surface.
+5.4.6.1.6	Active volcanoes spew smoke, steam, ash, cinder, lava.
+5.4.6.1.7	Volcanoes occur at: divergent boundaries, convergent boundaries, and hot spots.
+5.4.6.1.8	The crater is depression at top of cone.
+5.4.6.1.9	The cone is the body of the volcano.
+5.4.6.1.10	The vent is the opening in crater where lava flows.
+5.4.6.1.11	The magma chamber is the reservoir of magma underground beneath the volcano.
+5.4.6.1.12	The volcanic neck forms when a dormant volcano has magma hardened in the vent and over many years the cone erodes away leaving this igneous column behind.
+5.4.6.1.13	A caldera forms when the top of the volcano collapses into magma chamber, creating a deeper depression, sometimes forming a crater lake.
+5.4.6.2.1	Volcanoes are classified by the eruption type, magma type and by the volcanic cone shape.
+5.4.6.3.1	Shield volcanoes were named by Icelandic people because the shape reminded them of a warriors shield laid down.
+5.4.6.3.2	Shield volcanoes form from hot, runny lava that is erupted from the volcano through its summit and the many side vents and fissures throughout the volcano's flanks (sides).
+5.4.6.3.3	Shield volcanoes are low, very broad, and gently sloping.
+5.4.6.3.4	Shield volcanoes have quiet eruptions.
+5.4.6.3.5	Hot spot volcanoes are shield volcanoes.
+5.4.6.3.6	They form because of a weak spot in the crust rather than from plate boundary action.
+5.4.6.4.1	Cinder cones get their name from the material that forms them, cinders.
+5.4.6.4.2	Cinder cones are the simplest volcanic formation.
+5.4.6.4.3	They form from explosions of red, hot magma cinders and ash.
+5.4.6.4.4	These cinders and ash settle around the main vent and build a steep sided cone.
+5.4.6.4.5	Very little lava is erupted from a cinder cone.
+5.4.6.4.6	Cinder cones very rarely rise to more than 1,000 feet above the surrounding landscape.
+5.4.6.4.7	Cinder cones are known for their very violent, explosive, exciting eruptions.
+5.4.6.5.1	Composite cones are formed from a combination of eruptions.
+5.4.6.5.2	Composite volcanoes have quiet eruptions with easy flowing lava and violent eruptions with explosives tephra (lava that has hardened and broken into various size pieces, the debris thrown from volcanoes) layers made of alternating lava and tephra pieces.
+5.4.6.5.3	A large composite cone will be built with many layers of ash and lava.
+5.4.6.5.4	Composite cones are the most common type of volcanic cone.
+5.4.6.5.5	Key Vocabulary: caldera, cinder cone volcano, composite volcano, cone, crater, hot spot, lava, magma, magma chamber, neck, shield volcano, vent 
+5.5.1.1.1	Freshwater Resources/Geologic Processes
+5.5.1.1.2	Essential Questions
+5.5.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.5.1.1.4	Weathering, erosion, and deposition processes change the surface of the earth and result in various landforms.
+5.5.1.1.5	Describe how do agents of erosion affect the earth's surface.
+5.5.1.1.6	Freshwater resources are influenced by geologic processes and the activities of humans.
+5.5.1.1.7	How is freshwater influenced by geologic processes?
+5.5.1.1.8	Explain the ways in which humans are dependent on freshwater.
+5.5.1.1.9	How do human activities impact freshwater resources?
+5.5.1.1.10	Earth undergoes regular patterns of change and natural cycles, both quickly and over time.
+5.5.1.1.11	How do geologic processes affect the flow of water underground?
+5.5.2.1.1	Part One: Physical and Chemical Weathering
+5.5.2.1.2	Weathering is the process in which rocks break down into smaller pieces.
+5.5.2.1.3	There are two methods by which this may occur.
+5.5.2.1.4	Each method has several types.
+5.5.2.2.1	Mechanical weathering, also called physical weathering, is when rocks are broken down into smaller pieces by mechanical means (wind, water, or ice).
+5.5.2.2.2	It does not chemically change the rock in any way.
+5.5.2.2.3	Ice wedging is a type of mechanical weathering in which breaks in rock result from the freezing and thawing of water.
+5.5.2.2.4	It can also be called freeze/thaw or frost wedging.
+5.5.2.2.5	Abrasion is a type of mechanical weathering in which breaking up of rocks occurs from their collisions with other rock.
+5.5.2.2.6	Plant roots can cause weathering when the roots split rock material apart.
+5.5.2.2.7	Animal activity such as burrowing physically or mechanically alters rock material.
+5.5.2.2.8	Exfoliation occurs because of winds.
+5.5.2.2.9	Friction of water running across rocks can weather rocks.
+5.5.2.2.10	Temperature changes cause weathering due to the expansion and contraction of rock materials.
+5.5.2.3.1	Chemical weathering, also called decomposition, is when rocks are broken down into smaller pieces by chemical action.
+5.5.2.3.2	Chemical weathering will occur when chemical reactions take place between the minerals in the rock & water, carbon dioxide, oxygen & acids.
+5.5.2.3.3	Hydrolysis occurs when minerals in rock react with water and the rock becomes less stable and is easily broken down into pieces.
+5.5.2.3.4	Carbonation occurs whenCO reacts with water to form carbonic acid (H CO ).
+5.5.2.3.5	This acid speeds up hydrolysis to form caves and sinkholes.
+5.5.2.3.6	Oxidation occurs when metallic elements react with oxygen; usually found in Fe (iron) bearing minerals (form iron oxide or rust).
+5.5.2.3.7	Plants produce acids that seep into rock and produce cracks in the rock.
+5.5.2.3.8	Key Vocabulary: abrasion, animal activity, carbonation, chemical weathering, exfoliation, friction, hydrolysis, ice wedging, mechanical weathering, oxidation, plant acids, plant roots, temperature changes, weathering
+5.5.3.1.1	Part Two: Soil Formation
+5.5.3.1.2	Soil is a mixture of minerals, water, gases and humus (decomposed or decomposing plant and animal material); capable of supporting plant growth.
+5.5.3.1.3	Soil development starts with the weathering of bedrock.
+5.5.3.1.4	Organic material (living or once living things) must be present in order to have soil.
+5.5.3.1.5	Residual soil is soil that has bedrock as its parent material.
+5.5.3.1.6	Transported soil is formed from parent material left by winds, rivers, or glaciers, or soil that has been moved from its original location.
+5.5.3.1.7	A layer of soil is a horizon and all of the horizons together form a soil profile. 
+5.5.3.1.8	Soil profile consists of three man horizons: A- topsoil (humus), B- subsoil- minerals leached from layer A(less humus), C- partially weathered bedrock. 
+5.5.3.1.9	You may also see O- (organic layer) and parent rock (bedrock from which soil forms) included as horizons.
+5.5.3.1.10	Key Vocabulary: horizon, humus, organic, parent rock, soil profile, topsoil
+5.5.4.1.1	Part Three: Erosion and Deposition
+5.5.4.1.2	Erosion is the removal and transport of earth materials by natural agents.
+5.5.4.1.3	It results in deposition (the depositing or laying down) of sediments elsewhere.
+5.5.4.1.4	Common agents of soil erosion are gravity, glaciers, wind, and water.
+5.5.4.1.5	Mass wasting is the movement of eroded fragments down a slope by gravity.
+5.5.4.1.6	Slow mass movement (creep) is a slow, imperceptible downslope movement of the soil.
+5.5.4.1.7	Rapid movement (landslide) is the sudden movement of a mass of bedrock or loose rock.
+5.5.4.1.8	Slump is a rapid rotational movement where a portion of a hillside slips.
+5.5.4.2.1	Water picks up speed and energy as it flows downhill due to gravity.
+5.5.4.2.2	Runoff is the water that does not soak into the ground or evaporate. 
+5.5.4.2.3	Water from run-off travels along the ground, eventually emptying into streams, lakes or oceans.
+5.5.4.2.4	Some of the factors affecting runoff are: the amount of rain that falls, the amount of vegetation on the land, the time span over which it falls, the slope of the land (steepness) 
+5.5.4.3.1	Stream erosion forms a deep and wide channel carrying many sizes of sediments.
+5.5.4.3.2	A channel is the main part of the stream where the majority of the water flows.
+5.5.4.3.3	The stream bank is the part of the stream channel that is above water.
+5.5.4.3.4	The stream bed is the part of stream channel that is below the water.
+5.5.4.3.5	Streams are classified by their ages.
+5.5.4.3.6	Each age can be identified by landforms, the velocity, or speed, of the water and its carrying ability (the amount and size of sediments that it transports). 
+5.5.4.3.7	Rivers always carve out a v-shaped valley.
+5.5.4.4.1	Young streams flow quickly through a valley and has steep sides.
+5.5.4.4.2	Large boulders can be moved by the fast moving water.
+5.5.4.4.3	This digs out the bottom of the water, deepening and widening the channel.
+5.5.4.4.4	This amount and size of sediment is called either bedload or traction.
+5.5.4.5.1	Mature streams flow slower and starts to curve or meander through a valley.
+5.5.4.5.2	The velocity of the water in mature streams can not carry boulders.
+5.5.4.5.3	Large rocks can be bounced along the bottom.
+5.5.4.5.4	These bouncing rocks are called saltation.
+5.5.4.6.1	Old Streams flow slowly through a wide, flat floodplain.
+5.5.4.6.2	The smallest sediments are found in this water.
+5.5.4.6.3	These smaller sediments are either the suspended load (the sediments that suspended in the column of water) or the dissolved load (the dissolved material).
+5.5.4.7.1	River water starts out in gullies & small streams; eventually these branching arms allow water to flow into a river.
+5.5.4.7.2	River systems consist of tributaries, which are small streams that feed into rivers, the watershed, which is the land from which the water runs into the streams, and channel, which is the path that the stream follows.
+5.5.4.7.3	Stream piracy is where one tributary overcomes another and they join together.
+5.5.4.7.4	At the end of the river, sediments being carried by water are deposited.
+5.5.4.7.5	A delta forms when a river hits a larger body of water the velocity decreases dramatically and sediments will settle in a fan shape.
+5.5.4.7.6	An alluvial fan forms when sediments are deposited in a triangle shape at the base of a mountain stream.
+5.5.4.7.7	The drainage basin is the area of land where a stream gets it water.
+5.5.4.7.8	A meander is a curve in a stream.
+5.5.4.7.9	On the outside of the curve, the water moves fastest and cuts into the banks, forming a cut bank.
+5.5.4.7.10	On the inside of the curve, the water moves slower and drops heavier particles, forming a point bar.
+5.5.4.7.11	The floodplain is the broad, flat valley floor that gets covered with water when a stream floor.
+5.5.4.7.12	An oxbow lake is a meander that has closed off forming a lake.
+5.5.4.8.1	A glacier is a `river' of ice.
+5.5.4.8.2	There are two main types of glaciers.
+5.5.4.8.3	A valley glacier is one that is found in the valleys of mountainous areas.
+5.5.4.8.4	A continental glacier is one that is found covering large land masses like Antarctica.
+5.5.4.8.5	Glaciers dig out areas, breaking up and picking up the rock below and depositing it further down the glacier, acting like a bulldozer.
+5.5.4.8.6	Sometimes these pieces get pushed along the side of the glacier.
+5.5.4.8.7	Either one, at the end or along the sides, the debris forms a moraine. Glaciers form u-shaped valleys.
+5.5.4.8.8	Key Vocabulary: alluvial fan, bedload, carrying ability, channel, continental glacier, creep, delta, deposition, dissolved load, erosion, floodplain, glacier, landslide, mass wasting, moraine, runoff, saltation, slope, slump, stream piracy, suspended load, traction, tributary, u-shaped valley, v-shaped valley, valley glacier, velocity
+5.5.5.1.1	Part Four: Karst Topography
+5.5.5.1.2	Karst Topography refers to landforms made from dissolving limestone (a sedimentary rock commonly found in the Valley and Ridge Province of Virginia).
+5.5.5.1.3	Karst Topography is characterized by several features that are produced by acidic groundwater dissolving limestone.
+5.5.5.1.4	Caverns (caves) form from water that has dissolved limestone underground, leaving an opening.
+5.5.5.1.5	Sinkholes form when the roof of a cave collapses, leaving a hole or depression on the Earth's surface.
+5.5.5.1.6	Disappearing streams occur when streams drop into a sinkhole and continue to flow underground.
+5.5.5.1.7	Stalactites form when water drips from top and calcite solidifies.
+5.5.5.1.8	A mnemonic device for remembering this one is to remember the `c' in stalactite means it is coming from the ceiling and it is holding `tite' (tight).
+5.5.5.1.9	Stalagmites form when dissolved calcite deposits on the floor.
+5.5.5.1.10	A mnemonic device for remembering this one is to remember the `g' in stalagmite means it is coming from the ground and reaching up with all its `mite' (might).
+5.5.5.1.11	When a stalactite and a stalagmite join together it is referred to as a column.
+5.5.5.1.12	As groundwater passes through the bedrock, it dissolves minerals (usually calcium from calcite).
+5.5.5.1.13	Hard water contains large amounts of dissolved minerals.
+5.5.5.1.14	Soft water contains few dissolved minerals.
+5.5.5.1.15	Key Vocabulary: calcite, cavern, column, disappearing stream, karst, limestone, sinkhole, stalactite, stalagmite
+5.5.6.1.1	Part Five: Groundwater Zones and Sources of Freshwater
+5.5.6.1.2	Seventy-five percent of the earth is covered by water. Ninety-seven percent of earth's water is salt water. 
+5.5.6.1.3	Most of the fresh water is `locked up' in the glaciers and ice caps.
+5.5.6.1.4	Less than 0.3% of all water is drinkable.
+5.5.6.1.5	Water is distributed on Earth by means of the hydrologic cycle, also known as the water cycle.
+5.5.6.1.6	The components of the water cycle are: 
+5.5.6.1.7	evaporation:­ when water is changed from a liquid to a gaseous state 
+5.5.6.1.8	condensation:­ when water is changed from a gaseous state to a liquid state in the atmosphere causing clouds
+5.5.6.1.9	precipitation:­ when the liquid water is too heavy to remain in the clouds, falling to Earth in the form of rain, snow, sleet, hail, or freezing rain 
+5.5.6.1.10	evapotranspiration:­ when moisture in a gaseous state is added to the atmosphere from trees, plants and animals
+5.5.6.1.11	runoff:­ where water that falls in the form of precipitation does not soak into the ground but moves on the surface in streams, rivers, lakes or oceans 
+5.5.6.1.12	groundwater:­ water in a liquid state that moves under the surface of the Earth 
+5.5.6.2.1	It is found in surface water and in groundwater.
+5.5.6.2.2	Groundwater is water that seeps down into soil and fills in the spaces (pores) between soil particles.
+5.5.6.2.3	Porosity is the percentage of a material's volume that is pore space.
+5.5.6.2.4	Porosity describes the pore space in a material, but it does not describe whether water can pass through the material.
+5.5.6.2.5	Permeability is the rate at which water pass through the pore spaces of a rock.
+5.5.6.2.6	Permeable describes soil and rock that allows water to pass through it.
+5.5.6.2.7	Impermeable describes rock that water can not easily pass through.
+5.5.6.3.1	Groundwater layers from the surface down would include zone of aeration, water table, and zone of saturation.
+5.5.6.3.2	Groundwater continues to soak deeper into the ground through permeable rock until it reaches a layer of impermeable rock ­ stopping it from moving further.
+5.5.6.3.3	The water backs up, filling the pores of the rock layer above the impermeable layer ­ this layer of ground where all pores are filled with water is the zone of saturation.
+5.5.6.3.4	The upper layer of the zone of saturation is called the water table.
+5.5.6.3.5	The zone of aeration is between the water table and Earth's surface.
+5.5.6.3.6	An aquifer is a body of rock through which water flows or is stored.
+5.5.6.4.1	There are other features that are related to groundwater.
+5.5.6.4.2	Wells are drilled down to the zone of saturation.
+5.5.6.4.3	A pump must be used to bring water to the surface.
+5.5.6.4.4	An artesian well is a well in which water spouts out of an aquifer due to pressure from surrounding water, so no pump is necessary.
+5.5.6.4.5	Where water is removed faster than it can be replaced, a cone of depression forms.
+5.5.6.4.6	A spring is a natural flow of groundwater that flows to the earth's surface and flows out (source of freshwater); most are cold springs but some are hot.
+5.5.6.4.7	In a hot spring, the water is heated by magma.
+5.5.6.4.8	Geysers are hot spring that erupts periodically due to high heat and pressure underground.
+5.5.6.4.9	Key Vocabulary: aquifer, artesian well, condensation, cone of depression, evaporation, evapotranspiration, geyser, groundwater, hot spring, hydrologic cycle, impermeable, permeability, permeable, porosity, precipitation, spring, water table, zone of aeration, zone of saturation
+5.5.7.1.1	Part Six: Human Usage on Water Quality
+5.5.7.1.2	Waste from industry, fertilizers, pesticides, and salt from oceans will all pollute our groundwater.
+5.5.7.1.3	Water conservation describes measures set forth to conserve water.
+5.5.7.1.4	Examples include: trying to find other supplies of fresh water, desalination (removal of salt), discouraging excess use of water from table, and recycling used water.
+5.5.7.1.5	Key Vocabulary: conservation, desalination
+5.6.1.1.1	Resources
+5.6.1.1.2	Essential Questions
+5.6.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.6.1.1.4	Natural resources are limited and can be classified as renewable or nonrenewable.
+5.6.1.1.5	Explain the difference between renewable and nonrenewable resources.
+5.6.1.1.6	A variety of natural resources can be found in Virginia.
+5.6.1.1.7	Summarize the ways that the physical characteristics of Virginia determine the type of natural resources.
+5.6.1.1.8	Overuse of resources can have negative environmental impact.
+5.6.1.1.9	Analyze how the environment is impacted by our use of resources.
+5.6.2.1.1	Part One: Renewable and Nonrenewable Resources
+5.6.2.1.2	Renewable resources can be replaced by nature at a rate close to the rate at which they are used includes vegetation, water, and soil
+5.6.2.1.3	Nonrenewable resources are renewed very slowly or not at all (We use it faster than it can be replaced), includes coal, oil, natural gas and minerals 
+5.6.2.1.4	Common misconception ­ 
+5.6.2.1.5	Renewable does not mean recyclable.
+5.6.2.1.6	Recycle means to reuse.
+5.6.2.1.7	Key Vocabulary: non-renewable, renewable, recycle
+5.6.3.1.1	Part Two: Environmental Impacts of Energy Resources
+5.6.3.1.2	Fossil Fuels, such as coal, oil and gas, are derived from prehistoric plant and animal material that had decomposed and been altered by heat and pressure over the years.
+5.6.3.1.3	Advantage: A quick, easy source of energy that does not cost that much.
+5.6.3.1.4	Disadvantages: Causes pollutions in many ways ­ burning fossil fuels produces CO , sulfur and nitrogen gases.
+5.6.3.1.5	Oil spills cause much damage to the plants and animals in the surrounding environment.
+5.6.3.1.6	We are running out of fossil fuels!
+5.6.3.1.7	Atmospheric Effects: Releases gases into the atmosphere- creating smog, acid rain, etc.
+5.6.3.1.8	Coal, Natural Gas and Petroleum (Oil) are composed mostly of hydrogen and carbon.
+5.6.3.1.9	The hydrocarbons with a lower molecular weight are usually gasses.
+5.6.3.1.10	The heavier ones tend to be the oils.
+5.6.3.1.11	Once again, oil and gas are created much like coal is. 
+5.6.3.1.12	Unfortunately, gas and oil are both Non-renewable resources.
+5.6.3.2.1	Nuclear energy is an alternate energy source produced from atomic reactions (the splitting of atoms and the releasing of energy ­Fission).
+5.6.3.2.2	Advantage: It is an alternate source of energy ­ when fossil fuels are being used up ­ we can turn to nuclear.
+5.6.3.2.3	It releases no harmful gases into the atmosphere.
+5.6.3.2.4	(ex. No CO , No Sulfur, No Nitrogen ­ thus ­ No Acid Rain).
+5.6.3.2.5	Disadvantages: The waste material produced Nuclear Waste.
+5.6.3.2.6	It is high radioactive.
+5.6.3.2.7	Hard to find places to store it.
+5.6.3.2.8	Have very long half lives ­ can stay radioactive for 10,000 years.
+5.6.3.2.9	Atmospheric Effects: Normal operation of Nuclear Power Plants keeps radiation exposure to the surrounding environment at a minimum; however, a problem at the plant, such as a melt down, could release radiation into the environment and into the atmosphere.
+5.6.3.3.1	Solar Energy refers to the energy the earth receives from the sun in the form of Solar Radiation.
+5.6.3.3.2	Devices called solar panels are placed facing the sun in order to capture solar radiation.
+5.6.3.3.3	The light energy is then converted into electrical energy.
+5.6.3.3.4	Advantages: It is a clean source of energy.
+5.6.3.3.5	No pollutants or harmful radiation.
+5.6.3.3.6	Disadvantages: The cost of setting up a home or business with solar panels.
+5.6.3.3.7	The problems with cloudy days ­ or multiple cloudy days.
+5.6.3.3.8	Atmospheric Effects: None.
+5.6.3.4.1	Geothermal Energy uses the heat from magma inside the Earth to heat water and produce steam in a power plant.
+5.6.3.4.2	The steam is pressurized and then spins turbines that run generators to make electricity.
+5.6.3.4.3	Advantages: The Geothermal Plants are very reliable and clean.
+5.6.3.4.4	They are not radioactive.
+5.6.3.4.5	They do not produce pollutants.
+5.6.3.4.6	There is no threat of any lethal substances being spilled into the environment ­such as oil, wastes.
+5.6.3.4.7	Disadvantages: It is not as convenient as fossil fuels.
+5.6.3.4.8	So far, it is not being used world wide.
+5.6.3.4.9	In order to reach the reservoirs, it is necessary to drill into the Earth.
+5.6.3.4.10	Atmospheric Effects: None.
+5.6.3.5.1	Hydroelectric Energy involves the use of a dam to hold water on one side has generators at the base of the dam that converts the energy of the fast flowing water into electricity.
+5.6.3.5.2	Advantages: It is a renewable resource.
+5.6.3.5.3	The water can be used over and over.
+5.6.3.5.4	It is a clean source of electricity ­ no radiation, no wastes.
+5.6.3.5.5	Disadvantages: Could cause flooding of surrounding areas.
+5.6.3.5.6	It costs a lot of money to build a dam.
+5.6.3.5.7	Atmospheric Effects: None.
+5.6.3.6.1	Wind Energy involves the use of machines called Aerogenerators (more commonly windmills).
+5.6.3.6.2	These are built to convert wind energy into electricity.
+5.6.3.6.3	The wind turns the rotor blades and these power generators.
+5.6.3.6.4	Advantages: It is a clean source of power.
+5.6.3.6.5	Disadvantages: The wind is un-predictable. Wind velocity that is too slow produces no electricity. Wind that is too fast can damage the machine.
+5.6.3.6.6	It costs a lot to develop and built the machines.
+5.6.3.6.7	There are problems in transporting electricity to sites where it is needed.
+5.6.3.6.8	Atmospheric Effects: None.
+5.6.3.7.1	Tidal Energy involves placing generators in water and allowing the movement of the tides (flowing in and out) to power the generators thus producing electricity.
+5.6.3.7.2	Advantages: A clean source of energy.
+5.6.3.7.3	No pollutants, no radiation, no chemicals.
+5.6.3.7.4	Tidal energy is an endless supply of energy.
+5.6.3.7.5	Disadvantages: Constructing such machines is very expensive.
+5.6.3.7.6	Wave energy varies greatly with the weather.
+5.6.3.7.7	It would be difficult to build a device big enough in the water to convert the amount of energy in a wave to electricity.
+5.6.3.7.8	A device would be so big, that it would be dangerous to ships.
+5.6.3.7.9	Atmospheric Effects: None
+5.6.3.7.10	Key Vocabulary: alternative fuel, energy, geothermal energy, hydroelectric energy, nuclear energy, ozone layer, solar energy, wind energy
+5.6.4.1.1	Part Three: Virginia Resources
+5.6.4.1.2	Coal is Virginia's most valuable resource. It is a fossil fuel and is a non-renewable resource.
+5.6.4.1.3	Virginia ranks among the top ten coal producing states in the U.S.
+5.6.4.1.4	Coal originates from ancient plants that flourished in swamp like environments millions of years ago.
+5.6.4.1.5	This material, called peat, was buried over time and heat and chemical processes turned it into coal.
+5.6.4.1.6	Peat is not a rock.
+5.6.4.1.7	The first stage of coal production where it is considered a sedimentary rock is called lignite.
+5.6.4.1.8	It is soft, burns fast and has low heat output.
+5.6.4.1.9	The next state is called bituminous coal.
+5.6.4.1.10	It is a sedimentary rock.
+5.6.4.1.11	About 78% of the world's coal is this type.
+5.6.4.1.12	Under further heat and pressure, it turns into anthracite coal.
+5.6.4.1.13	a metamorphic rock.
+5.6.4.1.14	It burns very slowly and has a high heat output.
+5.6.4.1.15	It is the most efficient and the most desirable.
+5.6.4.2.1	Other Virginia resources include.
+5.6.4.2.2	limestone for building materials, sand & gravel for construction kyanite, a mineral used in electronic products uranium, a radioactive element used for nuclear energy production
+5.6.4.2.3	Key Vocabulary: anthracite, bituminous, coal, fossil fuel, lignite, non-renewable resource, peat, resource
+5.7.1.1.1	Historical Geology
+5.7.1.1.2	Essential Questions
+5.7.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.7.1.1.4	Scientific evidence from rocks and fossils provide understanding of the history and evolution of earth.
+5.7.1.1.5	How does scientific evidence from rocks and fossils provide understanding of the history and evolution of the earth?
+5.7.1.1.6	Geologic processes and biologic processes affect the origin and evolution of atmosphere.
+5.7.1.1.7	How is the earth's atmosphere affected by geologic and biologic processes?
+5.7.1.1.8	How can absolute dating techniques be used to place a numerical age on an event?
+5.7.1.1.9	Absolute and relative dating techniques can be used to determine the origin and geologic history of the earth.
+5.7.1.1.10	How can the geological principles, such as superposition and cross cutting relationships, be used to determine the relative age of rocks?
+5.7.1.1.11	Mountain building, mass extinction, evolution, and climate changes are all part of Earth's history.
+5.7.1.1.12	Can you explain how mountain building, mass extinction, evolution, and climate changes are part of Earth's history?
+5.7.2.1.1	Part One: Fossil Formation and Types
+5.7.2.1.2	A fossil is the remains, impressions, or other evidence of the former existence of life preserved in rock.
+5.7.2.1.3	Examples are shells, bones, petrified trees, impressions made by leaves, insects in amber, footprints, or even burrows made by worms.
+5.7.2.1.4	The evidence can be: 
+5.7.2.1.5	mold -- ­a cavity left by an organism where the ground hardened before the organism had decayed
+5.7.2.1.6	casts -- ­ where the cavity left by an organism has been filled, usually by minerals 
+5.7.2.1.7	petrified remains --­ where there has been a molecule-for-molecule replacement of the original organism, turning it into a rock like object made of minerals 
+5.7.2.1.8	Carbon film is the thin film of a carbon impression left by an object 
+5.7.2.1.9	Original remains are when the actual remnants of an organism are discovered.
+5.7.2.1.10	This may be in the form of a bone or tooth or shell, in frozen remains (like a wooly mammoth) or an insect in amber.
+5.7.2.1.11	In each case, actually portions of the organism are found.
+5.7.2.1.12	Trace fossils are not the actual organism but rather the evidence that an organism once existed.
+5.7.2.1.13	Examples of this would include tracks, nests, or tools (for early humans).
+5.7.2.2.1	Nearly all fossils are found in sedimentary rock.
+5.7.2.2.2	Fossils are more likely to form if organisms have hard parts and if they are quickly buried.
+5.7.2.2.3	Sometimes, fossils that lived in a wide geographic area, lived a short time and is easily recognizable is referred to as an index fossil.
+5.7.2.2.4	These index fossils assist geologists in determining ages of other things found in that same layer of rock.
+5.7.2.2.5	Key Vocabulary: amber, carbon film, cast, index fossil, mold, original remains, petrified remains, trace fossil
+5.7.3.1.1	Part Two: Relative Dating
+5.7.3.1.2	Relative dating (also called relative time or relative age) places events in a sequence without assigning any numerical ages.
+5.7.3.1.3	This does not give the time of the actual event, it just indicates the age in comparison with other events.
+5.7.3.1.4	Most geologic work is done using relative time.
+5.7.3.1.5	There are rules, laws and principles that are used to determine the relative age of rock layers.
+5.7.3.1.6	These layers in one location are compared to layers in another location and based on the correlation (how the layer sequence matches up), scientists can determine what happened geologically They are.
+5.7.3.1.7	Horizontality states that all rock layers are initially laid down horizontally.
+5.7.3.1.8	If one or more layers are not horizontal this indicates some sort of tectonic action such as uplifting.
+5.7.3.1.9	Superposition states that in a sequence of undisturbed sedimentary rocks, the oldest rock will be at the bottom of the sequence and the youngest will be at the top.
+5.7.3.1.10	Cross-Cutting Relationships states that an igneous rock is younger than the rocks it has intruded (cut across).
+5.7.3.1.11	One of these cross-cutting relationships is an igneous intrusion where magma is squeezed into cracks (faults) in rock layers or in between layers.
+5.7.3.1.12	Also, the event that caused a fault is younger than any rocks the fault has cut across.
+5.7.3.1.13	Included Fragments states that pieces of one rock found in another rock must be older than the rock in which they are found.
+5.7.3.1.14	An unconformity is a place in the rock record where layers of rock are missing.
+5.7.3.1.15	Unconformities are gaps in geologic time.
+5.7.3.1.16	Key Vocabulary: correlation, cross-cutting, fault, horizontality, igneous intrusion, included fragments, relative dating, superposition, unconformity, uplift
+5.7.4.1.1	Part Three: Absolute Dating
+5.7.4.1.2	Absolute dating (also called absolute time or absolute age) time places a numerical age on an event.
+5.7.4.1.3	This is difficult and expensive to obtain.
+5.7.4.1.4	Radioactive decay is used to determine the absolute age of rocks.
+5.7.4.1.5	Half-life is the time required for half a given sample of a radioactive isotope to decay. 
+5.7.4.1.6	Two things are absolutely consistent about half-life: the amount of time for each half life and the fact that 50% of the radioactive material will decay for each half-life (time and amount).
+5.7.4.1.7	The original radioactive material is referred to as the parent material and the resulting decay material is referred to as the daughter material.
+5.7.4.1.8	Carbon-14 is a method of dating that is only used on objects that were once living
+5.7.4.1.9	Key Vocabulary: absolute dating, carbon-14 dating, daughter material, half-life, parent material, radioactive decay
+5.7.5.1.1	Part Four: The Geologic Time Scale
+5.7.5.1.2	The Geologic Timetable is a summary of the major events in Earth's history preserved in the rock record.
+5.7.5.1.3	There are 4 major divisions of time.
+5.7.5.1.4	The largest division of time is an eon.
+5.7.5.1.5	Mostly, we deal with eras, which are also very large divisions.
+5.7.5.1.6	Eras are major subdivisions based on differences in life forms.
+5.7.5.1.7	Eras are divided into smaller segments called periods based on types of life existing at the time and geologic events.
+5.7.5.1.8	Like eras, periods differ from one another in plant and animal life although less than between eras.
+5.7.5.1.9	Some of the periods are further divided into epochs.
+5.7.5.1.10	These divisions are shorter and changes in life are not as large as between periods.
+5.7.5.1.11	The four major eras are:
+5.7.5.2.1	Precambrian (which can be divided into Archeozoic and Proterozoic eras): The Precambrian Era began 4.6 billion years ago, when life first appeared. 
+5.7.5.2.2	Life-forms present were cyanobacteria, invertebrates ­jellyfish, marine worms.
+5.7.5.2.3	The Precambrian Era was the longest era.
+5.7.5.2.4	It produced very few fossils.
+5.7.5.2.5	Bacteria formed O , Ozone (O ) began to develop, and the atmosphere began to form.
+5.7.5.3.1	Paleozoic: The Paleozoic Era (the age of marine invertebrates) is the second oldest era of our Earth's history.
+5.7.5.3.2	Paleozoic means "Ancient Life" and lasted 345 million years.
+5.7.5.3.3	This is the first era in which scientists have found numerous fossils.
+5.7.5.3.4	It began about 600 million years ago with the first trilobites, a small, shelled sea creature resembling a modern crab.
+5.7.5.3.5	The Paleozoic is called the "Age of Fish".
+5.7.5.3.6	The continents were all connected into one huge landmass called Pangaea during the early Paleozoic.
+5.7.5.4.1	Mesozoic: Mesozoic means "Middle Life" and began about 225 million years ago and ended about 70 million years ago.
+5.7.5.4.2	This era is called the "Age of the Reptiles".
+5.7.5.4.3	The era started with the rise of the dinosaurs.
+5.7.5.4.4	The first birds were evolved during the Mesozoic.
+5.7.5.4.5	The end of the Mesozoic was marked by the extinction of the dinosaurs.
+5.7.5.4.6	There are numerous theories as to why the great dinosaurs became extinct.
+5.7.5.4.7	The leading theory is that an asteroid hit in an area called the Chicxulub Crater in Mexico.
+5.7.5.4.8	This would have caused tremendous climate change in a short amount of time which the dinosaurs were unable to adapt to, causing their extinction.
+5.7.5.5.1	Cenozoic: The Cenozoic Era is also called the "Age of the Mammals".
+5.7.5.5.2	It began about 65 million years ago as the great lizards, the dinosaurs became extinct.
+5.7.5.5.3	This led to a rise in the mammal population.
+5.7.5.5.4	We are currently living in the Cenozoic Era, the Quarternary Period and the Holocene Epoch.
+5.7.5.5.5	Key Vocabulary: Cenozoic, eon, epoch, era, Mesozoic, Paleozoic, period, Precambrian
+5.7.6.1.1	Part Five: Origin of Earth's Atmosphere
+5.7.6.1.2	The early atmosphere contained little oxygen and more carbon dioxide than the modern atmosphere.
+5.7.6.1.3	Early life such as cyanobacteria (blue-green algae) consumed carbon dioxide and generated oxygen by a process called photosynthesis.
+5.7.6.1.4	It was only after early photosynthetic life generated oxygen that animal life became possible.
+5.7.6.1.5	Part of the oxygen created combined to form ozone which protects us from harmful ultraviolet rays from the sun.
+5.7.6.1.6	Key Vocabulary: cyanobacteria, ozone, photosynthesis
+5.8.1.1.1	Virginia Geology/Chesapeake Bay
+5.8.1.1.2	Essential Questions
+5.8.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.8.1.1.4	Virginia is divided into five physiographic provinces based on rock type and topography.
+5.8.1.1.5	How do Virginia's five provinces reflect its geologic history?
+5.8.1.1.6	Water in the Chesapeake Bay comes from a variety of sources and is impacted by human and natural activities.
+5.8.1.1.7	How are the resources and productivity of the Chesapeake Bay impacted by human and natural activities and the source from which the water comes?
+5.8.1.1.8	Resources in the Chesapeake Bay are impacted by the water quality of the bay, including nutrient levels and the abundance of submerged aquatic vegetation.
+5.8.1.1.9	In what ways are Chesapeake Bay resources impacted by the water quality?
+5.8.2.1.1	Part One: Characteristics of Virginia's 5 Physiographic Provinces
+5.8.2.1.2	Virginia crosses 5 of the 24 geologic provinces of the United States.
+5.8.2.1.3	They are.
+5.8.2.2.1	The Coastal Plain region contains the youngest sedimentary rocks in Virginia has sediments that usually consist of sand, gravel, shells and clay consists of a great variety of fossil beds which contain fossilized shells, bones and teeth.
+5.8.2.2.2	A part of the Eastern Shore of the Coastal Plain, known as the Barrier Islands, exhibits growth and destruction phases due to changing sea levels during the past Ice Ages.
+5.8.2.2.3	A large meteor impact influenced much of the shape of the Chesapeake Bay.
+5.8.2.2.4	Most of the sediments in this area came from the Appalachian Mountains.
+5.8.2.2.5	This means that the Coastal Plain is the youngest of the Virginia provinces.
+5.8.2.2.6	Important mineral resources found in the Coastal Plain include deposits of titanium bearing minerals.
+5.8.2.2.7	Oil and Natural Gas can also be found offshore.
+5.8.2.3.1	The Piedmont region consists of low hills and shallow valleys Dominant rocks found in this province are slates, marbles, granite and quartzites.
+5.8.2.3.2	Much deformation (such as folding, faulting and fracturing) has occurred to the rocks in this area.
+5.8.2.3.3	There are many unmetamorphosed (no heat and pressure applied) sandstone and shale found in basins that are around 205-245 mya.
+5.8.2.3.4	Many preserved fossils ­ including dinosaur tracks ­ are found here.
+5.8.2.3.5	Important minerals are gold and pyrite.
+5.8.2.3.6	some coal beds and methane are also found here.
+5.8.2.4.1	The Blue Ridge region is a mountain chain that ranges from 2 miles wide are the Potomac River to 50 miles wide at the VA-NC border.
+5.8.2.4.2	These mountains are very rugged and covered with weathered rock.
+5.8.2.4.3	Three major rivers breach these mountains: The James River, The Potomac River and The Roanoke River.
+5.8.2.4.4	Extreme faulting and folding with very old rock terrains can be found here.
+5.8.2.4.5	Precambrian aged metamorphosed rock as well as ancient lava flows make up these mountains.
+5.8.2.4.6	Copper, iron, tine and turquoise are mined from the Blue Ridge.
+5.8.2.5.1	Valley and Ridge region contains sedimentary rocks that date back 550 mya.
+5.8.2.5.2	Rocks include limestone, sandstone, and shale.
+5.8.2.5.3	Most of the caves of Virginia formed from the limestone deposits in this province.
+5.8.2.5.4	Mineral resources include lime, lead, since and iron.
+5.8.2.5.5	Oil, gas and coal are also found here.
+5.8.2.6.1	The Appalachian Plateau region contains deep narrow valleys and steep, rugged mountain sides contains sandstone and shale as old as 320 mya.
+5.8.2.6.2	Coal beds can be found throughout.
+5.8.2.6.3	The coal is what makes this area economically important.
+5.8.2.6.4	There are some small oil fields.
+5.8.2.6.5	The weathered rocks of this area supply the sediment to the provinces towards the coast.
+5.8.2.6.6	Key Vocabulary: Coastal Plain, Piedmont, Blue Ridge, Valley & Ridge, Appalachian Plateau, Virginia topography, Virginia resources
+5.8.3.1.1	Part Two: The Chesapeake Bay
+5.8.3.1.2	An estuary is a semi-enclosed body of water that has a free connection with the sea
+5.8.3.1.3	has more food for organisms, but the organisms usually have to deal with large temperature and salinity changes, high silt content and pollution.
+5.8.3.1.4	Many marine organisms are filter feeders so silt can be a major problem.
+5.8.3.1.5	Many of these filter feeders are important as food to humans.
+5.8.3.1.6	A watershed is the drainage area for a bay or river.
+5.8.3.1.7	The six states that make up the watershed of the Chesapeake Bay are: Virginia, Maryland, West Virginia, Delaware, New York, and Pennsylvania.
+5.8.3.1.8	All of Virginia's water ends up in one of 3 major watersheds.
+5.8.3.1.9	the Chesapeake Bay, the North Carolina Sounds or the Gulf of Mexico.
+5.8.3.2.1	Some Bay facts.
+5.8.3.2.2	The Chesapeake Bay is the largest estuary in the United States.
+5.8.3.2.3	There are 5 major rivers that flow into the bay.
+5.8.3.2.4	From South to North, they are The James, York, Rappahannock, Potomac, and the Susquehanna Rivers.
+5.8.3.2.5	The Susquehanna River provides about 50% of the fresh water coming into the Bay.
+5.8.3.2.6	The river empties an average of 19 million gallons of water per minute.
+5.8.3.2.7	The Bay area is home to over 15,000,000 people!
+5.8.3.2.8	About 50,000 commercial vessels enter the Bay each year.
+5.8.3.2.9	All these people and activities put a strain on the Bay ecology.
+5.8.3.3.1	The Bay is home to over 3600 species of living organisms and has 5 basic communities.
+5.8.3.3.2	Marsh dwellers are located in and around marshes.
+5.8.3.3.3	They include small fish, birds, and marsh grasses.
+5.8.3.3.4	Submerged Aquatic Vegetation (SAV) Communities are important for many reasons.
+5.8.3.3.5	They include ducks, crabs, and eelgrass.
+5.8.3.3.6	The Plankton Community includes the drifters of the Bay as well as phytoplankton, bacteria, and zooplankton.
+5.8.3.3.7	The Benthic Community refers to the organisms that live at the bottom of the Bay.
+5.8.3.3.8	Benthic organisms include oysters, clams, barnacles, and mud crabs.
+5.8.3.3.9	The Nekton Community refers to the swimmers of the Bay.
+5.8.3.3.10	Nekton Communities are croaker, spot, and menhaden.
+5.8.3.4.1	Bay Pollution: There are two types of pollution that affect the Chesapeake Bay.
+5.8.3.4.2	point source pollution: ­ when you can identify the exact location of the origin of the pollution (a wastewater treatment plant, an industry, an oil spill, etc.)
+5.8.3.4.3	non-point source pollution: ­ when the origin of the pollution is from a large area or region (farm land, urban areas, etc.) 
+5.8.3.4.4	This is the most common type in Virginia.
+5.8.3.4.5	Example: Farmers and homeowners fertilize their farms or lawns.
+5.8.3.4.6	That fertilizer ends up in the rivers and eventually into the Bay.
+5.8.3.4.7	In the rivers and the Bay, the fertilizer causes major algae blooms.
+5.8.3.4.8	These algae blooms block out the sunlight.
+5.8.3.4.9	The plants on the bottom cannot receive sunlight and die off.
+5.8.3.4.10	Their decomposition removes oxygen from the Bay and ends up killing off marine life that depends on the plants for food and/or habitat.
+5.8.3.4.11	Key Vocabulary: bay pollution, benthic, Chesapeake Bay, drainage area, estuary, marsh, nekton, non-point source, pollution, plankton, point source pollution, SAV, watershed 
+5.9.1.1.1	Oceanography
+5.9.1.1.2	Essential Questions
+5.9.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.9.1.1.4	Earth's surface changes constantly.
+5.9.1.1.5	How does the earth's surface change?
+5.9.1.1.6	Sea floor features can be created and destroyed by geologic processes.
+5.9.1.1.7	How are sea floor features created and destroyed?
+5.9.1.1.8	Ocean resources are limited and their use impacts the environment and economy.
+5.9.1.1.9	What impact does the use of ocean resources have on the environment and economy?
+5.9.1.1.10	Human activities impact ocean resources.
+5.9.1.1.11	How can human activities impact ocean resources?
+5.9.1.1.12	Scientists use maps, globes, models, charts and imagery to interpret and measure Earth's surfaces.
+5.9.1.1.13	How do scientists use maps, globes, models, charts and imagery to interpret and measure the sea floor?
+5.9.1.1.14	How can technology be used to make and interpret maps, models and images of the sea floor?
+5.9.2.1.1	Part One: Interacting Processes and Systems
+5.9.2.1.2	The ocean covers 70 % of the Earth.
+5.9.2.1.3	It contains dissolved salts with ions such as chloride, sodium, magnesium, and potassium.
+5.9.2.1.4	Salinity is a measure if the amount of salts dissolved in seawater.
+5.9.2.1.5	Almost all of the energy that heats up the oceans comes from the sun, but light and heat do not penetrate very deeply into the ocean.
+5.9.2.2.1	Oceanographers divide the ocean into three temperature layers.
+5.9.2.2.2	The surface zone is warm with sunlight.
+5.9.2.2.3	The surface zone is also called the mixed layer because wind and waves mix heat evenly through this zone.
+5.9.2.2.4	The layer of ocean directly beneath the mixed layer, in which the temperature changes rapidly, is called the thermocline.
+5.9.2.2.5	This middle zone is penetrated by little light.
+5.9.2.2.6	The middle zone has a cold temperature.
+5.9.2.2.7	The deep zone is very cold and has no sunlight.
+5.9.2.3.1	Ocean water moves by currents and waves.
+5.9.2.3.2	Currents are mass movements or flows of ocean water.
+5.9.2.3.3	Most waves on the ocean surface are generated by wind.
+5.9.2.3.4	The top of a wave is the crest; the bottom is the trough.
+5.9.2.3.5	The distance between two crests or troughs is the wavelength.
+5.9.2.3.6	The distance between the crest and the trough is the wave height.
+5.9.2.3.7	A tsunami is a very large wave produced by seismic activity on the ocean floor.
+5.9.2.3.8	The tides are the daily periodic rise and fall of water level caused by the gravitational pull of the sun and moon.
+5.9.2.3.9	Spring tides occur when the Sun, Earth and Moon are in a straight line making high tides higher and low tides lower.
+5.9.2.3.10	Neap tides occur when the Sun and the Moon are at right angles to the Earth making high tides lower and low tides higher.
+5.9.2.3.11	There are large current systems in the oceans that carry warm water towards the poles and cold water towards the equator.
+5.9.2.3.12	They move by convection and by density.
+5.9.2.3.13	Estuaries, like the Chesapeake Bay, are areas where fresh and salt water mix, producing variations in salinity and high biological activity.
+5.9.2.3.14	Upwelling brings cold, nutrient-rich water from the deep ocean to the surface and are areas of rich biological activity.
+5.9.2.3.15	Sea level falls when glacial ice caps grow and rises when ice caps melt.
+5.9.2.3.16	The stored heat in the ocean drives much of the Earth's weather.
+5.9.2.3.17	The stored heat in the ocean causes climate near the ocean to be milder than the climate in the interior of continents.
+5.9.2.3.18	Key Vocabulary: convection current, crest, current, deep zone, density, mixed layer, neap tide, salinity, spring tide, surface zone, thermocline, trough, tsunami, upwelling, wave height, wavelength, wind driven current
+5.9.3.1.1	Part Two: Ocean Topography
+5.9.3.1.2	There are 8 basic features of the ocean floor.
+5.9.3.1.3	The continental shelf is really a gently sloping part of the continent that is under shallow water.
+5.9.3.1.4	The continental slope is the zone of steeply sloped sea floor leading from the continental shelf toward the ocean bottom.
+5.9.3.1.5	Separating the continental slope from the ocean bottom is the continental rise and is made up of sediments, or small bits of rock and plant and animal remains.
+5.9.3.1.6	The abyssal plain is a flat stretch of the deep ocean around the margins of the continents.
+5.9.3.1.7	In the abyssal plain you may find seamounts which are underwater volcanoes at current or former location of hot spots.
+5.9.3.1.8	In the abyssal plain you may also find guyots which are seamounts that are no longer active and have flat tops due to erosion by water movement.
+5.9.3.1.9	Mid-ocean ridges are chains of underwater mountains that run throughout the ocean basins and are a result of plate tectonic movement at a divergent boundary.
+5.9.3.1.10	This is where magma is squeezing through the crack in the plates and is building up into ridges.
+5.9.3.1.11	In the middle of the mid-ocean ridge is the rift valley. This is the location of the `crack' in the plates.
+5.9.3.1.12	Expect to find volcanic activity.
+5.9.3.1.13	The deepest places in the ocean are called trenches.
+5.9.3.1.14	Trenches are narrow channels more than 6km deep.
+5.9.3.1.15	They are caused by converging tectonic plates at a subduction zone.
+5.9.3.1.16	Expect to find volcanoes.
+5.9.3.1.17	Key Vocabulary: abyssal plain, continental rise, continental shelf, continental slope, guyot, mid ocean ridge, rift valley, seamount, trench
+5.9.4.1.1	Part Three: Ocean Resources and Human Activity
+5.9.4.2.1	Algae in the oceans are an important source of atmospheric oxygen.
+5.9.4.3.1	The oceans are an important source of food and mineral resources as well as a venue for recreation and transportation.
+5.9.4.4.1	Pollution and over-fishing can harm or deplete valuable resources. 
+5.9.4.5.1	Chemical pollution and sedimentation are great threats to the chemical and biological well being of estuaries and oceans.
+5.9.4.6.1	Key Vocabulary: over-fishing, pollution, resources
+5.10.1.1.1	Meteorology
+5.10.1.1.2	Essential Questions
+5.10.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.10.1.1.4	Geological and biological processes affect the origin and evolution of the atmosphere.
+5.10.1.1.5	Describe how geological and biological processes affect the origin and evolution of the atmosphere.
+5.10.1.1.6	Human activities change the atmosphere and climate.
+5.10.1.1.7	How can humans and geological processes change the atmosphere and affect climate?
+5.10.1.1.8	Weather patterns are created by the transfer of energy between the hydrosphere, atmosphere, and lithosphere.
+5.10.1.1.9	Summarize some processes that would explain how these things interact to create weather patterns.
+5.10.1.1.10	Scientists use maps, instruments, models, charts and imagery to forecast the weather.
+5.10.1.1.11	How can technology, meteorological instruments, maps and models be used to forecast the weather?
+5.10.1.1.12	How did early life affect the chemical make-up of the atmosphere?
+5.10.1.1.13	How does scientific evidence support the theory that the atmosphere changes over time?
+5.10.2.1.1	Part One: Composition/ Structure of Earth's Atmosphere
+5.10.2.1.2	Earth's atmosphere creates a unique balance between the energy received and lost from the sun.
+5.10.2.1.3	Compare Earth's atmosphere to that of other inner planets.
+5.10.2.1.4	Because of this and the fact that water exists in all 3 states, Earth has life.
+5.10.2.1.5	The earth's atmosphere is composed of: 78 % Nitrogen, 21 % Oxygen, between 0% and 3% water vapor.
+5.10.2.1.6	Other Gases make up 1% of the atmosphere.
+5.10.2.1.7	The atmosphere of Mars is mostly CO and very thin.
+5.10.2.1.8	Mars does not have life but it has water but only in a frozen state.
+5.10.2.1.9	and that is probably below the surface.
+5.10.2.1.10	There is no evidence of existing surface water.
+5.10.2.1.11	There is no evidence of life on Venus.
+5.10.2.1.12	The atmosphere of Venus is 95% CO and is very dense.
+5.10.2.1.13	There is evidence that Venus may have had surface water at one time but it is too hot for it to have surface water now.
+5.10.2.1.14	There is water vapor in its atmosphere.
+5.10.2.1.15	There is no life on the moon.
+5.10.2.1.16	The moon has no atmosphere.
+5.10.2.1.17	There is no evidence that the Moon ever had water.
+5.10.2.1.18	Mercury has no atmosphere.
+5.10.2.1.19	There is no life on Mercury.
+5.10.2.1.20	There is no evidence that Mercury ever had water.
+5.10.2.2.1	The Earth's atmosphere can be separated into layers based on temperature.
+5.10.2.2.2	The troposphere is the layer of the atmosphere that is closest to the ground.
+5.10.2.2.3	It is heated by the earth's surface.
+5.10.2.2.4	Temperatures decrease as altitude increases.
+5.10.2.2.5	All weather occurs in the troposphere.
+5.10.2.2.6	The upper limit of the troposphere is the tropopause.
+5.10.2.2.7	The stratosphere lies above the troposphere.
+5.10.2.2.8	It contains the ozone layer, the temperatures increase as altitude increases.
+5.10.2.2.9	This is the layer where jets fly and it is also the location of the ozone layer.
+5.10.2.2.10	The upper limit of the stratosphere is the stratopause.
+5.10.2.2.11	The mesosphere lies above the stratosphere.
+5.10.2.2.12	Temperature decreases as altitude increases.
+5.10.2.2.13	This is the coldest layer.
+5.10.2.2.14	The upper limit of the mesosphere is the mesopause.
+5.10.2.2.15	The thermosphere lies above the mesosphere.
+5.10.2.2.16	Temperatures increase as altitude increases.
+5.10.2.2.17	It can be subdivided into two parts.
+5.10.2.2.18	The lower thermosphere is called the ionosphere (area of electrically charged particles).
+5.10.2.2.19	Radio waves bounce off the ionosphere back to the earth.
+5.10.2.2.20	The exosphere is the upper part of the thermosphere.
+5.10.2.2.21	It is the outermost layer, and has no definite end.
+5.10.2.2.22	Satellite and space shuttles orbit earth in the exosphere.
+5.10.2.2.23	This is the warmest layer.
+5.10.2.2.24	Key Vocabulary: exosphere, ionosphere, mesopause, mesosphere, stratopause, stratosphere, thermosphere, tropopause, troposphere
+5.10.3.1.1	Part Two: Atmospheric Mechanisms
+5.10.3.1.2	Atmospheric regulation mechanisms including the effects of density differences and energy transfer.
+5.10.3.1.3	Three things can happen when Earth receives energy from the sun: reflection ­ Reflection occurs when energy is reflected back into space.
+5.10.3.1.4	atmospheric absorption ­ Atmospheric absorption occurs when energy is absorbed by the atmosphere.
+5.10.3.1.5	land/water absorption ­ Land/water absorption occurs when energy is absorbed by the surface.
+5.10.3.1.6	The land heats and cools more rapidly than the ocean.
+5.10.3.1.7	The oceans store heat.
+5.10.3.2.1	Energy is transferred by radiation, conduction, and convection.
+5.10.3.2.2	Radiation is the transfer of energy by electromagnetic waves.
+5.10.3.2.3	We experience this as heat and light on Earth.
+5.10.3.2.4	The Ozone layer absorbs UV radiation.
+5.10.3.2.5	Smog and pollution keep some energy from being reflected, making areas hotter.
+5.10.3.2.6	Conduction is the transfer of heat thru direct contact (molecules bumping into one another) You have seen examples of conduction in your everyday life such as when feet get hot on hot asphalt or when pan gets hot on a hot burner.
+5.10.3.2.7	Convection is the transfer of heat by the flow of a heated material (either gas or liquid).
+5.10.3.2.8	Heat rises, cold falls creating convection currents.
+5.10.3.2.9	Deep water currents, plate tectonics, and air masses work this way.
+5.10.3.2.10	Key Vocabulary: conduction, convection, radiation
+5.10.4.1.1	Part Three: Weather Patterns
+5.10.4.1.2	Information regarding things that affect weather/climate.
+5.10.4.1.3	Weather is the present state of the atmosphere.
+5.10.4.1.4	Factors affecting weather include: air pressure, wind, and temperature.
+5.10.4.1.5	Climate is an average of the weather over a long period of time in a certain area.
+5.10.4.1.6	Latitude, large bodies of water, mountains (elevation), and seasons affect climate.
+5.10.4.1.7	Latitude affects climate and how the energy is received from the sun.
+5.10.4.1.8	Near the poles the sun's energy is spread thinly over a large area.
+5.10.4.1.9	Near the equator, the sun's energy is spread out less.
+5.10.4.1.10	Here the sunlight is more direct.
+5.10.4.1.11	Large bodies of water will affect the climate for a particular area.
+5.10.4.1.12	Water heats up and cools down more slowly than land.
+5.10.4.1.13	Usually coastal areas are in warmer in summer and cooler in winter.
+5.10.4.1.14	Sea breezes and warm ocean currents play a role.
+5.10.4.1.15	The presence of mountains will affect the climate of a given area.
+5.10.4.1.16	It's cooler up higher (less air molecules to absorb heat).
+5.10.4.1.17	The windward side of mountains are wetter (wind, moisture, rain).
+5.10.4.1.18	On the leeward side of mountains (no wind) air heats up and dries things out.
+5.10.4.1.19	As moist air is pushed up a mountain, it cools.
+5.10.4.1.20	Cool air cannot hold water as well as warm air so condensation occurs.
+5.10.4.1.21	At some point, precipitation follows.
+5.10.4.1.22	Seasons Affect Climate and the way energy is received by the Earth.
+5.10.4.1.23	Summer ­ more direct radiation (tilt toward the sun).
+5.10.4.1.24	Winter ­ less radiation (tilt away from the sun).
+5.10.4.1.25	Fall and Spring ­ equal distribution of radiation.
+5.10.4.2.1	Water/Precipitation in the atmosphere comes in several forms: Hail ­ lumps of ice, formed by rain drops that get blown back up into the cloud, freezes, accumulates layers of rain, drops down, gets blown back up into the cloud by strong updrafts, continuing the freezing, blowing back up, layering until the weight is greater than the force of the air blowing back up into the cloud when it falls as hail.
+5.10.4.2.2	Depending on how may `blow back' trips it makes, it could get very large.
+5.10.4.2.3	High wind storms tend to produce hail.
+5.10.4.2.4	rain: liquid drops, temperatures are above freezing all the way through the atmosphere snow ­ water vapor changes directly to a solid
+5.10.4.2.5	sleet:­ freezes, melts, then re- freezes in below freezing lower atmosphere
+5.10.4.2.6	freezing rain:­ freezes, melts, then re-freezes upon contact with freezing temperatures at the surface
+5.10.4.3.1	Humidity and factors that affect it.
+5.10.4.3.2	Relative humidity is a measure of the amount of water vapor in the air compared to the total amount of water that the air can hold at that temperature.
+5.10.4.3.3	Saturated = 100% humidity at that temperature.
+5.10.4.3.4	The dew point is the temperature at which the air is saturated and condensation occurs.
+5.10.4.3.5	Cooler temperature = less humidity (water vapor is able to condense into clouds).
+5.10.4.3.6	Higher temperature = more humidity (water vapor is unable to condense into clouds due to faster motion of molecules).
+5.10.4.4.1	Air that stays in one area for a long time takes on the weather of that area.
+5.10.4.4.2	Air masses are large bodies of air that have the same characteristics as the surface over which it developed.
+5.10.4.4.3	For example: If air stays in the Artic, it becomes cold.
+5.10.4.4.4	If air stays over the ocean, it becomes moist.
+5.10.4.4.5	It is important to understand the types, sources and paths of, and weather associated with air masses.
+5.10.4.4.6	There are 5 basic types of air masses.
+5.10.4.4.7	Continental Artic (cA) air masses come from very high latitudes and are extremely cold and dry.
+5.10.4.4.8	Continental Polar (cP) air mass comes from land areas that are at high latitudes and are cold and dry.
+5.10.4.4.9	Maritime Polar (mP) comes from cold oceans and are cold and humid.
+5.10.4.4.10	Continental Tropical (cT) comes from warm land areas and are hot and dry.
+5.10.4.4.11	Maritime Tropical (mT) comes from warm seas/oceans and are warm and humid.
+5.10.4.5.1	A Front is the boundary between two air masses.
+5.10.4.5.2	There are 4 types of fronts.
+5.10.4.5.3	On a weather map, the symbols for the front are pointed in the direction the air mass is moving.
+5.10.4.5.4	A cold front occurs when cold air mass pushes under warm air mass.
+5.10.4.5.5	Narrow bands of storms are produced.
+5.10.4.5.6	A warm front occurs when warm air mass goes over a cold air mass.
+5.10.4.5.7	Wide bands of precipitation is produced.
+5.10.4.5.8	An occluded front occurs when two cold air masses merge, forcing warm air up.
+5.10.4.5.9	Strong winds and heavy precipitation are produced.
+5.10.4.5.10	A stationary front occurs when warm and cold air masses meet and stop.
+5.10.4.5.11	Light wind and precipitation are produced.
+5.10.4.6.1	Miscellaneous weather info.
+5.10.4.7.1	Pressure systems occur when masses of air molecules push down from above.
+5.10.4.7.2	High Pressure: ­ air descends difficult for clouds to form (usually NICE Weather).
+5.10.4.7.3	Low Pressure:­ air rises and clouds form (BAD Weather) 
+5.10.4.8.1	A cloud is a visible collection of tiny water droplets or ice crystals suspended in the air.
+5.10.4.8.2	Clouds form as warm air rises, is cooled below its dew point, and condenses.
+5.10.4.8.3	When humidity reaches 100%, water vapor condenses around nuclei (dust, salt, smoke in the atmosphere).
+5.10.4.8.4	Drops of water are so small, they are suspended in the air.
+5.10.4.8.5	Millions of these tiny water drops make a cloud.
+5.10.4.9.1	If air movement is mainly horizontal, clouds form in layers.
+5.10.4.9.2	These are called stratus clouds.
+5.10.4.9.3	If air movement is mainly vertical, clouds grow upward in great piles.
+5.10.4.9.4	These are called cumulous clouds.
+5.10.4.9.5	A cirrus cloud is a feathery cloud. 
+5.10.4.9.6	They are so high that they are always made of ice crystals. 
+5.10.4.9.7	Stratus means sheet like, Cirrus - wispy, curly, Nimbo ­ rain, Cumulus ­ heaped, piled.
+5.10.4.10.1	Air is a mixture of gases.
+5.10.4.10.2	Pressure is the result of collisions of air molecules with objects, and with each other.
+5.10.4.10.3	Pressure = force/area Changes in atmospheric pressure result from changes in: temperature, moisture content, and elevation.
+5.10.4.11.1	Atmospheric temperature changes from layer to layer.
+5.10.4.11.2	Gases expand when they are heated and contract when they are cooled.
+5.10.4.11.3	As a result, hot air is less dense than cool air.
+5.10.4.11.4	Increasing air temperature decreases atmospheric pressure.
+5.10.4.11.5	Decreasing air temperature increases atmospheric pressure.
+5.10.4.12.1	Water vapor is lighter than nitrogen and oxygen, so adding water vapor makes air lighter; the pressure underneath is lowered.
+5.10.4.12.2	Air has weight because gravity pulls air molecules toward the earth's surface.
+5.10.4.12.3	Near the ground, the air pressure is greater due to the weight of many air molecules pressing down from above.
+5.10.4.12.4	At higher elevations, there is less air to press on a given area.
+5.10.4.12.5	Air pressure is less at higher elevations.
+5.10.4.12.6	Air pressure is greatest at sea level.
+5.10.4.13.1	Wind is caused by an uneven heating of earth's atmosphere causing pressure differences.
+5.10.4.13.2	Air ALWAYS moves from high to low pressure creating a circulation.
+5.10.4.13.3	Sea breezes come from the sea during the day.
+5.10.4.13.4	Warm air over land is pushed up by cooler air coming in off of water creating a convection current.
+5.10.4.13.5	Land breezes come from the land at night.
+5.10.4.13.6	Warm air over sea is pushed up by cooler air coming from the land creating a convection current.
+5.10.4.13.7	Mountain breezes move down the mountain at night.
+5.10.4.13.8	Valley breezes move up the mountain in the morning.
+5.10.4.14.1	The Coriolis Effect causes a change in wind direction.
+5.10.4.14.2	It causes cold moving air from the poles to move toward the west.
+5.10.4.14.3	The Coriolis Effect is the effect of earth's rotation on the movement of air masses.
+5.10.4.14.4	North of the equator wind deflects to the right.
+5.10.4.14.5	South of the equator wind deflects to the left.
+5.10.4.15.1	Trade Winds occur from the equator to 30 latitude.
+5.10.4.15.2	Prevailing Westerlies occur from 30 to 60 latitude.
+5.10.4.15.3	Polar Easterlies occur near poles (90 degrees latitude).
+5.10.4.15.4	Doldrums blow near the equator they are very light and constantly shifting.
+5.10.4.15.5	They make ship navigation difficult.
+5.10.4.16.1	Jet Streams are narrow belts of strong winds that blow near the top of the troposphere.
+5.10.4.16.2	There is one on each side of the prevailing westerlies in both hemispheres.
+5.10.4.16.3	They have an average wind speed of 97 to 185 kph.
+5.10.4.16.4	The position changes in latitude day to day and season to season.
+5.10.4.16.5	The Jet Stream affects weather patterns and air travel.
+5.10.4.16.6	Key Vocabulary: air pressure, cA, climate, cold front, Coriolis Effect, cP, cT, dew point, freezing rain, hail, land breeze, mountain breeze, mP, mT, occluded front, rain, relative humidity, sea breeze, sleet, snow, stationary front, valley breeze, warm front, weather
+5.10.5.1.1	Part Four: Severe Weather Occurrences
+5.10.5.1.2	Severe weather types:
+5.10.5.2.1	Thunderstorms (heavy rain, lightning, thunder, hail- cumulonimbus clouds) develop at warm moist air masses along a fast moving cold front.
+5.10.5.3.1	Tornadoes (funnel clouds): violent, whirling wind moving over a narrow path of land (water spout if it occurs over water) form along fronts with wind up to 500 km per hour.
+5.10.5.3.2	Their strength is classified by their wind speeds using the Enhanced Fujita Scale (EF): EF0 is the weakest, EF5 is the strongest.
+5.10.5.4.1	Hurricanes (typhoons or cyclones in other oceans): large, swirling, low pressure system form over tropical oceans.
+5.10.5.4.2	The winds must be at least 120 km per hour to be considered a hurricane (under 120 kph = tropical depression or storm). 
+5.10.5.4.3	Their strength is classified based on the wind speeds using the Saffir-Simpson
+5.10.5.4.4	Scale: Category 1 is the weakest, Category 5 is the strongest.
+5.10.5.4.5	Key Vocabulary: Enhanced Fujita Scale, hurricane, Saffir-Simpson Scale, thunderstorms, tornado
+5.10.6.1.1	Part Five: Instruments and Forecasting
+5.10.6.1.2	Meteorologists study weather.
+5.10.6.1.3	Station models are a combination of symbols used to show current weather conditions.
+5.10.6.1.4	Isotherms are lines connecting points of equal temperature.
+5.10.6.1.5	Isobars are lines connecting points of equal pressure.
+5.10.6.2.1	Meteorologists use various instruments to measure weather data.
+5.10.6.2.2	Psychrometer (or hydrometer) is used to measure humidity 
+5.10.6.2.3	Barometer: ­ atmospheric pressure
+5.10.6.2.4	Thermometer: air temperature
+5.10.6.2.5	Anemometer:­ wind speed 
+5.10.6.2.6	Weather vane:­ wind direction 
+5.10.6.2.7	Rain gauge:­ amount of precipitation
+5.10.6.2.8	Key Vocabulary: anemometer, barometer, isobar, isotherm, psychrometer, rain guage, station model, thermometer, weather vane
+5.10.7.1.1	Part Six: Effects of Human and Geologic Activity
+5.10.7.1.2	Human activities such as burning fossil fuels have increased CO levels.
+5.10.7.1.3	High CO levels produce the greenhouse effect
+5.10.7.1.4	CFC's are decreasing the ozone levels of the upper atmosphere.
+5.10.7.1.5	Ozone blocks harmful UV radiation.
+5.10.7.1.6	Key Vocabulary: greenhouse effect, ozone
+5.11.1.1.1	Astronomy and Space Science
+5.11.1.1.2	Essential Questions
+5.11.1.1.3	You should be able to answer the following question with confidence about this topic.
+5.11.1.1.4	Scientists use maps, instruments, models, charts, technology and imagery to explain the origin and evolution of the universe.
+5.11.1.1.5	Describe some of these maps, instruments, models, charts, technology and imagery that are used to explain the origin and evolution of the universe.
+5.11.1.1.6	Sun, earth and moon interact to create events such as the seasons, eclipses and tides.
+5.11.1.1.7	How does scientific evidence support the theory that the universe is constantly changing?
+5.11.1.1.8	How do the sun, earth and moon interact to create events such as the seasons, eclipses and tides?
+5.11.1.1.9	The unique characteristics of the celestial bodies are the result of the organization of the solar system.
+5.11.1.1.10	How does the location of a body in the solar system determine its characteristics?
+5.11.1.1.11	Space exploration and technological advances have increased knowledge of the universe.
+5.11.1.1.12	In what ways have space exploration and technological advances increased knowledge of the universe?
+5.11.2.1.1	Part One: The Solar System
+5.11.2.1.2	There are two groups of planets in our solar system.
+5.11.2.1.3	According to the International Astronomical Union (the organization responsible for naming ANYTHING in the heavens, the new definition for planet is "A "planet" is an object in orbit around the Sun that is large enough (massive enough) to have its self-gravity pull itself into a round (or nearly round) shape.
+5.11.2.1.4	In addition a "planet" orbits in a clear path around the Sun, there are no other bodies in its path that it must sweep up as it goes around the Sun.
+5.11.2.2.1	The Inner Planets are closest to the sun.
+5.11.2.2.2	These planets are solid, rocky, dense, and small.
+5.11.2.2.3	They are referred to as terrestrial planets.
+5.11.2.2.4	The Inner Planets are: Mercury, Venus, Earth, and Mars.
+5.11.2.3.1	The Outer Planets are farther from the sun.
+5.11.2.3.2	The first four of these planets are gaseous, and are less dense and large.
+5.11.2.3.3	The Outer Planets are: Jupiter, Saturn, Uranus, Neptune, and Pluto.
+5.11.2.3.4	Although Pluto is an outer planet, it is the smallest planet and it is a rocky planet.
+5.11.2.3.5	It was recently `demoted' to dwarf planet status.
+5.11.2.4.1	Between Mars and Jupiter is the asteroid belt.
+5.11.2.4.2	Asteroids are rocky or metallic iron objects ranging in size from millimeters to kilometers.
+5.11.2.4.3	Tens of thousands of asteroids orbit harmlessly in a region referred to as the asteroid belt but on occasion, they will collide, sending one or both into odd orbits that may interfere with the orbit of a planet.
+5.11.2.5.1	The Solar Nebula Theory states that debris left over from the beginning of the universe condensed to form the Sun and the planets.
+5.11.2.5.2	The solar system consists of the Sun and all of the objects that are gravitationally bound to it.
+5.11.2.6.1	There are numerous other objects and regions of objects in the solar system.
+5.11.2.6.2	Past the orbit of Pluto is the Kuiper Belt.
+5.11.2.6.3	It is a region similar to the asteroid belt.
+5.11.2.6.4	It is now considered that Pluto is actually a Kuiper Belt object.
+5.11.2.7.1	The Oort Cloud is a region past the Kuiper Belt and it is believed that comets originate here.
+5.11.2.7.2	A comet is a mass of frozen gasses, dusts and rock particles.
+5.11.2.7.3	They orbit the Sun in a regular period.
+5.11.2.7.4	The tail of a comet always faces away from the Sun due to the solar winds coming from the Sun.
+5.11.2.7.5	Sometimes, they cross the path of Earth's orbit.
+5.11.2.7.6	When Earth goes through the debris stream from the remnants of a comet, we have a meteor shower.
+5.11.2.7.7	We will go through that same debris trail every year.
+5.11.2.8.1	There are other objects that interact with Earth.
+5.11.2.8.2	They are meteoroids, meteors and meteorites.
+5.11.2.8.3	A meteoroid is a small rocky object that travels in space.
+5.11.2.8.4	It is generally considered to be much smaller than an asteroid.
+5.11.2.8.5	A meteor is a meteoroid that enters Earth's atmosphere and burns up.
+5.11.2.8.6	A meteorite is a meteor that doesn't completely burn up and strikes the Earth.
+5.11.2.9.1	There are two major measurements used in astronomy.
+5.11.2.9.2	An astronomical unit (AU) is the average distance between the Sun and the Earth.
+5.11.2.9.3	This is approximately 93 million miles.
+5.11.2.9.4	A light year (LY) is the distance light travels in one year.
+5.11.2.9.5	This distance is approximately 9.5 trillion miles.
+5.11.2.9.6	Key Vocabulary: asteroid, asteroid belt, astronomical unit, comet, gaseous planet, Kuiper Belt, light year, meteor, meteorite, meteoroid, Oort Cloud, planet, Solar Nebula Theory, solar system, terrestrial planet
+5.11.3.1.1	Part: Two: Sun-Earth-Moon System
+5.11.3.1.2	When a satellite travels around another object, this is called revolution.
+5.11.3.1.3	Rotation is the word used to describe a satellite turning on its axis.
+5.11.3.1.4	The Earth completes one revolution, or one orbit, around the sun every year (365 days, 6 hours, and 9 minutes).
+5.11.3.1.5	The Earth completes one rotation, or turn on its axis every day (23hours, 56 minutes).
+5.11.3.1.6	An axis is an imaginary line on which an object spins.
+5.11.3.1.7	Our moon rotates, or spins on its axis once every 29.5 days.
+5.11.3.1.8	Our moon revolves around the Earth once every 27.3 days.
+5.11.3.1.9	It takes the same amount of time for the moon to rotate and revolve, so the same side of the moon always faces the Earth.
+5.11.3.1.10	The difference in days between rotation and revolution has to do with the fact that the Earth is also revolving around the Sun and is farther in its orbit when the moon makes one complete revolution.
+5.11.3.1.11	The moon is tidally locked to the Earth, meaning the same side of the moon always faces the earth.
+5.11.3.1.12	There is one side of the moon that we never see.
+5.11.3.1.13	This is called the "Far Side of the Moon".
+5.11.3.2.1	The moon is a natural satellite of Earth.
+5.11.3.2.2	The moon shines due to Sun reflecting off of its surface.
+5.11.3.2.3	This causes the phases of the moon.
+5.11.3.2.4	When there is a new moon, the lighted side of the moon can't be seen from Earth.
+5.11.3.2.5	When there is a full moon, the entire lighted side of the moon can be seen.
+5.11.3.2.6	When there is a small sliver of the lit side visible from Earth it is a crescent phase.
+5.11.3.2.7	When one half of what we see from Earth is lit it is a quarter phase.
+5.11.3.2.8	When most, but not all, of what we see from Earth is lit it is a gibbous phase.
+5.11.3.2.9	The waxing phases occur when just after a new moon, more and more of the lighted side of the moon can be seen.
+5.11.3.2.10	The moon appears to change from all dark to all light.
+5.11.3.2.11	The waning phases occur when just after a full moon, less and less of the lighted side of the moon can be seen.
+5.11.3.2.12	The moon appears to change from all light to all dark.
+5.11.3.2.13	In order, the moon phases are new moon, waxing crescent, first quarter, waxing gibbous, full moon, waning gibbous, third or last quarter, waning crescent and back to the new moon.
+5.11.3.2.14	Two mnemonics to help you remember what the phases are as well as the difference between waxing and waning: 
+5.11.3.2.15	1) When the light is on the right, the moon is getting bright.
+5.11.3.2.16	2) Waxing is maxing and waning is draining.
+5.11.3.2.17	A lunar eclipse occurs when the Earth moves between the sun and the moon.
+5.11.3.2.18	A solar eclipse occurs when the moon moves between the Earth and the Sun.
+5.11.3.3.1	Tides are caused by the gravitational pull of the moon and sun on the ocean.
+5.11.3.3.2	A tidal change is actually a wave.
+5.11.3.3.3	Spring tide causes high tides that are especially high and low tides that are especially low.
+5.11.3.3.4	Neap tide causes high tides that are not very high and low tides that are not very low.
+5.11.3.3.5	The tidal range is the difference in levels between high tide and low tide.
+5.11.3.4.1	Some final terms associated with the Earth-Sun-Moon relationship
+5.11.3.4.2	A season is a regular, short-term period of change in the climate of an area due to changes in the amount of solar radiation the area receives.
+5.11.3.4.3	Seasons have NOTHING to do with how close we are to the Sun.
+5.11.3.4.4	Seasons are caused by: the revolution of Earth around the Sun, the tilt of the Earth's axis, and the parallelism of the Earth's axis.
+5.11.3.4.5	Key Vocabulary: axis, crescent, full moon, gibbous, lunar eclipse, neap tide, new moon, phases, quarter, revolution, rotation, season, solar eclipse, spring tide, tidal range, tide, tilt, waning, waxing
+5.11.4.1.1	Part Three: Sun
+5.11.4.1.2	Our solar system's star is the Sun.
+5.11.4.1.3	It is a middle aged star and is about 4.5 to 5 billion years old.
+5.11.4.1.4	It should continue for another 4.5 to 5 billion years.
+5.11.4.1.5	The Sun has 4 main layers and there are a few surface features that are important.
+5.11.4.1.6	The core is in the center of the sun and is where nuclear fusion occurs.
+5.11.4.1.7	It is the most dense portion of the star and its temperature is about 15 million degrees Celsius.
+5.11.4.1.8	There is an area between the core and the atmosphere where convection moves energy from the center of the sun to the surface.
+5.11.4.2.1	The atmosphere of the sun is made up of 3 parts.
+5.11.4.2.2	The photosphere is the brightest and lowest layer of the atmosphere.
+5.11.4.2.3	It is the layer we see.
+5.11.4.2.4	The next layer out is the chromosphere and it cannot be seen because of the brightness of the photosphere.
+5.11.4.2.5	The outer most layer of the atmosphere of the sun is the corona.
+5.11.4.2.6	It can only be seen during an eclipse.
+5.11.4.2.7	From the corona, solar winds eject material from the sun into space.
+5.11.4.3.1	There are 3 main surface features found on the sun as well as any other star.
+5.11.4.3.2	A flare is where an eruption on the surface occurs and massive amounts of material are flung into space.
+5.11.4.3.3	A prominence is similar to a flare except that because of magnetic field lines on, the flare arches back down to the surface.
+5.11.4.3.4	Finally, sunspots are cool, dark regions on the surface that are usually found near prominences and are related to magnetic field lines.
+5.11.4.3.5	Key Vocabulary: chromosphere, convection, core, corona, flare, photosphere, prominence, solar wind, sunspot
+5.11.5.1.1	Part Four: Stars
+5.11.5.1.2	Stars are a large dense concentration of hydrogen gas, fusion in the core causes two hydrogen atoms to form helium.
+5.11.5.1.3	A constellation is a group of stars that form a pattern.
+5.11.5.1.4	The Big Dipper is an example of a constellation.
+5.11.5.2.1	Stars follow a definite development/destruction pattern that is referred to as the life cycle of a star.
+5.11.5.2.2	There is a graph called the Hertzprung-Russell Diagram (also called the H-R Diagram) which charts
+5.11.5.2.3	stars based on their temperature, luminosity, magnitude and mass.
+5.11.5.3.1	A star forms from a spinning cloud of gas and dust called a nebula.
+5.11.5.3.2	As the nebula spins, gravity causes it to shrink.
+5.11.5.3.3	The spinning nebula flattens into a disk of dust and gas.
+5.11.5.4.1	Material comes together at the center of the disk.
+5.11.5.4.2	A protostar begins to form.
+5.11.5.4.3	A protostar is the material in the center of a nebula that becomes a star.
+5.11.5.4.4	The protostar shrinks.
+5.11.5.4.5	As it shrinks, temperature and pressure build up.
+5.11.5.4.6	When the temperature and pressure are high enough, the protostar starts to give off light and heat.
+5.11.5.4.7	It is now a star.
+5.11.5.5.1	The most stable phase of stellar life is when it is in the main-sequence stage. This is considered the
+5.11.5.5.2	middle age of the life span of a star and it spends most of the time in this stage. Our star is a main-sequence star.
+5.11.5.6.1	The ultimate life span of the star depends on its mass.
+5.11.5.6.2	Larger mass stars (30 or more times the size of the Sun) will eventually swell to a supergiant.
+5.11.5.6.3	From there, the star will explode as a supernova.
+5.11.5.6.4	After the supernova stage, the remaining matter collapses into an extremely dense ball and becomes a neutron star and then a black hole.
+5.11.5.7.1	Stars that are sun-sized will swell into a red giant, explode into a nova and ultimately collapse into a white dwarf or a black dwarf.
+5.11.5.7.2	Key Vocabulary: black dwarf, black hole, constellation, fusion, H-R Diagram, life cycle of stars, main-sequence, nebula, neutron star, nova, protostar, red giant, supergiant, supernova, white dwarf
+5.11.6.1.1	Part Five: Galaxies
+5.11.6.1.2	In the 1920s, an American astronomer, Edwin Hubble observed some fuzzy patches of light in the sky.
+5.11.6.1.3	He discovered that these patches of light were galaxies, made up of millions or billions of stars.
+5.11.6.1.4	Galaxies are made up of billions of stars.
+5.11.6.1.5	It is estimated that there are over 100 billion galaxies in the universe.
+5.11.6.2.1	Galaxies are classified according to their shape.
+5.11.6.2.2	Edwin Hubble developed the Hubble Tuning Fork diagram to aid in their classification.
+5.11.6.3.1	Spiral galaxies are made up of a central core or nucleus (which usually contains a supermassive black hole) with areas of stars resembling arms coming off of the central core.
+5.11.6.3.2	Spiral galaxies have many young stars and star forming regions.
+5.11.6.3.3	Barred spiral galaxies also have a central core but there is a bar of stars that come out of the core and the arms only come from the ends of the bars.
+5.11.6.4.1	Elliptical galaxies have a central core but no arms.
+5.11.6.4.2	The stars are spread out evenly around the core.
+5.11.6.4.3	These galaxies may be nearly circular or very elliptical (oval) in shape.
+5.11.6.4.4	They are mostly made up of old stars.
+5.11.6.5.1	Irregular galaxies have no central core, no arms and no organized shape.
+5.11.6.5.2	They tend to be smaller than spirals and ellipticals.
+5.11.6.6.1	Our solar system is located in the Milky Way galaxy.
+5.11.6.6.2	Key Vocabulary: arms, barred spiral galaxy, black hole, central core, elliptical galaxy, Hubble Tuning Fork, irregular galaxy, Milky Way galaxy, nucleus, spiral galaxy
+5.11.7.1.1	Part Six: History and Contributions of the Space Program
+5.11.7.1.2	A body that orbits a larger body is called a satellite.
+5.11.7.1.3	A moon is considered to be a natural satellite.
+5.11.7.1.4	However, since the space program began in the 1950's, there have been many man-made satellites orbiting Earth, both manned and unmanned.
+5.11.7.2.1	In 1957 the former Soviet Union launched Sputnik 1, the Earth's first artificial satellite (remember the movie October Sky?).
+5.11.7.3.1	In 1958, the United States launched its first Satellite, Explorer 1.
+5.11.7.3.2	The first spacecraft to leave Earth and reach lunar (around the moon) orbit was part of the Luna series of space probes launched by the former Soviet Union.
+5.11.7.3.3	At the same time that the Luna series was in progress, the United States launched the Pioneer space probes.
+5.11.7.4.1	On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin `Buzz' Aldrin Jr., became the first people to walk on the moon.
+5.11.7.4.2	Between 1969 and 1972 the United States sent six Apollo spacecraft to the moon.
+5.11.7.4.3	A total of 12 people have walked on the moon.
+5.11.7.4.4	2 per successful mission.
+5.11.7.5.1	Pioneer, Mariner, Voyager, and Venera are the names of some of the spacecraft launched from Earth to explore the solar system in the 1970's and 1980's.
+5.11.7.6.1	The Space Shuttle program began in April 1981, restarting manned space flight.
+5.11.7.6.2	Since then, there have been over 100 shuttle missions.
+5.11.7.6.3	Many of the shuttle missions were designed to perform rescue and repair missions for satellites already in orbit.
+5.11.7.7.1	More recent probes include Spirit, Opportunity and Phoenix which are currently exploring Mars, Cassini and its probe, Huygens, are currently exploring Saturn, Messenger is currently exploring Mercury and New Horizons is on its way to Pluto and should arrive in 2015.
+5.11.7.7.2	it left in 2007!
+5.11.7.7.3	It will be the first probe sent to Pluto.
+5.11.7.7.4	Key Vocabulary: Apollo 11, Edwin (Buzz) Aldrin, Neil Armstrong
+5.11.8.1.1	Part Seven: Origin and Evolution of the Universe
+5.11.8.1.2	Using the Doppler Effect, Edwin Hubble and other astronomers saw that the galaxies were redshifted which means they are moving away from each other.
+5.11.8.1.3	In other words, the universe is expanding.
+5.11.8.1.4	Astronomers needed a theory to explain this observation.
+5.11.8.1.5	Today scientists have a theory called the Big Bang Theory.
+5.11.8.1.6	The "Big Bang" Theory is a leading theory for the formation of the universe.
+5.11.8.1.7	According to this theory, approximately 15 billion years ago the universe began expanding out of an enormous explosion.
+5.11.8.1.8	The galaxies are still flying away from the point of the big bang.
+5.11.8.1.9	After the big bang, the matter in the universe started to condense and form galaxies.
+5.11.8.1.10	Galaxies are systems containing millions or even billions of stars.
+5.11.8.1.11	We live in the Milky Way, which is a part of a small cluster of 17 galaxies called the local group.
+5.11.8.1.12	Key Vocabulary: Big Bang Theory, redshift
