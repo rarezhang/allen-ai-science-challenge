@@ -13,6 +13,25 @@ from org.apache.lucene.search import IndexSearcher, Query, ScoreDoc, TopScoreDoc
 from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene.search.similarities import BM25Similarity
 
+# global variables
+# initialize lucene
+lucene.initVM()
+version = Version.LUCENE_CURRENT  # set lucene version
+analyzer = StandardAnalyzer()
+index_path = "..\\data\\index\\"
+index = SimpleFSDirectory(File(index_path))  # todo
+hitsPerPageQ = 20  # keep top 10
+
+
+def check_lucene_index():
+    """
+
+    :return:
+    """
+    if os.listdir(index_path) == []:
+        c_path = "..\\data\\corpus"
+        lucene_index(c_path)
+
 
 def addDoc(w, doc_name, text, file_name):
     """
@@ -26,12 +45,12 @@ def addDoc(w, doc_name, text, file_name):
     # TextField: sequence of terms: tokenized
     doc.add(TextField("text", text, Field.Store.YES))
     # StringField: character strings with all punctuation, spacing, and case preserved.
-    doc.add(StringField('doc_name', doc_name, Field.Store.YES))
+    doc.add(TextField('doc_name', doc_name, Field.Store.YES))
     doc.add(StringField('corpus_name', file_name, Field.Store.YES))
     w.addDocument(doc)
 
 
-def lucene_index(corpus_main_path, version):
+def lucene_index(corpus_main_path):
     """
 
     :param version:
@@ -47,33 +66,33 @@ def lucene_index(corpus_main_path, version):
     writer.close()
 
 
-
 # todo: add filter : file name
-def lucene_retriever(q_string, version, use_BM25=False):
+def lucene_retriever(q_string, use_BM25=True):
     """
 
     :param index:
     :param v:
     :return:
     """
-
-    query = QueryParser(version, 'text', analyzer).parse(q_string)
+    # escape special characters via escape function
+    query = QueryParser(version, 'text', analyzer).parse(QueryParser.escape(q_string))
     # search
-    hitsPerPage = 10  # keep top 10
+
     reader = IndexReader.open(index)
     searcher = IndexSearcher(reader)
 
     if use_BM25:
-        searcher.setSimilarity(BM25Similarity())
-        print "Search query: \"{}\" Similarity: BM25".format(q_string)
-    else:
-        print "Search query: \"{}\" Similarity: Default".format(q_string)
-    collector = TopScoreDocCollector.create(hitsPerPage, True)
+        searcher.setSimilarity(BM25Similarity(k1=1.5, b=0.75))
+        #print "Search query: \"{}\" Similarity: BM25".format(q_string)
+    #else:
+        #print "Search query: \"{}\" Similarity: Default".format(q_string)
+    collector = TopScoreDocCollector.create(hitsPerPageQ, True)
     searcher.search(query, collector)
     hs = collector.topDocs().scoreDocs  # hists
 
     def sorted_doc(hists):
         """return sorted document+score by score"""
+
         def doc_score(hists):
             """return doc_name & score"""
             for h in hists:
@@ -99,13 +118,17 @@ def read_file(f_name):
     doc_names, tes = [], []
     path = "..\\data\\corpus\\"+f_name
     with io.open(path, mode='r', encoding='utf-8') as f:
-        if f_name in ["Barrons-Grade-4-Science-sentences.txt", "virginia_SOL20Study20Guide.filtered.noquestions.docids.txt"]:
+        if f_name in ["Wikipedia-20160210171947.xml.txt", "wiki_summary.txt", "wiki_content.txt", "virginia_SOL20Study20Guide.filtered.noquestions.docids.txt", "CK12_Biology.txt.clean", "CK12_chemistry.txt.clean", "CK12_Earth_Science.txt.clean", "CK12_Life_Science.txt.clean","CK-12-Biology-Advanced-Concepts.txt.clean", "CK-12-Biology-Concepts.txt.clean", "CK-12-Biology-Concepts_b.txt.clean", "CK-12-Chemistry-Concepts-Intermediate.txt.clean", "CK-12-Earth-Science-Concepts-For-High-School.txt.clean", "CK-12-Earth-Science-Concepts-For-Middle-School.txt.clean", "CK-12-Life-Science-Concepts-For-Middle-School.txt.clean", "CK-12-Physical-Science-Concepts-For-Middle-School.txt.clean", "CK-12-Physics-Concepts-Intermediate.txt.clean"]:
+            #["wiki_summary", "wiki_content", "virginia_SOL20Study20Guide.filtered.noquestions.docids.txt", "CK12_Biology.txt.clean", "CK12_chemistry.txt.clean", "CK12_Earth_Science.txt.clean", "CK12_Life_Science.txt.clean","CK-12-Biology-Advanced-Concepts.txt.clean", "CK-12-Biology-Concepts.txt.clean", "CK-12-Biology-Concepts_b.txt.clean", "CK-12-Chemistry-Concepts-Intermediate.txt.clean", "CK-12-Earth-Science-Concepts-For-High-School.txt.clean", "CK-12-Earth-Science-Concepts-For-Middle-School.txt.clean", "CK-12-Life-Science-Concepts-For-Middle-School.txt.clean", "CK-12-Physical-Science-Concepts-For-Middle-School.txt.clean", "CK-12-Physics-Concepts-Intermediate.txt.clean"]
+            # "simplewiki.xml.txt"
             # format: tree.nodes [tab] text \n
+            # format: title [tab] text \n
             for line in f:
                 line = line.split("\t")
                 doc_names.append(line[0])
                 tes.append(line[1].strip())
-        elif f_name in ["virginia_SOL_flashcards-science5.filtered.txt"]:
+        elif f_name in []:
+            #"virginia_SOL_flashcards-science5.filtered.txt"
             # format: text \n
             i = 0
             for line in f:
@@ -113,7 +136,7 @@ def read_file(f_name):
                 doc_names.append(dn)
                 tes.append(line.strip())
                 i += 1
-        elif f_name in ["simpleWiktionary-defs-apr30.txt_filteredStopVerbs"]:
+        elif f_name in ["simpleWiktionary-defs-apr30.txt"]:
             # format: word [tab] part of speech [tab] text
             i = 0
             for line in f:
@@ -134,31 +157,9 @@ def read_file(f_name):
                     tes.append(word + " " + explanation)
     return doc_names, tes
 
-import time
-time_begin = time.clock()
-
-# initialize lucene
-lucene.initVM()
-v = Version.LUCENE_CURRENT  # set lucene version
-analyzer = StandardAnalyzer()
-index_path = "..\\data\\index\\"
-index = SimpleFSDirectory(File(index_path))  # todo
-
-if os.listdir(index_path) == "":
-    c_path = "..\\data\\corpus"
-    lucene_index(c_path, v)
-query_string = "simple"
-res = lucene_retriever(query_string, v)
-
-for r in res:
-    print "corpus_name: \"{}\"   DocID: \"{}\"   Score: {}".format(r[0], r[1], r[2])
-    print r[3]  # text
-print '\n'
 
 
 
-time_end = time.clock()
-print time_end - time_begin
 
 # tree type data
 # http://stackoverflow.com/questions/9970193/how-to-store-tree-data-in-a-lucene-solr-elasticsearch-index-or-a-nosql-db
