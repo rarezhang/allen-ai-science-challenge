@@ -7,7 +7,7 @@ allen_challenge.py
 ## question understanding
 allen_challenge.py -> slim_flag = True  # if True: only use Noun, Verb, Adj+Adv
 
-## features (by just using that feature)   
+## features  
 feature_extraction.py  
 1. retrieval feature: BM25    
 2. similarity feature: count number of words  
@@ -26,5 +26,5 @@ feature_extraction.py
 3. w2v feature (min=0.268, max=0.258, avg=0.23)  
 4. google distance feature ( min, max, avg)  # not useful  
    
-combine: retrieval + similarity + w2v feature (min, max) = 0.268
+combine: retrieval + similarity + w2v feature (min, max) = 0.268  
 combine: retrieval + similarity = 0.28
