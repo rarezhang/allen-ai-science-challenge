@@ -4,10 +4,9 @@ question analysis
 2.
 """
 
-import io
+import io, re
 from utils import *
 
-#todo question: remove pountuations
 #todo answer analysis:
 
 
@@ -26,7 +25,7 @@ def read_kaggle_file(path='', training_set_flag=True, sep='\t'):
         for line in f:
             line = line.strip().split(sep)
             # qid.append(line[0])  # question id
-            questions.append(line[1].lower())  # question text   #lower():because lucene cannot parse <NOT>
+            questions.append(remove_punctuation(line[1].lower()))  # question text   #lower():because lucene cannot parse <NOT>
             if training_set_flag:
                 correctAnswer.append(line[2])  # correct answer A-D
                 answers.append(line[3:])  # answers [[],[],...]
@@ -74,10 +73,48 @@ def slim_questions(questions_with_pos, V=True, N=True, A=True):
     return [get_VNA(q_pos, keepV=V, keepN=N, keepA=A) for q_pos in questions_with_pos]
 
 
+@load_or_make
+def answer_preprocess(answers, path=''):
+    """
+
+    :param answers: # answers [[],[],...]
+    :param path: for @load_or_make
+    :return:
+    """
+    all_pat = re.compile('\s*all of the above\s*')  # all of the above
+    none_pat = re.compile('\s*none of the above\s*')  # none of the above
+    both_pat = re.compile('\s*both ([a-d]) and ([a-d])\s*')  # e.g., both A and B
+    results = []
+    for ans in answers:
+        ans = [remove_punctuation(a.lower()) for a in ans]
+        last_ans = ans[-1]  # the last one could be "all of the above" or "none of the above"
+
+        if re.match(all_pat, last_ans):
+            new_last_ans = ' '.join(ans[:3])
+            ans = ans[:3]
+            ans.append(new_last_ans)
+        elif re.match(none_pat, last_ans):
+            new_last_ans = ' '
+            ans = ans[:3]
+            ans.append(new_last_ans)
+        else:  # expensive
+            for ind, a in enumerate(ans):
+                both_match = re.match(both_pat, a)
+                if both_match:
+                    both_left, both_right = both_match.groups()[0], both_match.groups()[1]
+                    new_a = ' '.join((ans[ord(both_left) - ord('a')], ans[ord(both_right) - ord('a')]))
+                    ans[ind] = new_a
+        results.append(ans)
+    return results
 
 
 
-#####################################################33
+
+
+
+
+
+
 
 
 

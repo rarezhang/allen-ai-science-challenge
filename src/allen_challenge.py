@@ -5,7 +5,7 @@ main
 """
 
 # question analysis
-from question_analysis import *
+from question_answer_analysis import *
 
 # read kaggle training file
 training_path = '../data/training/training_set.tsv'
@@ -21,6 +21,11 @@ ques, correct_ans, ans = read_kaggle_file(path=training_path, training_set_flag=
 # @load_or_make
 pos_ques_path = general_path + '_pos_ques'
 pos_ques = pos_questions(ques, path=pos_ques_path)
+
+# answer pre-process
+# @load_or_make
+ans_path = general_path + '_ans'
+ans = answer_preprocess(ans, path=ans_path)
 
 
 # concat entire questions with each answer
@@ -48,13 +53,8 @@ nva_ques_ans_path = general_path + '_nva_ques_ans'
 nva_ques_ans = que_concat_ans(nva_ques, ans, path=nva_ques_ans_path)
 
 
-
-
-
-
-
-
-
+for t in nva_ques_ans[:9]:
+    print(t)
 
 
 
