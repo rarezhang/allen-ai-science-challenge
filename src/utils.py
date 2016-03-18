@@ -1,31 +1,83 @@
 """
 utils
 """
-from __future__ import division
+
 import numpy as np
 import nltk, os, pickle
+import time
 from nltk.stem import WordNetLemmatizer
 
 
+######################################################
+# decorator functions
+######################################################
 
 
-verb_tag = ['VB', 'VBD', 'VBG', 'VBN', 'VBP']
-noun_tag = ['NN', 'NNP', 'NNPS', 'NNS']
-ad_tag = ['JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS']  # adjective + adverb
-
-
-def get_performance(pred_ans, correct_ans):
+def timeit(f):
     """
+    decorator function
+    :param f: function needs time recording
+    :return: higher order function -> f = timeit(f)
+    """
+    def timed(*args, **kw):
+        begin_time = time.time()
+        fun = f(*args, **kw)
+        end_time = time.time()
+        print(f, 'time used: ', begin_time-end_time)
+        return fun
+    return timed
 
-    :param pred_ans:
-    :param correct_ans:
+
+def load_or_make(f):
+    """
+    decorator function
+    :param f:
     :return:
     """
-    num_correct = 0
-    for p, c in zip(pred_ans, correct_ans):
-        if p == c: num_correct += 1
-    total_ques = len(correct_ans)
-    return num_correct / total_ques
+    def wrap_fun(*args, **kwargs):
+        pickle_path = kwargs['path'] + '.pkl'
+        if check_file_exist(pickle_path):
+            data = load_pickle(pickle_path)
+        else:
+            data = f(*args, **kwargs)
+            dump_pickle(pickle_path, data)
+        return data
+    return wrap_fun
+
+
+
+######################################################
+
+
+def dump_pickle(path, data):
+    """
+    save data as binary file
+    :param path:
+    :param data:
+    :return:
+    """
+    with open(path, 'wb') as f:
+        pickle.dump(data, f, protocol=3)  # protocol 3 is compatible with protocol 2, pickle_load can load protocol 2
+
+
+def load_pickle(path):
+    """
+
+    :param path:
+    :return:
+    """
+    with open(path, 'rb') as f:
+        data = pickle.load(f)
+    return data
+
+
+def check_file_exist(path):
+    """
+    check if ``file`` exists
+    :param path:
+    :return: T/F
+    """
+    return os.path.isfile(path)
 
 
 def pos_tag_word(toks):
@@ -34,18 +86,24 @@ def pos_tag_word(toks):
     :param toks: input: a list of token / or string
     :return:
     """
-    if type(toks) is list:
-        return nltk.pos_tag(toks)
-    elif (type(toks) is str) or (type(toks) is unicode):
+    if (type(toks) is str) or (type(toks) is unicode):
         return nltk.pos_tag(toks.split())
+    elif type(toks) is list:
+        return nltk.pos_tag(toks)
     else:
         print("can only process list of token / or string")
         exit(1)
 
 
+verb_tag = ['VB', 'VBD', 'VBG', 'VBN', 'VBP']
+noun_tag = ['NN', 'NNP', 'NNPS', 'NNS']
+adj_tag = ['JJ', 'JJR', 'JJS']
+adv_tag = ['RB', 'RBR', 'RBS']
+
+
 def get_VNA(toks_pos, keepV=True, keepN=True, keepA=True):
     """
-    keep all verb, noun, adjective
+    keep verb, noun, adjective
     :param toks_pos: [(tok, pos),...]
     :param keepV: keep verb or not
     :param keepN: keep noun or not
@@ -66,6 +124,28 @@ def get_VNA(toks_pos, keepV=True, keepN=True, keepA=True):
     elif keepN: results.extend(nouns)
     elif keepA: results.extend(ad)
     return results
+
+
+
+'''
+
+def get_performance(pred_ans, correct_ans):
+    """
+
+    :param pred_ans:
+    :param correct_ans:
+    :return:
+    """
+    num_correct = 0
+    for p, c in zip(pred_ans, correct_ans):
+        if p == c: num_correct += 1
+    total_ques = len(correct_ans)
+    return num_correct / total_ques
+
+
+
+
+
 
 
 def add_bigram_trigram(toks, addB=True, addT=True):
@@ -121,35 +201,7 @@ def combine_features(fea_score1, fea_score2, lamb1=0.5, lamb2=0.5):
     return feature_score
 
 
-def dump_feature_score(path, feature_score):
-    """
-    store feature score with pickle
-    :param path:
-    :param feature_score:
-    :return:
-    """
-    with open(path, 'wb') as f:
-        pickle.dump(feature_score, f, protocol=2)
 
-
-def load_feature_score(path):
-    """
-
-    :param path:
-    :return:
-    """
-    with open(path, 'rb') as f:
-        feature_score = pickle.load(f)
-    return feature_score
-
-
-def check_score_exist(path):
-    """
-    check if certain feature score exists
-    :param path:
-    :return: T/F
-    """
-    return os.path.isfile(path)
 
 
 def word_lemmatizer(word):
@@ -162,7 +214,7 @@ def word_lemmatizer(word):
     w = lemmatizer.lemmatize(word, pos='v')
     return w
 
-
+'''
 
 
 

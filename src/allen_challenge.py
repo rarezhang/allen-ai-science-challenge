@@ -1,24 +1,59 @@
-from corpus_indexing import check_lucene_index, lucene_retriever
-from question_analysis import read_training
-from feature_extraction import retrieval_score_feature,freq_dist, similarity_feature, w2v_feature, google_dis_feature
-from utils import *
-from answer_ranking_perceptron import *
-import time, pickle
+#!C:\Miniconda3\python.exe -u
+
+"""
+main
+"""
+
+from question_analysis import *
+
+# read kaggle training file
+training_path = '../data/training/training_set.tsv'
+
+# list: questions, correct answers, answers
+# @load_or_make
+ques, correct_ans, ans = read_kaggle_file(path=training_path, training_set_flag=True)
+
+# list: entire_ques_ans
+# @load_or_make
+entire_ques_ans_path = training_path + '_entire_ques_ans'
+entire_ques_ans = que_concat_ans(ques, ans, path=entire_ques_ans_path)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#from corpus_indexing import check_lucene_index, lucene_retriever
+#from question_analysis import read_training
+#from feature_extraction import retrieval_score_feature,freq_dist, similarity_feature, w2v_feature, google_dis_feature
+#from utils import *
+#from answer_ranking_perceptron import *
+#import pickle
+
+
+
+
+'''
 slim_flag = True  # if True: only use Noun, Verb, Adj+Adv
 
 
-# check lucene index
-index_begin_time = time.time()
-check_lucene_index()
-index_end_time = time.time()
-print "Total indexing time:{}".format(index_end_time-index_begin_time)
+
+
 
 
 # read questions
 # get questions / correct answer / answers
-
 training_path = '../data/training/training_set.tsv'
 _, cor, ans = read_training(training_path)  # questions, correct answer, answers
 
@@ -73,6 +108,8 @@ else:
     dump_feature_score(path_w2v_feature+'_min', rs_w2v_min)
     dump_feature_score(path_w2v_feature+'_max', rs_w2v_max)
     dump_feature_score(path_w2v_feature+'_avg', rs_w2v_avg)
+'''
+
 
 '''
 # use google distance feature
@@ -91,16 +128,16 @@ else:
 '''
 
 
-
+'''
 # main
 # make X
-X = combine_f(rs_retrieval, rs_similarity, rs_w2v_min, rs_w2v_max)
+#X = combine_f(rs_retrieval, rs_similarity, rs_w2v_min, rs_w2v_max)
 X = combine_f(rs_retrieval, rs_similarity)
 # make y
 y = correct_label_alpha2num()
-
-
-training_size = 9.0
+'''
+'''
+training_size = 0.8
 num_samples = y.shape[0]
 train = range(int(num_samples*training_size))
 test = range(int(num_samples*training_size), num_samples)
@@ -109,25 +146,24 @@ X_train, y_train = X[train], y[train]
 
 num_samples = y.shape[0]
 X_test, y_test = X[test], y[test]
-
-
+'''
+'''
 #weight = fit_perceptron(X_train, y_train, epoch=100)
 weight = ([[1639031.09625254], [3164.16903221]], 40142.50000010997)
+#weight = ([[1629429.40684462], [3015.45542974], [611004.25732254], [649642.80869856]], 38000.80000010571)
 print 'weight from perceptron: {}'.format(weight)
-pre_y = pre_perceptron(weight, X_test)
-print len(pre_y)
-print pre_y
+#pre_y = pre_perceptron(weight, X_test)
+pre_y = pre_perceptron(weight, X)
+
 y_hat = correct_label_num2alpha(pre_y)
-y_t = correct_label_num2alpha(y_test)
+#y_t = correct_label_num2alpha(y_test)
 
-p = get_performance(y_hat, y_t)
+#p = get_performance(y_hat, y_t)
+'''
 
-print y_hat
-print y_t
-
-
+'''
 from collections import Counter
 print Counter(y_hat)
 print Counter(y_t)
 print p
-
+'''
