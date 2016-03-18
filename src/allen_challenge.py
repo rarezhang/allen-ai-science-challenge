@@ -4,19 +4,54 @@
 main
 """
 
+# question analysis
 from question_analysis import *
 
 # read kaggle training file
 training_path = '../data/training/training_set.tsv'
+general_path = training_path
 
-# list: questions, correct answers, answers
+# get questions, correct answers, answers
+# list
 # @load_or_make
 ques, correct_ans, ans = read_kaggle_file(path=training_path, training_set_flag=True)
 
-# list: entire_ques_ans
+# part of speech tag for each token in each question
+# list of lists [[(t1,pos),(t2,pos)],[],...]
 # @load_or_make
-entire_ques_ans_path = training_path + '_entire_ques_ans'
+pos_ques_path = general_path + '_pos_ques'
+pos_ques = pos_questions(ques, path=pos_ques_path)
+
+
+# concat entire questions with each answer
+# list: [[q1+A, q1+B,...],[q2+A, q2+B,...],...]
+# @load_or_make
+entire_ques_ans_path = general_path + '_entire_ques_ans'
 entire_ques_ans = que_concat_ans(ques, ans, path=entire_ques_ans_path)
+
+
+# concat questions(noun) with each answer
+# nouns in questions
+noun_ques = slim_questions(pos_ques, V=False, N=True, A=False)
+# list: [[q1(noun)+A, q1(noun)+B,...],[q2(noun)+A, q2(noun)+B,...],...]
+# @load_or_make
+noun_ques_ans_path = general_path + '_noun_ques_ans'
+noun_ques_ans = que_concat_ans(noun_ques, ans, path=noun_ques_ans_path)
+
+
+# concat questions(noun,verb,adj/adv) with each answer
+# (noun,verb,adj/adv) in questions
+nva_ques = slim_questions(pos_ques, V=True, N=True, A=True)
+# list: [[q1(nva)+A, q1(nva)+B,...],[q2(nva)+A, q2(nva)+B,...],...]
+# @load_or_make
+nva_ques_ans_path = general_path + '_nva_ques_ans'
+nva_ques_ans = que_concat_ans(nva_ques, ans, path=nva_ques_ans_path)
+
+
+
+
+
+
 
 
 

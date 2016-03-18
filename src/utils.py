@@ -57,7 +57,7 @@ def dump_pickle(path, data):
     :return:
     """
     with open(path, 'wb') as f:
-        pickle.dump(data, f, protocol=3)  # protocol 3 is compatible with protocol 2, pickle_load can load protocol 2
+        pickle.dump(data, f, protocol=2)  # protocol 3 is compatible with protocol 2, pickle_load can load protocol 2
 
 
 def load_pickle(path):
@@ -95,37 +95,40 @@ def pos_tag_word(toks):
         exit(1)
 
 
-verb_tag = ['VB', 'VBD', 'VBG', 'VBN', 'VBP']
-noun_tag = ['NN', 'NNP', 'NNPS', 'NNS']
-adj_tag = ['JJ', 'JJR', 'JJS']
-adv_tag = ['RB', 'RBR', 'RBS']
-
-
-def get_VNA(toks_pos, keepV=True, keepN=True, keepA=True):
+def get_VNA(toks_pos, keepV, keepN, keepA):
     """
-    keep verb, noun, adjective
+    keep verb, noun, adjective or/and adverb
+    verb_tag = ['VB', 'VBD', 'VBG', 'VBN', 'VBP']
+    noun_tag = ['NN', 'NNP', 'NNPS', 'NNS']
+    adj_tag = ['JJ', 'JJR', 'JJS']
+    adv_tag = ['RB', 'RBR', 'RBS']
+
     :param toks_pos: [(tok, pos),...]
     :param keepV: keep verb or not
     :param keepN: keep noun or not
     :param keepA: keep adjective+adverb or not
-    :return:
+    :return: [t_p[0] for t_p in toks_pos if t_p[1].startswith('NN')]
     """
-    verbs, nouns, ad = [], [], []
-    results = []
-    for (toks, pos) in toks_pos:
-        if pos in verb_tag: verbs.append(toks)
-        elif pos in noun_tag: nouns.append(toks)
-        elif pos in ad_tag: ad.append(toks)
-    if keepV and keepN and keepA: results.extend(verbs), results.extend(nouns), results.extend(ad)
-    elif keepV and keepN: results.extend(verbs), results.extend(nouns)
-    elif keepV and keepA: results.extend(verbs), results.extend(ad)
-    elif keepN and keepA: results.extend(nouns), results.extend(ad)
-    elif keepV: results.extend(verbs)
-    elif keepN: results.extend(nouns)
-    elif keepA: results.extend(ad)
-    return results
+    if keepV and keepN and keepA:
+        tag = ('VB', 'NN', 'JJ', 'RB')
+    elif keepV and keepN:
+        tag = ('VB', 'NN')
+    elif keepV and keepA:
+        tag = ('VB', 'JJ', 'RB')
+    elif keepN and keepA:
+        tag = ('VB', 'JJ', 'RB')
+    elif keepV:
+        tag = 'VB'
+    elif keepN:
+        tag = 'NN'
+    elif keepA:
+        tag = ('JJ', 'RB')
+    else:
+        tag = ''  # if there is no N/V/A: use entire sentence
+    results = [t_p[0] for t_p in toks_pos if t_p[1].startswith(tag)]
+    return ' '.join(results)
 
-
+######################################################
 
 '''
 

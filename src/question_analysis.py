@@ -51,12 +51,24 @@ def que_concat_ans(questions, answers, path=''):
 def pos_questions(questions, path=''):
     """
     add pos tag to question string
+    #import pos_tag_word from utils
     :param questions:
     :param path: for @load_or_make
+    :return: list of lists [[(t1,pos),(t2,pos)],[],...]
+    """
+    return [pos_tag_word(q) for q in questions]
+
+
+def slim_questions(questions_with_pos, V=True, N=True, A=True):
+    """
+
+    :param questions_with_pos: [[(t1,pos),(t2,pos)],[],...]
+    :param keepV:
+    :param keepN:
+    :param keepA:
     :return:
     """
-    pass
-
+    return [get_VNA(q_pos, keepV=V, keepN=N, keepA=A) for q_pos in questions_with_pos]
 
 
 
