@@ -7,7 +7,7 @@ question analysis
 import io, re
 from utils import *
 
-#todo answer analysis:
+# todo answer analysis: if word(s) appear in every answer -> remove ?
 
 
 @load_or_make
