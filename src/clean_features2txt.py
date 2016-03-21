@@ -32,7 +32,7 @@ general_feature_path = '../data/feature/'
 feature_exclude = ['svm_rank.txt', 'ck12_retrieval_features_.pkl', 'study_cards_retrieval_features_.pkl']
 
 fea = set(os.listdir(general_feature_path)) - set(feature_exclude)
-features_name = [f.partition('.')[0] for f in fea]   # partition return: head, sep, tail
+features_name = [f.partition('.')[0] for f in fea]   # remove extension # partition return: head, sep, tail
 features = []
 
 for f in fea:
