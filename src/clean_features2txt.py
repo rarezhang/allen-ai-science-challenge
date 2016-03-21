@@ -54,5 +54,5 @@ with open(path, 'a') as file:
         to_write = ' '.join((str(t), 'qid:' + str(q)))
         for f_n in range(num_features):
             fea = features[f_n][ind]
-            to_write += ' ' + str(f_n+1) + ':' + str(fea)
+            to_write += ' ' + ''.join((str(f_n+1), ':', str(fea)))
         file.write(to_write + '\n')
