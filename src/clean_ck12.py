@@ -1,15 +1,14 @@
 #!C:\Miniconda3\python.exe -u
 # -*- coding: utf-8 -*-
 """
+clean ck12 text book
 1. use pdfMiner commandline tools pdf2txt.py
 commandline: python pdf2txt.py -o CK-12-Physical-Science-Concepts-For-Middle-School.txt -t text CK-12-Physical-Science-Concepts-For-Middle-School.pdf
 pdf -> text file
 2. manually remove all the content before chapter 1
 text -> clean corpus
 format: title [tab] text
-3. manually change ﬁ to fi
-ﬂ, ff, '- '
-4. manually remove all ck12 text books from the corpus directory
+3. manually remove all ck12 text books from the corpus directory
 """
 
 import re, io, os
