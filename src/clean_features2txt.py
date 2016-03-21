@@ -10,7 +10,6 @@ for SVM-rank
 <info> .=. <string>
 """
 
-import numpy as np
 from question_answer_analysis import *
 
 # load data and features
@@ -36,7 +35,7 @@ fea = set(os.listdir(general_feature_path)) - set(feature_exclude)
 features_name = [f.partition('.')[0] for f in fea]   # partition return: head, sep, tail
 features = []
 
-for f, f_name in zip(fea, features_name):
+for f in fea:
     single_feature_path = general_feature_path + f
     features.append(load_pickle(single_feature_path))
 
