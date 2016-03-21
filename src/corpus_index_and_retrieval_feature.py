@@ -1,13 +1,16 @@
 #!C:\Miniconda2\python.exe -u
 
 """
-pylucene corpus indexing
-pylucene on python2-32bit
+1. corpus indexing
+2. get retrieval features
+
+pylucene is on python2-32bit
+this script is independent with others
 """
 
 
 import io, os
-from utils import time_it
+from utils import *
 
 import lucene
 from java.io import File
@@ -104,6 +107,8 @@ def lucene_index(corpus_path, f_type):
         f_path = corpus_path + f_name
         document_names, texts = read_file(f_path, f_type)
         # add 1 corpus at a time
+
+        # handle file name: 1. remove extension; 2. split by ``-``
         f_name, _, _ = f_name.partition('.')   # partition return: head, sep, tail
         f_name = " ".join(f_name.split('-'))
         for d, t in zip(document_names, texts):
@@ -134,48 +139,66 @@ def addDoc(w, doc_name, text, file_name):
 # load question string, get retrieval score, combine as feature matrix
 
 # todo: add filter : file name
-def lucene_retriever(q_string, use_BM25=False):
+# todo: retrieve on different Field: file name(subject) / doc name(section title) / text
+def lucene_retrieval(q_string, feature_type, use_BM25=False):
     """
 
     :param q_string:
     :param use_BM25:
-    :return:
+    :return: retrieval_scores for each question-answer pair
     """
     index = set_lucene_index['ind']  # nonlocal variable index
 
+    def retrieval_scores(hists):
+        """
+        return sorted document+score by score
+        """
+        def doc_score(hists):
+            """return doc_name & score"""
+            for h in hists:
+                # docID = h.doc
+                # doc = searcher.doc(docID)
+                # file_name = doc.get("corpus_name")
+                # doc_name = doc.get("doc_name")
+                # text = doc.get("text")
+                score = h.score
+                # yield (file_name, doc_name, score, text)
+                yield score
+        doc_score_list = list(doc_score(hists))
+        return map(lambda f: f(doc_score_list), feature_type)  # feature_type is a list of function
+
     # escape special characters via escape function
     query = QueryParser(version, 'text', analyzer).parse(QueryParser.escape(q_string))
-    # search
 
-    reader = IndexReader.open(index)  # todo: change index
+    # search
+    reader = IndexReader.open(index)
     searcher = IndexSearcher(reader)
 
     if use_BM25:
-        searcher.setSimilarity(BM25Similarity(k1=1.5, b=0.75))
-        #print "Search query: \"{}\" Similarity: BM25".format(q_string)
-    #else:
-        #print "Search query: \"{}\" Similarity: Default".format(q_string)
+        searcher.setSimilarity(BM25Similarity(k1=1.5, b=0.75))  # todo: BM25 parameters
+
     collector = TopScoreDocCollector.create(hitsPerPage, True)
     searcher.search(query, collector)
     hs = collector.topDocs().scoreDocs  # hists
 
-    def sorted_doc(hists):
-        """return sorted document+score by score"""
+    results = retrieval_scores(hs)
+    # reader.close()
+    return results  # retrieval_scores for each question-answer pair
 
-        def doc_score(hists):
-            """return doc_name & score"""
-            for h in hists:
-                docID = h.doc
-                doc = searcher.doc(docID)
-                file_name = doc.get("corpus_name")
-                doc_name = doc.get("doc_name")
-                text = doc.get("text")
-                score = h.score
-                yield (file_name, doc_name, score, text)
-        return sorted(doc_score(hists), key=lambda tup: tup[2], reverse=True)
-    results = sorted_doc(hs)
-    reader.close()
-    return results
+
+@load_or_make
+def retrieval_score_features(que_ans_pairs, feature_type, path=''):
+    """
+
+    :param que_ans_pairs:
+    :param path: for @load_or_make
+    :return:
+    """
+    def feature_scores(que_ans_pairs):
+        for q_a_pairs in que_ans_pairs:
+            yield [lucene_retrieval(q_a, feature_type) for q_a in q_a_pairs]
+    # sum(list, []) : [[[1],[2]], [[3],[4]], ...] -> [[1,2], [3,4]]
+    return sum(feature_scores(que_ans_pairs), [])
 
 
 ##################################################################################
@@ -186,12 +209,18 @@ def lucene_retriever(q_string, use_BM25=False):
 lucene.initVM()
 version = Version.LUCENE_CURRENT  # set lucene version
 analyzer = StandardAnalyzer()
-hitsPerPage = 10  # keep top 10
 
 
+hitsPerPage = 5  # keep top 10
+
+##################################################################################
 # index
 # different corpus different index
+# change ``corpus_name`` and ``file_format_type``
+
 corpus_name = 'ck12'
+# corpus_name = 'study_cards'  # todo: change here to index different corpus
+file_format_type = 1  # todo: change file format type (1, 2, 3, 4) -> def read_file()
 
 general_index_path = "..\\data\\index\\"
 general_corpus_path = "..\\data\\corpus\\"
@@ -199,11 +228,31 @@ general_corpus_path = "..\\data\\corpus\\"
 index_path = ''.join((general_index_path, corpus_name, '\\'))
 corpus_path = ''.join((general_corpus_path, corpus_name, '\\'))
 
-# python 2 does not have ``nonlocal``
+# python2 does not have ``nonlocal``
 set_lucene_index = {'ind': SimpleFSDirectory(File(index_path))}  # use dic for nonlocal variable ``index``
+# won't build index if already exists
+check_lucene_index(index_path, corpus_path, file_type=file_format_type)
 
-check_lucene_index(index_path, corpus_path, file_type=1)
 
-h = lucene_retriever('test')
-for hh in h:
-    print(hh)
+##################################################################################
+# grab single retrieval feature
+fea_type = [max, sum]
+
+ques_ans_path = '../data/training/training_set.tsv_entire_ques_ans.pkl'
+entire_ques_ans = load_pickle(ques_ans_path)
+
+general_feature_path = '../data/feature/'
+retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_retrieval_features_'))
+
+# all retrieval features
+# @load_or_make
+retrieval_features = retrieval_score_features(entire_ques_ans, fea_type, path=retrieval_score_features_path)
+
+# single retrieval feature
+# if single feature does not exist, dump single feature
+for ind, fea in enumerate(fea_type):
+    single_feature_path = ''.join((retrieval_score_features_path, fea.__name__, '.pkl'))
+    single_feature = [r[ind] for r in retrieval_features]
+    if not check_file_exist(single_feature_path):
+        dump_pickle(single_feature_path, single_feature)
+
