@@ -29,9 +29,13 @@ def run_command(command):
 path_win = 'svm_rank_windows/'
 path_learn = path_win + 'svm_rank_learn.exe'
 path_classify = path_win + 'svm_rank_classify.exe'
-
+'''
 path_training = path_win + 'svm_rank_training.txt'
 path_testing = path_win + 'svm_rank_testing.txt'
+'''
+path_training = path_win + 'svm_rank_18_training.txt'
+path_testing = path_win + 'svm_rank_18_testing.txt'
+
 path_model = path_win + 'model.dat'
 path_prediction_score = path_win + 'prediction'
 

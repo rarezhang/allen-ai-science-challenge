@@ -81,7 +81,7 @@ def read_file(path, f_type):
 
 
 # Part 2
-# build index (different corpus different index)
+# build index (different corpus different index directories)
 @time_it
 def check_lucene_index(index_path, corpus_path, file_type=1):
     """
@@ -211,16 +211,20 @@ version = Version.LUCENE_CURRENT  # set lucene version
 analyzer = StandardAnalyzer()
 
 
-hitsPerPage = 5  # keep top 10
+hitsPerPage = 5  # keep top 5
 
 ##################################################################################
 # index
-# different corpus different index
+# different corpus different index directories
 # change ``corpus_name`` and ``file_format_type``
 
-corpus_name = 'ck12'
-# corpus_name = 'study_cards'  # todo: change here to index different corpus
-file_format_type = 1  # todo: change file format type (1, 2, 3, 4) -> def read_file()
+# todo: change here to index/make features for different corpus
+# corpus_name = 'ck12'
+# corpus_name = 'study_cards'
+corpus_name = 'simple_wiki'
+
+# todo: change file format type (1, 2, 3, 4) -> def read_file()
+file_format_type = 1
 
 general_index_path = "..\\data\\index\\"
 general_corpus_path = "..\\data\\corpus\\"
@@ -235,18 +239,35 @@ check_lucene_index(index_path, corpus_path, file_type=file_format_type)
 
 
 ##################################################################################
-# grab single retrieval feature
-fea_type = [max, sum]
+# single retrieval feature
 
-ques_ans_path = '../data/training/training_set.tsv_entire_ques_ans.pkl'
-entire_ques_ans = load_pickle(ques_ans_path)
-
+fea_type = [max, sum]  # list of functions
 general_feature_path = '../data/feature/'
-retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_retrieval_features_'))
 
+# todo: change flag -> use entire question | just noun | just noun,verb,adj,adv
+# only one can be true at a time
+flag_entire_ques_ans = 0
+flag_noun_ques_ans = 0
+flag_nva_ques_ans = 1
+
+if flag_entire_ques_ans + flag_noun_ques_ans + flag_nva_ques_ans != 1:
+    raise ValueError('check the value of flag_entire_ques_ans | flag_noun_ques_ans | flag_nva_ques_ans')
+
+
+if flag_entire_ques_ans:
+    ques_ans_path = '../data/training/training_set.tsv_entire_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_retrieval_features_'))
+elif flag_noun_ques_ans:
+    ques_ans_path = '../data/training/training_set.tsv_noun_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_noun_retrieval_features_'))
+else:  # flag_nva_ques_ans:
+    ques_ans_path = '../data/training/training_set.tsv_nva_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_nva_retrieval_features_'))
+
+ques_ans = load_pickle(ques_ans_path)
 # all retrieval features
 # @load_or_make
-retrieval_features = retrieval_score_features(entire_ques_ans, fea_type, path=retrieval_score_features_path)
+retrieval_features = retrieval_score_features(ques_ans, fea_type, path=retrieval_score_features_path)
 
 # single retrieval feature
 # if single feature does not exist, dump single feature

@@ -29,7 +29,8 @@ target = sum([correct_ans_dic[cor] for cor in correct_ans], [])
 # load features
 general_feature_path = '../data/feature/'
 # do not include these feature
-feature_exclude = ['svm_rank.txt', 'ck12_retrieval_features_.pkl', 'study_cards_retrieval_features_.pkl']
+# e.g., 'ck12_retrieval_features_.pkl' is temporary file
+feature_exclude = ['ck12_retrieval_features_.pkl', 'ck12_noun_retrieval_features_.pkl', 'ck12_nva_retrieval_features_.pkl', 'study_cards_retrieval_features_.pkl', 'study_cards_noun_retrieval_features_.pkl', 'study_cards_nva_retrieval_features_.pkl', 'simple_wiki_retrieval_features_.pkl', 'simple_wiki_noun_retrieval_features_.pkl', 'simple_wiki_nva_retrieval_features_.pkl']
 
 fea = set(os.listdir(general_feature_path)) - set(feature_exclude)
 features_name = [f.partition('.')[0] for f in fea]   # remove extension # partition return: head, sep, tail
@@ -43,9 +44,8 @@ for f in fea:
 # write features in to text file
 num_features = len(features_name)
 
-path = '../data/feature/svm_rank.txt'
+path = '../data/svm_rank_18.txt'
 with open(path, 'a') as file:
-
     to_write = ' '.join(('# target qid', ' '.join(features_name), '\n'))
     file.write(to_write)  # write comments
 
