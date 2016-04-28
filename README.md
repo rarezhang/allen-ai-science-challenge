@@ -1,4 +1,10 @@
 # allen-ai-science-challenge  
 The Allen Institute for Artificial Intelligence (AI2) is working to improve humanity through fundamental advances in artificial intelligence. One critical but challenging problem in AI is to demonstrate the ability to consistently understand and correctly answer general questions about the world. https://www.kaggle.com/c/the-allen-ai-science-challenge  
 
-so far 50.98814229249012%  
+Performance:  
+50.98814229249012%  
+ck12_retrieval_features_max study_cards_retrieval_features_max study_cards_retrieval_features_sum ck12_retrieval_features_sum 
+  
+0.5335968379446641%  
+ck12_noun_retrieval_features_max simple_wiki_retrieval_features_max study_cards_retrieval_features_sum simple_wiki_noun_retrieval_features_sum study_cards_nva_retrieval_features_sum study_cards_noun_retrieval_features_max ck12_retrieval_features_sum simple_wiki_nva_retrieval_features_sum study_cards_noun_retrieval_features_sum ck12_noun_retrieval_features_sum ck12_retrieval_features_max study_cards_nva_retrieval_features_max simple_wiki_noun_retrieval_features_max ck12_nva_retrieval_features_sum ck12_nva_retrieval_features_max simple_wiki_nva_retrieval_features_max study_cards_retrieval_features_max simple_wiki_retrieval_features_sum 
+  
