@@ -1,6 +1,9 @@
+#!C:\Miniconda2\python.exe -u
 """
 write features to text file
 for SVM-rank
+
+use python 2 because pickle version issue
 
 <line> .=. <target> qid:<qid> <feature>:<value> <feature>:<value> ... <feature>:<value> # <info>
 <target> .=. <float>
@@ -19,7 +22,7 @@ general_path = training_path
 q_id, ques, correct_ans, ans = read_kaggle_file(path=general_path, training_set_flag=True)
 
 
-# load question id
+# duplicate question id
 question_id = [t for t in q_id for __ in range(4)]  # duplicate each q_id 4 times
 
 # load target (correct answer)
@@ -28,31 +31,51 @@ target = sum([correct_ans_dic[cor] for cor in correct_ans], [])
 
 # load features
 general_feature_path = '../data/feature/'
-# do not include these feature
+all_features = os.listdir(general_feature_path)
+
+# do not include these features
 # e.g., 'ck12_retrieval_features_.pkl' is temporary file
-feature_exclude = ['ck12_retrieval_features_.pkl', 'ck12_noun_retrieval_features_.pkl', 'ck12_nva_retrieval_features_.pkl', 'study_cards_retrieval_features_.pkl', 'study_cards_noun_retrieval_features_.pkl', 'study_cards_nva_retrieval_features_.pkl', 'simple_wiki_retrieval_features_.pkl', 'simple_wiki_noun_retrieval_features_.pkl', 'simple_wiki_nva_retrieval_features_.pkl']
+exclude_pat = '_.pkl'
+all_features = [fea for fea in all_features if not fea.endswith(exclude_pat)]
 
-fea = set(os.listdir(general_feature_path)) - set(feature_exclude)
-features_name = [f.partition('.')[0] for f in fea]   # remove extension # partition return: head, sep, tail
+# todo: change here to decide include what features
+# only use these features
+
+include_pat = 'w2v'
+#include_pat = 'retrieval'
+#include_pat = 'study_cards'
+#include_pat = 'simple_wiki'
+#include_pat = 'ck12'
+#include_pat = ''  # all features
+
+test_features = [fea for fea in all_features if include_pat in fea]
+
+
+# load test features
 features = []
-
-for f in fea:
+for f in test_features:
     single_feature_path = general_feature_path + f
     features.append(load_pickle(single_feature_path))
 
-#######################################################################3
+#######################################################################
 # write features in to text file
-num_features = len(features_name)
 
-path = '../data/svm_rank_18.txt'
-with open(path, 'a') as file:
-    to_write = ' '.join(('# target qid', ' '.join(features_name), '\n'))
-    file.write(to_write)  # write comments
+# extract feature name --> write first line
+features_name = [f.partition('.')[0] for f in test_features]   # remove extension # partition return: head, sep, tail
+num_features = len(features_name)  # number of features
 
-    for ind, t in enumerate(target):
-        q = question_id[ind]
-        to_write = ' '.join((str(t), 'qid:' + str(q)))
-        for f_n in range(num_features):
-            fea = features[f_n][ind]
-            to_write += ' ' + ''.join((str(f_n+1), ':', str(fea)))
-        file.write(to_write + '\n')
+path = ''.join(('../data/svmrank/svm_rank_', include_pat, '.txt'))
+
+if not check_file_exist(path):
+    with open(path, 'a') as file:
+        to_write = ' '.join(('# target qid', ' '.join(features_name), '\n'))
+        file.write(to_write)  # write comments
+
+        for ind, t in enumerate(target):
+            q = question_id[ind]
+            to_write = ' '.join((str(t), 'qid:' + str(q)))
+            for f_n in range(num_features):
+                fea = features[f_n][ind]
+                to_write += ' ' + ''.join((str(f_n+1), ':', str(fea)))
+            file.write(to_write + '\n')
+
