@@ -1,7 +1,7 @@
+#!C:\Miniconda3\python.exe -u
 """
-question analysis
-1. kaggle data import
-2.
+question answer analysis
+
 """
 
 import io, re
@@ -61,13 +61,15 @@ def pos_questions(questions, path=''):
     return [pos_tag_word(q) for q in questions]
 
 
-def slim_questions(questions_with_pos, V=True, N=True, A=True):
+@load_or_make
+def slim_questions(questions_with_pos, V=True, N=True, A=True, path=''):
     """
 
     :param questions_with_pos: [[(t1,pos),(t2,pos)],[],...]
     :param V: keep verb
     :param N: keep noun
     :param A: keep adj / adv
+    :param path: for @load_or_make
     :return:
     """
     return [get_VNA(q_pos, keepV=V, keepN=N, keepA=A) for q_pos in questions_with_pos]
@@ -76,7 +78,7 @@ def slim_questions(questions_with_pos, V=True, N=True, A=True):
 @load_or_make
 def answer_preprocess(answers, path=''):
     """
-
+    replace `all of the above`, `none of the above`, `both A and B`
     :param answers: # answers [[],[],...]
     :param path: for @load_or_make
     :return:
@@ -108,6 +110,57 @@ def answer_preprocess(answers, path=''):
     return results
 
 
+
+#######################################################################################
+# main
+#######################################################################################
+# read kaggle training file
+training_path = '../data/training/training_set.tsv'
+general_path = training_path
+
+# get questions, correct answers, answers
+# list
+# @load_or_make: save q_id, ques, correct_ans as .pkl files
+q_id, ques, correct_ans, ans = read_kaggle_file(path=general_path, training_set_flag=True)
+
+# part of speech tag for each token in each question
+# list of lists [[(t1,pos),(t2,pos)],[],...]
+# @load_or_make
+pos_ques_path = general_path + '_pos_ques'
+pos_ques = pos_questions(ques, path=pos_ques_path)
+
+# answer pre-process: replace `all of the above`, `none of the above`, `both A and B`
+# @load_or_make
+ans_path = general_path + '_ans'
+ans = answer_preprocess(ans, path=ans_path)
+
+
+# concat entire questions with each answer
+# list: [[q1+A, q1+B,...],[q2+A, q2+B,...],...]
+# @load_or_make
+entire_ques_ans_path = general_path + '_entire_ques_ans'
+entire_ques_ans = que_concat_ans(ques, ans, path=entire_ques_ans_path)
+
+
+# concat questions(noun) with each answer
+# nouns in questions
+noun_ques_path = general_path + '_noun_ques'
+noun_ques = slim_questions(pos_ques, V=False, N=True, A=False, path=noun_ques_path)  # @load_or_make
+# list: [[q1(noun)+A, q1(noun)+B,...],[q2(noun)+A, q2(noun)+B,...],...]
+# @load_or_make
+noun_ques_ans_path = general_path + '_noun_ques_ans'
+noun_ques_ans = que_concat_ans(noun_ques, ans, path=noun_ques_ans_path)
+
+
+# concat questions(noun,verb,adj/adv) with each answer
+# (noun,verb,adj/adv) in questions
+nva_ques_path = general_path + '_nva_ques'
+nva_ques = slim_questions(pos_ques, V=True, N=True, A=True, path=nva_ques_path)  # @load_or_make
+
+# list: [[q1(nva)+A, q1(nva)+B,...],[q2(nva)+A, q2(nva)+B,...],...]
+# @load_or_make
+nva_ques_ans_path = general_path + '_nva_ques_ans'
+nva_ques_ans = que_concat_ans(nva_ques, ans, path=nva_ques_ans_path)
 
 
 
