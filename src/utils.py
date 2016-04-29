@@ -3,17 +3,14 @@ utils
 """
 
 import numpy as np
-import nltk, os, pickle
-import time
+import nltk, os, pickle, string, time, subprocess, fileinput
 from nltk.stem import WordNetLemmatizer
 
 
 ######################################################
 # decorator functions
 ######################################################
-
-
-def timeit(f):
+def time_it(f):
     """
     decorator function
     :param f: function needs time recording
@@ -23,7 +20,7 @@ def timeit(f):
         begin_time = time.time()
         fun = f(*args, **kw)
         end_time = time.time()
-        print(f, 'time used: ', begin_time-end_time)
+        print(f, 'time used: ', end_time - begin_time)
         return fun
     return timed
 
@@ -44,11 +41,14 @@ def load_or_make(f):
         return data
     return wrap_fun
 
-
-
 ######################################################
 
 
+######################################################
+# load and save pickle file
+# check if file exist
+# concatenate file in a directory
+######################################################
 def dump_pickle(path, data):
     """
     save data as binary file
@@ -80,6 +80,30 @@ def check_file_exist(path):
     return os.path.isfile(path)
 
 
+def concatenate_files(input_directory, output_file):
+    """
+
+    :param input_directory:
+    :param output_file:
+    :return:
+    """
+    assert os.path.isdir(input_directory), 'input path should be a directory'
+
+    if not check_file_exist(output_file):
+        file_names = os.listdir(input_directory)
+        file_paths = [''.join((input_directory, f_n)) for f_n in file_names]
+        with open(output_file, 'w') as out_file:
+            in_file = fileinput.input(files=file_paths)  # python 2.7.10, fileinput doest not have `__exit__` --> cannot use `with`
+            for line in in_file:
+                out_file.write(line)
+            in_file.close()
+
+######################################################
+
+
+######################################################
+# part of speech tag
+######################################################
 def pos_tag_word(toks):
     """
     get the part of speech tag of each token
@@ -129,6 +153,89 @@ def get_VNA(toks_pos, keepV, keepN, keepA):
     return ' '.join(results)
 
 ######################################################
+
+
+######################################################
+# NLP tool
+######################################################
+def word_lemmatizer(word):
+    """
+
+    :param word:
+    :return:
+    """
+    lemmatizer = WordNetLemmatizer()
+    w = lemmatizer.lemmatize(word, pos='v')
+    return w
+
+
+def remove_punctuation(s):
+    """
+
+    :param s: string
+    :return: string without punctuation
+    """
+    rm_punct_map = dict.fromkeys(map(ord, string.punctuation))
+    return s.translate(rm_punct_map)
+######################################################
+
+
+######################################################
+# Run command line from python
+######################################################
+def run_command(command):
+    """
+    Run command line from python
+    :param command:
+    :return:
+    """
+    """
+    hint = '''Return binary callable_iterator. To print out the results:
+    for line in run_command(command):
+        print(line) \n'''
+    print(hint)
+    """
+    p = subprocess.Popen(command,
+                         stdout=subprocess.PIPE,
+                         stderr=subprocess.STDOUT)
+    return iter(p.stdout.readline, b'')  # callable_iterator object
+
+
+######################################################
+# Performance related
+######################################################
+def correct_label_num2alpha(num_prediction):
+    """
+    read prediction results
+    :param num_prediction
+    :return:
+    """
+    result = []
+    num_pre = np.array(num_prediction).reshape((-1, 4))
+    for num_p in num_pre:
+        num_p = num_p.tolist()
+
+        max_num_p = max(num_p)
+        ind = num_p.index(max_num_p)
+
+        if ind == 0: result.append('A')  # todo: will get more A
+        elif ind == 1: result.append('B')
+        elif ind == 2: result.append('C')
+        else: result.append('D')
+    return result
+
+def get_performance(pred_ans, correct_ans):
+    """
+
+    :param pred_ans:
+    :param correct_ans:
+    :return:
+    """
+    num_correct = 0
+    for p, c in zip(pred_ans, correct_ans):
+        if p == c: num_correct += 1
+    total_ques = len(correct_ans)
+    return num_correct / total_ques
 
 '''
 
@@ -207,15 +314,7 @@ def combine_features(fea_score1, fea_score2, lamb1=0.5, lamb2=0.5):
 
 
 
-def word_lemmatizer(word):
-    """
 
-    :param word:
-    :return:
-    """
-    lemmatizer = WordNetLemmatizer()
-    w = lemmatizer.lemmatize(word, pos='v')
-    return w
 
 '''
 

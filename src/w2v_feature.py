@@ -9,7 +9,7 @@ do not call functions in this file from other file
 """
 
 import word2vec
-import fileinput, numpy
+import numpy
 from scipy.spatial.distance import cosine
 from utils import *
 
@@ -24,32 +24,28 @@ def check_bin_file(general_bin_file_path, general_corpus_file_path, corpus_name)
     :param corpus_path:
     :return:
     """
-    w2v_bin_path = ''.join((general_bin_file_path, corpus_name, '.bin'))
-    if not check_file_exist(w2v_bin_path):
+    word2vec_bin_path = ''.join((general_bin_file_path, corpus_name, '.bin'))
+    if not check_file_exist(word2vec_bin_path):
         w2v_bin(general_bin_file_path, general_corpus_file_path, corpus_name)
 
 
 def w2v_bin(general_bin_file_path, general_corpus_file_path, corpus_name):
     """
 
+    :param general_bin_file_path:
+    :param general_corpus_file_path:
+    :param corpus_name:
     :return:
     """
     # combine all files in one corpus
     text_file_path = ''.join((general_bin_file_path, corpus_name, '.text'))
+    corpus_path = ''.join((general_corpus_file_path, corpus_name, '\\'))
     # create .text file for word2vec
-    if not check_file_exist(text_file_path):
-        corpus_path = ''.join((general_corpus_file_path, corpus_name, '\\'))
-        file_names = os.listdir(corpus_path)
-        file_paths = [''.join((corpus_path, f_n)) for f_n in file_names]
-        with open(text_file_path, 'w') as out_file:
-            in_file = fileinput.input(files=file_paths)  # python 2.7.10, fileinput doest not have `__exit__` --> cannot use `with`
-            for line in in_file:
-                out_file.write(line)
-            in_file.close()
+    concatenate_files(corpus_path, text_file_path)
 
     # create word2vec .bin file
-    w2v_bin_path = ''.join((general_bin_file_path, corpus_name, '.bin'))
-    word2vec.word2vec(text_file_path, w2v_bin_path, size=200, verbose=True)  # size of word vectors
+    word2vec_bin_path = ''.join((general_bin_file_path, corpus_name, '.bin'))
+    word2vec.word2vec(text_file_path, word2vec_bin_path, size=200, verbose=True)  # size of word vectors
 
 
 # Part 2
@@ -162,7 +158,7 @@ ques_ans_sim = ques_ans_cosine_sim(ques_w2v, ans_w2v, path=ques_ans_sim_path)  #
 ##################################################################################
 # feature matrix
 # all word2vec features
-fea_type = [max, min]  # list of functions
+fea_type = [max, min]  # feature type: list of functions
 general_feature_path = '../data/feature/'
 
 word2vec_features_path = ''.join((general_feature_path, corpus_name, '_noun_w2v_features_'))
