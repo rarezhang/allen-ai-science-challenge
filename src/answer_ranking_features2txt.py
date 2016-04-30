@@ -41,15 +41,15 @@ all_features = [fea for fea in all_features if not fea.endswith(exclude_pat)]
 # todo: change here to decide include what features
 # only use these features
 
-
-include_pat = 'network'
+#include_pat = 'noun_class_sub'
+#include_pat = 'class_sub'
+#include_pat = 'network'
 #include_pat = 'w2v'
 #include_pat = 'retrieval'
 #include_pat = 'study_cards'
 #include_pat = 'simple_wiki'
 #include_pat = 'ck12'
-#include_pat = ''  # all features
-
+include_pat = ''  # all features
 test_features = [fea for fea in all_features if include_pat in fea]
 
 # n feature types

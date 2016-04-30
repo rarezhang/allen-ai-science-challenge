@@ -4,8 +4,7 @@
 1. corpus indexing
 2. get retrieval features
 
-library: pylucene is on python2-32bit
-do not call functions in this file from other file
+library: pylucene --> python2-32bit
 """
 
 
@@ -140,9 +139,6 @@ def addDoc(w, doc_name, text, file_name):
 
 # Part 3
 # load question string, get retrieval score, combine as feature matrix
-
-# todo: add filter : file name
-# todo: retrieve on different Field: file name(subject) / doc name(section title) / text
 def lucene_retrieval(q_string, feature_type, use_BM25=False):
     """
 
@@ -219,7 +215,6 @@ lucene.initVM()
 version = Version.LUCENE_CURRENT  # set lucene version
 analyzer = StandardAnalyzer()
 
-
 hitsPerPage = 5  # keep top 5
 
 ##################################################################################
@@ -274,6 +269,7 @@ else:  # flag_nva_ques_ans:
     retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_nva_retrieval_features_'))
 
 ques_ans = load_pickle(ques_ans_path)
+
 # all retrieval features
 # @load_or_make
 retrieval_features = retrieval_score_features(ques_ans, fea_type, path=retrieval_score_features_path)
