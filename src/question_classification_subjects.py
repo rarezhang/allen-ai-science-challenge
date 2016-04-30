@@ -73,7 +73,7 @@ for line in questions:
 		score[4]+= math.log(chemistry_freq.freq(noun)+0.000001)
 		score[5]+= math.log(physical_freq.freq(noun)+0.000001)
 	index=np.argmax(score)
-	print str(qid), str(index)
+	print(str(qid), str(index))
 
 
 
