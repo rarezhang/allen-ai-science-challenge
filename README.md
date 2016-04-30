@@ -7,7 +7,7 @@ svm_rank_.txt 0.5335968379446641  w2v + retrieval + network + question classific
 svm_rank_.txt 0.5118577075098815  w2v + retrieval + network  
 svm_rank_.txt 0.5316205533596838  w2v + retrieval  
 
-all word2vec:
+all word2vec:  
 svm_rank_w2v.txt 0.20355731225296442  
 
 all retrieval:  
