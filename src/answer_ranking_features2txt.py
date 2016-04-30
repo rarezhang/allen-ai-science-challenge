@@ -41,7 +41,9 @@ all_features = [fea for fea in all_features if not fea.endswith(exclude_pat)]
 # todo: change here to decide include what features
 # only use these features
 
-include_pat = 'w2v'
+
+include_pat = 'network'
+#include_pat = 'w2v'
 #include_pat = 'retrieval'
 #include_pat = 'study_cards'
 #include_pat = 'simple_wiki'
@@ -50,7 +52,13 @@ include_pat = 'w2v'
 
 test_features = [fea for fea in all_features if include_pat in fea]
 
-
+# n feature types
+'''
+include_pat_1 = 'retrieval'
+include_pat_2 = 'network'
+include_pat = '_'.join((include_pat_1, include_pat_2))
+test_features = [fea for fea in all_features if include_pat_1 in fea or include_pat_2 in fea]
+'''
 # load test features
 features = []
 for f in test_features:

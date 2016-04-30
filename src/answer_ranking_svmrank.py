@@ -6,10 +6,12 @@ https://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html
 
 from utils import *
 
+
+# todo: need code refactoring
+
+
 ####################################################
 # prepare training file and testing file
-
-
 def split_file(general_svm_file_path, number_training):
     """
 
@@ -32,7 +34,7 @@ def split_file(general_svm_file_path, number_training):
                     else:
                         testing_file.write(line)
                     line_number += 1
-                print(svm_f, 'how many line processed: ', line_number)
+                print(svm_f, 'training|testing file split: how many line processed: ', line_number)
 
 
 ####################################################
