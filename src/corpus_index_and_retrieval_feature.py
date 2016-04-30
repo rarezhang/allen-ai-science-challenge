@@ -4,12 +4,12 @@
 1. corpus indexing
 2. get retrieval features
 
-pylucene is on python2-32bit
-this script is independent with others
+library: pylucene is on python2-32bit
+do not call functions in this file from other file
 """
 
 
-import io, os
+import io
 from utils import *
 
 import lucene
@@ -83,28 +83,30 @@ def read_file(path, f_type):
 # Part 2
 # build index (different corpus different index directories)
 @time_it
-def check_lucene_index(index_path, corpus_path, file_type=1):
+def check_lucene_index(index_file_path, corpus_file_path, file_type=1):
     """
 
-    :param index_path:
-    :param c_path:
+    :param index_file_path:
+    :param corpus_file_path:
+    :param file_type:
     :return:
     """
-    if os.listdir(index_path) == []:
-        lucene_index(corpus_path, file_type)
+    if os.listdir(index_file_path) == []:
+        lucene_index(corpus_file_path, file_type)
 
 
-def lucene_index(corpus_path, f_type):
+def lucene_index(corpus_file_path, f_type):
     """
 
-    :param corpus_path:
+    :param corpus_file_path:
+    :param f_type:
     :return:
     """
     index = set_lucene_index['ind']  # nonlocal variable index
     config = IndexWriterConfig(version, analyzer)
     writer = IndexWriter(index, config)
-    for f_name in os.listdir(corpus_path):
-        f_path = corpus_path + f_name
+    for f_name in os.listdir(corpus_file_path):
+        f_path = corpus_file_path + f_name
         document_names, texts = read_file(f_path, f_type)
         # add 1 corpus at a time
 
@@ -119,9 +121,10 @@ def lucene_index(corpus_path, f_type):
 def addDoc(w, doc_name, text, file_name):
     """
     add single doc to the index
-    :param writer:
+    :param w: writer
     :param doc_name:
     :param text:
+    :param file_name:
     :return:
     """
     doc = Document()
@@ -144,6 +147,7 @@ def lucene_retrieval(q_string, feature_type, use_BM25=False):
     """
 
     :param q_string:
+    :param feature_type:
     :param use_BM25:
     :return: retrieval_scores for each question-answer pair
     """
@@ -152,9 +156,13 @@ def lucene_retrieval(q_string, feature_type, use_BM25=False):
     def retrieval_scores(hists):
         """
         return sorted document+score by score
+        :param hists:
         """
         def doc_score(hists):
-            """return doc_name & score"""
+            """
+            return doc_name & score
+            :param hists:
+            """
             for h in hists:
                 # docID = h.doc
                 # doc = searcher.doc(docID)
@@ -191,6 +199,7 @@ def retrieval_score_features(que_ans_pairs, feature_type, path=''):
     """
 
     :param que_ans_pairs:
+    :param feature_type:
     :param path: for @load_or_make
     :return:
     """
@@ -271,9 +280,6 @@ retrieval_features = retrieval_score_features(ques_ans, fea_type, path=retrieval
 
 # single retrieval feature
 # if single feature does not exist, dump single feature
-for ind, fea in enumerate(fea_type):
-    single_feature_path = ''.join((retrieval_score_features_path, fea.__name__, '.pkl'))
-    single_feature = [r[ind] for r in retrieval_features]
-    if not check_file_exist(single_feature_path):
-        dump_pickle(single_feature_path, single_feature)
+dump_feature(fea_type, retrieval_score_features_path, retrieval_features)
+
 

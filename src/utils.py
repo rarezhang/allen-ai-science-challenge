@@ -45,9 +45,11 @@ def load_or_make(f):
 
 
 ######################################################
+# files
 # load and save pickle file
 # check if file exist
 # concatenate file in a directory
+# dump feature: feature matrix -> single feature
 ######################################################
 def dump_pickle(path, data):
     """
@@ -89,14 +91,33 @@ def concatenate_files(input_directory, output_file):
     """
     assert os.path.isdir(input_directory), 'input path should be a directory'
 
+    if not input_directory.endswith('/'):
+        input_directory = ''.join((input_directory, '/'))
+
     if not check_file_exist(output_file):
         file_names = os.listdir(input_directory)
         file_paths = [''.join((input_directory, f_n)) for f_n in file_names]
-        with open(output_file, 'w') as out_file:
-            in_file = fileinput.input(files=file_paths)  # python 2.7.10, fileinput doest not have `__exit__` --> cannot use `with`
+        with open(output_file, 'w', encoding='utf-8') as out_file:
+            in_file = fileinput.input(files=file_paths, openhook=fileinput.hook_encoded('utf-8'))  # python 2.7.10, fileinput doest not have `__exit__` --> cannot use `with`
             for line in in_file:
                 out_file.write(line)
             in_file.close()
+
+
+def dump_feature(feature_type, feature_path, features):
+    """
+    if single feature does not exist, dump single feature
+    :param feature_type:
+    :param feature_path:
+    :param features:
+    :return:
+    """
+    for ind, fea in enumerate(feature_type):
+        single_feature_path = ''.join((feature_path, fea.__name__, '.pkl'))
+        if not check_file_exist(single_feature_path):
+            single_feature = [r[ind] for r in features]
+            dump_pickle(single_feature_path, single_feature)
+
 
 ######################################################
 
@@ -223,6 +244,7 @@ def correct_label_num2alpha(num_prediction):
         elif ind == 2: result.append('C')
         else: result.append('D')
     return result
+
 
 def get_performance(pred_ans, correct_ans):
     """

@@ -168,12 +168,8 @@ word2vec_features = word2vec_score_feature(ques_ans_sim, fea_type, path=word2vec
 ##################################################################################
 # single word2vec feature
 # if single feature does not exist, dump single feature
-for ind, fea in enumerate(fea_type):
-    single_feature_path = ''.join((word2vec_features_path, fea.__name__, '.pkl'))
-    single_feature = [r[ind] for r in word2vec_features]
+dump_feature(fea_type, word2vec_features_path, word2vec_features)
 
-    if not check_file_exist(single_feature_path):
-        dump_pickle(single_feature_path, single_feature)
 
 
 
