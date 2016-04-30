@@ -5,7 +5,7 @@ index nodes
 for network feature
 """
 
-from network_feature import read_aristo_file, table_path
+from utils import *
 
 import lucene
 from java.io import File
@@ -28,10 +28,10 @@ def check_lucene_index(index_file_path, corpus_file_path, file_type=1):
     :return:
     """
     if os.listdir(index_file_path) == []:
-        lucene_index(corpus_file_path, file_type)
+        lucene_index(corpus)
 
 
-def lucene_index(corpus_file_path, f_type):
+def lucene_index(texts):
     """
 
     :param corpus_file_path:
@@ -41,20 +41,13 @@ def lucene_index(corpus_file_path, f_type):
     index = set_lucene_index['ind']  # nonlocal variable index
     config = IndexWriterConfig(version, analyzer)
     writer = IndexWriter(index, config)
-    for f_name in os.listdir(corpus_file_path):
-        f_path = corpus_file_path + f_name
-        document_names, texts = read_file(f_path, f_type)
-        # add 1 corpus at a time
 
-        # handle file name: 1. remove extension; 2. split by ``-``
-        f_name, _, _ = f_name.partition('.')   # partition return: head, sep, tail
-        f_name = " ".join(f_name.split('-'))
-        for d, t in zip(document_names, texts):
-            addDoc(writer, d, t, f_name)
+    for t in texts:
+        addDoc(writer, t)
     writer.close()
 
 
-def addDoc(w, doc_name, text, file_name):
+def addDoc(w, text):
     """
     add single doc to the index
     :param w: writer
@@ -66,77 +59,126 @@ def addDoc(w, doc_name, text, file_name):
     doc = Document()
     # TextField: sequence of terms: tokenized
     doc.add(TextField("text", text, Field.Store.YES))
-    # StringField: character strings with all punctuation, spacing, and case preserved.
-    doc.add(TextField('doc_name', doc_name, Field.Store.YES))
-    #doc.add(StringField('corpus_name', file_name, Field.Store.YES))
-
-    doc.add(TextField('corpus_name', file_name, Field.Store.YES))
     w.addDocument(doc)
 
 
-
-def lucene_retrieval(q_string, feature_type, use_BM25=False):
+def lucene_retrieval(q_string, use_BM25=False):
     """
 
     :param q_string:
-    :param feature_type:
     :param use_BM25:
     :return: retrieval_scores for each question-answer pair
     """
     index = set_lucene_index['ind']  # nonlocal variable index
 
-    def retrieval_scores(hists):
+    def doc_text(hists):
         """
-        return sorted document+score by score
+        return doc_name & score
         :param hists:
         """
-        def doc_score(hists):
-            """
-            return doc_name & score
-            :param hists:
-            """
-            for h in hists:
-                # docID = h.doc
-                # doc = searcher.doc(docID)
-                # file_name = doc.get("corpus_name")
-                # doc_name = doc.get("doc_name")
-                # text = doc.get("text")
-                score = h.score
-                # yield (file_name, doc_name, score, text)
-                yield score
-        doc_score_list = list(doc_score(hists))
-        return map(lambda f: f(doc_score_list), feature_type)  # feature_type is a list of function
+        text = '_NONE_'
+        for h in hists:
+            docID = h.doc
+            doc = searcher.doc(docID)
+            # file_name = doc.get("corpus_name")
+            # doc_name = doc.get("doc_name")
+            text = doc.get("text")
+            #score = h.score
+            # yield (file_name, doc_name, score, text)
+        return text
+
+    result = '_NONE_'
 
     # escape special characters via escape function
-    query = QueryParser(version, 'text', analyzer).parse(QueryParser.escape(q_string))
+    if q_string and q_string.strip():   # when pre-process answers, `none of the above` -> '' cause error here
+        #print(q_string)
+        query = QueryParser(version, 'text', analyzer).parse(QueryParser.escape(q_string))
 
-    # search
-    reader = IndexReader.open(index)
-    searcher = IndexSearcher(reader)
+        # search
+        reader = IndexReader.open(index)
+        searcher = IndexSearcher(reader)
 
-    if use_BM25:
-        searcher.setSimilarity(BM25Similarity(k1=1.5, b=0.75))  # todo: BM25 parameters
+        if use_BM25:
+            searcher.setSimilarity(BM25Similarity(k1=1.5, b=0.75))  # todo: BM25 parameters
 
-    collector = TopScoreDocCollector.create(hitsPerPage, True)
-    searcher.search(query, collector)
-    hs = collector.topDocs().scoreDocs  # hists
+        collector = TopScoreDocCollector.create(hitsPerPage, True)
+        searcher.search(query, collector)
+        hs = collector.topDocs().scoreDocs  # hists
+        result = doc_text(hs)
 
-    results = retrieval_scores(hs)
-    # reader.close()
-    return results  # retrieval_scores for each question-answer pair
+        # reader.close()
+    return result  # text: also nodes
+
+
+@load_or_make
+def question_answer_retrieval(questions, answers, path=''):
+    """
+    return text(nodes) number
+    :param questions:
+    :param answers:
+    :param path: for @load_or_make
+    :return:
+    """
+    num_ans = len(answers[0])
+
+    # 1. loop through question and answers: for quest, answ in zip(questions, answers)
+    # 2. get nodes number for each question, duplicate by 4: [nodes_dictionary.get(lucene_retrieval(q), -1)] * num_ans
+    # 3. get nodes number for each answer: [nodes_dictionary.get(lucene_retrieval(a), -1) for a in answ]
+    results = [zip([nodes_dictionary.get(lucene_retrieval(quest), -1)] * num_ans, [nodes_dictionary.get(lucene_retrieval(a), -1) for a in answ]) for quest, answ in zip(questions, answers)]
+    return sum(results, [])
 
 
 ####################################################################################
 # main
 ####################################################################################
 # read network nodes
-nodes_dictionary, _ = read_aristo_file(path=table_path)  # @load_or_make
+# nodes_dictionary: global
+print('read network nodes...')
 
+general_network_path = '../data/network/'
+general_corpus_path = '../data/corpus/'
+
+corpus_name = 'aristo_table'  # todo: change here if want to build other networks
+corpus_path = general_corpus_path + corpus_name
+table_path = ''.join((general_network_path, corpus_name, '.text'))
+
+nodes_dictionary, _ = load_pickle(table_path+'.pkl')
+
+##############################################################
+# index nodes content
 # global variables
 # initialize lucene
+print('index nodes content...')
 lucene.initVM()
 version = Version.LUCENE_CURRENT  # set lucene version
 analyzer = StandardAnalyzer()
 hitsPerPage = 1  # just need 1 node
 
-print(table_path)
+corpus = nodes_dictionary.keys()
+index_path = general_network_path + 'nodes_index/'
+# python2 does not have ``nonlocal``
+set_lucene_index = {'ind': SimpleFSDirectory(File(index_path))}  # use dic for nonlocal variable ``index``
+# won't build index if already exists
+check_lucene_index(index_path, corpus)   # todo remove the index after testing
+
+
+##############################################################
+# load question and answer
+# just use nouns in each question
+# load questions / answers: use results from question_answer_analysis.py
+print('load question and answer...')
+training_path = '../data/training/training_set.tsv'
+general_path = training_path
+
+noun_ques_path = general_path + '_noun_ques.pkl'
+ques = load_pickle(noun_ques_path)
+ans_path = general_path + '_ans.pkl'
+ans = load_pickle(ans_path)
+
+
+##############################################################
+# questions and answers retrieval: return nodes number -> nodes_dic.value
+# [(q1,a1), (q1,a2), ...]
+question_answer_nodes_path = general_network_path + 'que_ans_nodes'
+question_answer_nodes = question_answer_retrieval(ques, ans, path=question_answer_nodes_path)  # @load_or_make
+
