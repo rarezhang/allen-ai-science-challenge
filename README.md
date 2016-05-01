@@ -79,16 +79,21 @@ Each token in question V.S each token in each answer
 - Based on [Random walk inference and learning in a large scale knowledge base] (https://www.cs.cmu.edu/~tom/pubs/lao-emnlp11.pdf)
 - Modify and Simplify 
 ![difference](https://cloud.githubusercontent.com/assets/5633774/14943886/98794f86-0f99-11e6-872b-7d0de552f891.png "difference")
-- Random walk probability
+- Random walk probability  
 ![Random walk probability](https://cloud.githubusercontent.com/assets/5633774/14943903/105ab724-0f9a-11e6-9dc8-471a496cd69a.png "Random walk probability")
   - Path 1: Q -> 1 -> A
     - Degree(node1) = 4
     - ProbRandomWalkQ-A = 0.25
   - Path 2: Q -> 2 -> 3 -> A
-    - Degree(node2) = 3
-    - Degree(node3) = 3
-    - ProbRandomWalkQ-A = 0.11
+    - Degree(node2) = 3  and  Degree(node3) = 3  
+    - ProbRandomWalkQ-A = 0.11  
+- Buid network (Based on Aristo table)
+to do: 1. Edges with attributes (e.g., `absorb` -> edge attribute)  2. Undirected to directed graph 
+  - plants -> absorb -> minerals
+  - plants -> absorb -> nutrients
+![Buid network](https://cloud.githubusercontent.com/assets/5633774/14943919/9ab9feb6-0f9a-11e6-9382-fe87efc3152b.png "Buid network")
 
+https://cloud.githubusercontent.com/assets/5633774/14943937/e0ff989a-0f9a-11e6-83f3-ce0fea93dab4.png
 
 ### Question Classification Features: soft inference
 ## Performance
