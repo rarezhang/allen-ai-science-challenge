@@ -5,7 +5,7 @@ Is your model smarter than an 8th grader? [Read More] (https://www.kaggle.com/c/
 
 
 ## Question and Answer Pre-process
-
+[question_answer_preprocess.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/question_answer_preprocess.py)  
 ### Question pre-process
 - Remove punctuation 
 - Convert to lowercase
@@ -22,7 +22,7 @@ Replace:
 (empty string)  
 - `both A and B` & `both A and C`: 4 in (2500 * 4 answers)    
 (answer A + answer B | answer C)  
-[question_answer_preprocess.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/question_answer_preprocess.py)  
+
 
 ## Knowledge Source
 ### Data collection
@@ -49,10 +49,12 @@ svm_rank_classify ..\test.dat ..\model.dat ..\predictions
 - Run SVMrank from Python: [answer_ranking_svmrank.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/answer_ranking_svmrank.py)
 
 ## Features 
-- Retrieval Features
-- Word2vec Features
-- Network Features: soft inference 
+- Retrieval Features [corpus_index_and_retrieval_feature.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/corpus_index_and_retrieval_feature.py)
+- Word2vec Features  [w2v_feature.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/w2v_feature.py)
+- Network Features: soft inference  [network_feature_index_retrieval_nodes.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/network_feature_index_retrieval_nodes.py) [network_feature.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/network_feature.py)
 - Question Classification Features: soft inference 
+  - Question Subjects [question_classification_subjects.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/question_classification_subjects.py)
+  - Question Type 
 
 ### Retrieval Features
 - Index  
@@ -117,37 +119,18 @@ query.add(subject_query, BooleanClause.Occur.MUST) # the keyword MUST occur
 ![4 subjects classification features](https://cloud.githubusercontent.com/assets/5633774/14943985/23679092-0f9c-11e6-894d-11b45f11c196.png " 4 subjects classification features")
 
 
-
 #### Classification Features – Question type
 
 
 ## Performance
+- Training: allen-ai-training: 100001 - 101994  
+- Testing: allen-ai-training: 101995 - 102500  
+- Single feature type  
+![Single feature type](https://cloud.githubusercontent.com/assets/5633774/14944024/35ccc6ca-0f9d-11e6-8296-2577321fc987.png " Single feature type")
+- Feature combination  
+![Feature combination](https://cloud.githubusercontent.com/assets/5633774/14944041/7d0e1ca0-0f9d-11e6-8f16-7e55faf221c1.png " Feature combination")
+- Different Corpuses  
+![Different Corpuses](https://cloud.githubusercontent.com/assets/5633774/14944041/7d0e1ca0-0f9d-11e6-8f16-7e55faf221c1.png " Different Corpuses")
 
-
-
-Performance:  
-all features:  
-svm_rank_.txt 0.5335968379446641  w2v + retrieval + network + question classification (subjects)  
-svm_rank_.txt 0.5118577075098815  w2v + retrieval + network  
-svm_rank_.txt 0.5316205533596838  w2v + retrieval  
-
-all word2vec:  
-svm_rank_w2v.txt 0.20355731225296442  
-
-all retrieval:  
-svm_rank_retrieval.txt 0.5335968379446641  
-
-all network:
-svm_rank_w2v.txt 0.13256547892154826  
- 
-question classification (subjects):  
-svm_rank_class_sub.txt 0.43478260869565216 (subject_query, BooleanClause.Occur.MUST)   
-svm_rank_class_sub.txt 0.4426877470355731 (subject_query, BooleanClause.Occur.SHOULD)   
-svm_rank_noun_class_sub.txt 0.4268774703557312 (subject_query, BooleanClause.Occur.SHOULD + noun)   
-
-corpus:  
-svm_rank_ck12.txt 0.4683794466403162  
-svm_rank_simple_wiki.txt 0.391304347826087  
-svm_rank_study_cards.txt 0.5158102766798419  
-
+### Performance - Network Features
 
