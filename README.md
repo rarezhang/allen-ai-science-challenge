@@ -90,12 +90,37 @@ Each token in question V.S each token in each answer
 - Buid network (Based on Aristo table)
 to do: 1. Edges with attributes (e.g., `absorb` -> edge attribute)  2. Undirected to directed graph 
   - plants -> absorb -> minerals
-  - plants -> absorb -> nutrients
+  - plants -> absorb -> nutrients  
 ![Buid network](https://cloud.githubusercontent.com/assets/5633774/14943919/9ab9feb6-0f9a-11e6-9382-fe87efc3152b.png "Buid network")
-
-https://cloud.githubusercontent.com/assets/5633774/14943937/e0ff989a-0f9a-11e6-83f3-ce0fea93dab4.png
+- Index
+  - Nodes: text
+  - Search: Each question V.S each answer
+    - StandardAnalyzer | hitsPerPage = 1 | DefaultSimilarity
+			to do: optimize parameters
+- 13 network features  
+![13 network features](https://cloud.githubusercontent.com/assets/5633774/14943962/896869ee-0f9b-11e6-970c-08b2a864cd9c.png "13 network features")
 
 ### Question Classification Features: soft inference
+#### Classification Features - Subjects
+- add xxxxxxxxxxxxxxxxxxxx
+- Index (3 fields)
+  - Data source (book title) -> subjects classification 
+  - Document name (section title) -> question type classification
+  - Content
+- Search  
+text_query = QueryParser(version, 'text', analyzer).parse(QueryParser.escape(q_string))  
+subject_query = QueryParser(version, 'corpus_name', analyzer).parse(QueryParser.escape(q_class))  
+query = BooleanQuery()  
+query.add(text_query, BooleanClause.Occur.SHOULD) #  the keyword SHOULD occur  
+query.add(subject_query, BooleanClause.Occur.MUST) # the keyword MUST occur   
+- 4 subjects classification features  
+![4 subjects classification features](https://cloud.githubusercontent.com/assets/5633774/14943985/23679092-0f9c-11e6-894d-11b45f11c196.png " 4 subjects classification features")
+
+
+
+#### Classification Features – Question type
+
+
 ## Performance
 
 
