@@ -1,4 +1,4 @@
-# allen-ai-science-challenge  
+# Allen AI Science Challenge  
 The Allen Institute for Artificial Intelligence (AI2) is working to improve humanity through fundamental advances in artificial intelligence.   
 One critical but challenging problem in AI is to demonstrate the ability to consistently understand and correctly answer general questions about the world. 
 Is your model smarter than an 8th grader? [Read More] (https://www.kaggle.com/c/the-allen-ai-science-challenge)  
@@ -133,4 +133,10 @@ query.add(subject_query, BooleanClause.Occur.MUST) # the keyword MUST occur
 ![Different Corpuses](https://cloud.githubusercontent.com/assets/5633774/14944068/12082008-0f9e-11e6-9e9a-ee39535c7caf.png " Different Corpuses")
 
 ### Performance - Network Features
+Ni Lao 2011:  Random walk probability is useful as a feature in a combined ranking method, although not by itself a high precision feature 
+- Network visualization: Entire network  
+![Network visualization: Entire network](https://cloud.githubusercontent.com/assets/5633774/14944081/60d2cc74-0f9e-11e6-83d6-c4d49a097256.png " Network visualization: Entire network")
+- Network visualization: Filter out degree <=1  
+![Network visualization: Filter out degree <=1](https://cloud.githubusercontent.com/assets/5633774/14944081/60d2cc74-0f9e-11e6-83d6-c4d49a097256.png " Network visualization: Filter out degree <=1")
+
 
