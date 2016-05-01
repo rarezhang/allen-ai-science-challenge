@@ -141,5 +141,25 @@ Ni Lao 2011:  Random walk probability is useful as a feature in a combined ranki
 - Modularity  
 measure the strength of division of a network into modules  
 ![Modularity](https://cloud.githubusercontent.com/assets/5633774/14944109/e0294cfa-0f9e-11e6-9676-8997bfc197d9.png " Modularity")
+- Zoom in to one module
+  - According to Aristo table: `animals -> need -> sunligh` and `plants-> need -> sunlight`
+  - According to Aristo table: `the sun -> hyponym -> important to all living things`
+  - Soft inference: `Define living things: animals plants `
+![Modularity](https://cloud.githubusercontent.com/assets/5633774/14944143/a0998414-0f9f-11e6-8353-496c91dfa74d.png " Modularity")
+  - According to Aristo table: `the radiation -> heat -> from the sun`
+  - According to Aristo table: `friction -> can -> cause heat`
+  - Soft inference: `Heat source: radiation + friction`
+![Modularity](https://cloud.githubusercontent.com/assets/5633774/14944160/37320a54-0fa0-11e6-9638-fbe328ca5ec1.png " Modularity")
+- to do
+Nodes (concepts): Data cleaning (no duplicates)  
+Edges (relations): 
+1. Combine with wordnet (hypernym | hyponym)
+2. With attributes 
+3. Noun <-> Noun
+4. Need more `tables` (facts and relations extracted from textual data) 
+5. Modularity: combine with question classification (subjects & question type )
+
+
+
 
 
