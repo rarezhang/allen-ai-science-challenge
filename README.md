@@ -138,5 +138,8 @@ Ni Lao 2011:  Random walk probability is useful as a feature in a combined ranki
 ![Network visualization: Entire network](https://cloud.githubusercontent.com/assets/5633774/14944081/60d2cc74-0f9e-11e6-83d6-c4d49a097256.png " Network visualization: Entire network")
 - Network visualization: Filter out degree <=1  
 ![Network visualization: Filter out degree <=1](https://cloud.githubusercontent.com/assets/5633774/14944081/60d2cc74-0f9e-11e6-83d6-c4d49a097256.png " Network visualization: Filter out degree <=1")
+- Modularity  
+measure the strength of division of a network into modules  
+![Modularity](https://cloud.githubusercontent.com/assets/5633774/14944109/e0294cfa-0f9e-11e6-9676-8997bfc197d9.png " Modularity")
 
 
