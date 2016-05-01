@@ -130,7 +130,7 @@ query.add(subject_query, BooleanClause.Occur.MUST) # the keyword MUST occur
 - Feature combination  
 ![Feature combination](https://cloud.githubusercontent.com/assets/5633774/14944041/7d0e1ca0-0f9d-11e6-8f16-7e55faf221c1.png " Feature combination")
 - Different Corpuses  
-![Different Corpuses](https://cloud.githubusercontent.com/assets/5633774/14944041/7d0e1ca0-0f9d-11e6-8f16-7e55faf221c1.png " Different Corpuses")
+![Different Corpuses](https://cloud.githubusercontent.com/assets/5633774/14944068/12082008-0f9e-11e6-9e9a-ee39535c7caf.png " Different Corpuses")
 
 ### Performance - Network Features
 
