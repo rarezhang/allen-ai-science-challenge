@@ -150,13 +150,13 @@ else:
 _, ques_sub_class = read_question_class(ques_subject_path)  # return q_id, q_sub
 
 # compare 2 subjects classification results: (entire VS noun)
-#_, entire_ques = read_question_class(entire_ques_subject_path)
-#_, noun_ques = read_question_class(noun_ques_subject_path)
+#_, entire_ques = read_question_class('../data/questionclass/subject/training_subject.txt')
+#_, noun_ques = read_question_class('../data/questionclass/subject/training_noun_subject.txt')
 #compare_2_sub_classification(entire_ques, noun_ques)
 
 
 ##############################################################
-# todo: change here to make features for different corpus
+# todo: modify `corpus_name` to make features for different corpus
 # for subject classification feature: only ck12 --> search on book title
 corpus_name = 'ck12'
 
