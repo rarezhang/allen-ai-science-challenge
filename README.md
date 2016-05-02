@@ -30,19 +30,19 @@ Replace:
 - Study Cards: quizlet & studystack
 - Simple wiki: simplewiki-20150702-pages-articles-multistream.xml [get_wiki_content.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/get_wiki_content.py)
 - Aristo table: Nov 2015, Snapshot
-- SuperSenseTagger: to do: hyponymy & hypernymy query expansion
-- Google ngram: to do: words distance [get_google_dic.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/get_google_dic.py)
+- SuperSenseTagger: `to do: hyponymy & hypernymy query expansion`
+- Google ngram: `to do: words distance` [get_google_dic.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/get_google_dic.py)
 
 ### Data cleaning
 - CK12: [book title] -> [section title] -> [text] [clean_ck12.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/clean_ck12.py)
 - Study Cards: [first notional word] -> [text] [clean_study_cards.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/clean_study_cards.py)
 - Simple wiki: xml to text [clean_xml2text.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/clean_xml2text.py)
-- Aristo table: to do: data cleaning !
+- Aristo table: `to do: data cleaning !`
 
 ## Ranking Algorithm
 Support Vector Machine for Ranking: [SVMrank] (https://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html)  
 - Windows (32-bit)
-- Use default setting to do: optimize parameters  
+- Use default setting `to do: optimize parameters`  
 svm_rank_learn -c 20.0 train.dat model.dat  
 svm_rank_classify ..\test.dat ..\model.dat ..\predictions  
 - Prepare input data: [answer_ranking_features2txt.py] (https://github.com/rarezhang/allen-ai-science-challenge/blob/master/src/answer_ranking_features2txt.py)  
@@ -63,7 +63,7 @@ Index corpuses separately: CK12 | Study Cards | Simple Wiki
   - Data source (book title) -> classification features
   - Document name (section title | first notional word) -> classification features
   - Content -> retrieval features
-- Search: to do: optimize parameters  
+- Search: `to do: optimize parameters`  
 StandardAnalyzer | hitsPerPage = 5 | DefaultSimilarity  
 - 18 retrieval features   
 ![18 retrieval feature](https://cloud.githubusercontent.com/assets/5633774/14943834/95d85408-0f98-11e6-9d2b-7f010da47393.png "18 retrieval feature")
@@ -90,7 +90,7 @@ Each token in question V.S each token in each answer
     - Degree(node2) = 3  and  Degree(node3) = 3  
     - ProbRandomWalkQ-A = 0.11  
 - Buid network (Based on Aristo table)
-to do: 1. Edges with attributes (e.g., `absorb` -> edge attribute)  2. Undirected to directed graph 
+```to do: 1. Edges with attributes (e.g., 'absorb' -> edge attribute)  2. Undirected to directed graph``` 
   - plants -> absorb -> minerals
   - plants -> absorb -> nutrients  
 ![Buid network](https://cloud.githubusercontent.com/assets/5633774/14943919/9ab9feb6-0f9a-11e6-9382-fe87efc3152b.png "Buid network")
@@ -98,7 +98,7 @@ to do: 1. Edges with attributes (e.g., `absorb` -> edge attribute)  2. Undirecte
   - Nodes: text
   - Search: Each question V.S each answer
     - StandardAnalyzer | hitsPerPage = 1 | DefaultSimilarity
-			to do: optimize parameters
+			`to do: optimize parameters`
 - 13 network features  
 ![13 network features](https://cloud.githubusercontent.com/assets/5633774/14943962/896869ee-0f9b-11e6-970c-08b2a864cd9c.png "13 network features")
 
@@ -150,14 +150,14 @@ measure the strength of division of a network into modules
   - According to Aristo table: `friction -> can -> cause heat`
   - Soft inference: `Heat source: radiation + friction`
 ![Modularity](https://cloud.githubusercontent.com/assets/5633774/14944160/37320a54-0fa0-11e6-9638-fbe328ca5ec1.png " Modularity")
-- to do  
+```to do  
   - Nodes (concepts): Data cleaning (no duplicates)  
   - Edges (relations): 
     - Combine with wordnet (hypernym | hyponym)
     - With attributes 
     - Noun <-> Noun
   - Need more `tables` (facts and relations extracted from textual data) 
-  - Modularity: combine with question classification (subjects & question type )
+  - Modularity: combine with question classification (subjects & question type )```
 
 
 
