@@ -150,14 +150,16 @@ measure the strength of division of a network into modules
   - According to Aristo table: `friction -> can -> cause heat`
   - Soft inference: `Heat source: radiation + friction`
 ![Modularity](https://cloud.githubusercontent.com/assets/5633774/14944160/37320a54-0fa0-11e6-9638-fbe328ca5ec1.png " Modularity")
-```to do  
+```
+to do  
   - Nodes (concepts): Data cleaning (no duplicates)  
   - Edges (relations): 
     - Combine with wordnet (hypernym | hyponym)
     - With attributes 
     - Noun <-> Noun
   - Need more `tables` (facts and relations extracted from textual data) 
-  - Modularity: combine with question classification (subjects & question type )```
+  - Modularity: combine with question classification (subjects & question type )
+```
 
 
 
