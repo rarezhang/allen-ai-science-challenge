@@ -116,8 +116,8 @@ def word2vec_score_feature(question_answer_similarity, feature_type, path=''):
 # build w2v bin file: different corpus different bin file
 
 # todo: modify here to index/make features for different corpus
-corpus_name = 'ck12'
-# corpus_name = 'study_cards'
+# corpus_name = 'ck12'
+corpus_name = 'study_cards'
 
 
 general_bin_path = "..\\data\\w2vbin\\"
@@ -168,9 +168,6 @@ word2vec_features = word2vec_score_feature(ques_ans_sim, fea_type, path=word2vec
 ##################################################################################
 # single word2vec feature
 # if single feature does not exist, dump single feature
-dump_feature(fea_type, word2vec_features_path, word2vec_features)
-
-
-
-
+dump_feature(fea_type, word2vec_features_path, word2vec_features, flag_normalize_feature=False)
+dump_feature(fea_type, word2vec_features_path, word2vec_features, flag_normalize_feature=True)
 

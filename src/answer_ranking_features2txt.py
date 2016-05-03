@@ -13,14 +13,14 @@ use python 2 because pickle version issue
 <info> .=. <string>
 """
 
-from question_answer_analysis import *
+from utils import *
+import re
 
 # load data and features
 training_path = '../data/training/training_set.tsv'
 general_path = training_path
 # read_kaggle_file() has @load_or_make
-q_id, ques, correct_ans, ans = read_kaggle_file(path=general_path, training_set_flag=True)
-
+q_id, ques, correct_ans, ans = load_pickle(training_path + '.pkl')
 
 # duplicate question id
 question_id = [t for t in q_id for __ in range(4)]  # duplicate each q_id 4 times
@@ -38,10 +38,15 @@ all_features = os.listdir(general_feature_path)
 exclude_pat = '_.pkl'
 all_features = [fea for fea in all_features if not fea.endswith(exclude_pat)]
 
+flag_normalize = True  # only use flag normalized features
+
+if flag_normalize:
+    all_features = [fea for fea in all_features if 'normalized' in fea]
+
 # todo: modify here to decide include what features
 # only use these features
 
-#include_pat = 'noun_class_sub'
+include_pat = 'noun_class_sub'
 #include_pat = 'class_sub'
 #include_pat = 'network'
 #include_pat = 'w2v'
@@ -49,16 +54,21 @@ all_features = [fea for fea in all_features if not fea.endswith(exclude_pat)]
 #include_pat = 'study_cards'
 #include_pat = 'simple_wiki'
 #include_pat = 'ck12'
-include_pat = ''  # all features
+#include_pat = ''  # all features
+
 test_features = [fea for fea in all_features if include_pat in fea]
 
 # n feature types
 '''
-include_pat_1 = 'retrieval'
-include_pat_2 = 'network'
-include_pat = '_'.join((include_pat_1, include_pat_2))
-test_features = [fea for fea in all_features if include_pat_1 in fea or include_pat_2 in fea]
+#feature_combination = ['retrieval', 'w2v']
+#feature_combination = ['retrieval', 'w2v', 'network']
+#feature_combination = ['retrieval', 'w2v', 'network', 'class_sub']
+
+include_pat = '_'.join(feature_combination)  # for file name
+pattern = '|'.join(feature_combination)
+test_features = [fea for fea in all_features if re.search(pattern, fea)]
 '''
+
 # load test features
 features = []
 for f in test_features:
@@ -72,7 +82,10 @@ for f in test_features:
 features_name = [f.partition('.')[0] for f in test_features]   # remove extension # partition return: head, sep, tail
 num_features = len(features_name)  # number of features
 
-path = ''.join(('../data/svmrank/svm_rank_', include_pat, '.txt'))
+if flag_normalize:
+    path = ''.join(('../data/svmrank/svm_rank_normalized_', include_pat, '.txt'))
+else:
+    path = ''.join(('../data/svmrank/svm_rank_', include_pat, '.txt'))
 
 if not check_file_exist(path):
     with open(path, 'a') as file:

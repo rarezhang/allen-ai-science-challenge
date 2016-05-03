@@ -128,7 +128,7 @@ def subject_class_features(que_ans_pairs, question_class, feature_type, path='')
 # main
 ########################################################
 # global
-flag_entire_ques = True
+flag_entire_ques = False  # False: just noun
 # question subjects
 sub_dic = {'0': 'biology', '1': 'physics', '2': 'earth', '3': 'life', '4': 'chemistry', '5': 'physical'}
 
@@ -190,4 +190,5 @@ retrieval_features = subject_class_features(ques_ans, ques_sub_class, fea_type, 
 
 # single retrieval feature
 # if single feature does not exist, dump single feature
-dump_feature(fea_type, subject_class_features_path, retrieval_features)
+dump_feature(fea_type, subject_class_features_path, retrieval_features, flag_normalize_feature=False)
+dump_feature(fea_type, subject_class_features_path, retrieval_features, flag_normalize_feature=True)

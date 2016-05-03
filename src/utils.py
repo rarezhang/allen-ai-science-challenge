@@ -104,18 +104,29 @@ def concatenate_files(input_directory, output_file):
             in_file.close()
 
 
-def dump_feature(feature_type, feature_path, features):
+def dump_feature(feature_type, feature_path, features, flag_normalize_feature=True):
     """
     if single feature does not exist, dump single feature
     :param feature_type:
     :param feature_path:
     :param features:
+    :param flag_normalize_feature
     :return:
     """
+    def normalize(l):
+        s = sum(l)
+        return [float(x) / s for x in l]
+
     for ind, fea in enumerate(feature_type):
-        single_feature_path = ''.join((feature_path, fea.__name__, '.pkl'))
-        if not check_file_exist(single_feature_path):
+        if flag_normalize_feature:
+            single_feature_path = ''.join((feature_path, fea.__name__, '_normalized.pkl'))
             single_feature = [r[ind] for r in features]
+            single_feature = normalize(single_feature)
+        else:  # do not normalize feature
+            single_feature_path = ''.join((feature_path, fea.__name__, '.pkl'))
+            single_feature = [r[ind] for r in features]
+
+        if not check_file_exist(single_feature_path):
             dump_pickle(single_feature_path, single_feature)
 
 
@@ -259,87 +270,5 @@ def get_performance(pred_ans, correct_ans):
     total_ques = len(correct_ans)
     return num_correct / total_ques
 
-'''
-
-def get_performance(pred_ans, correct_ans):
-    """
-
-    :param pred_ans:
-    :param correct_ans:
-    :return:
-    """
-    num_correct = 0
-    for p, c in zip(pred_ans, correct_ans):
-        if p == c: num_correct += 1
-    total_ques = len(correct_ans)
-    return num_correct / total_ques
-
-
-
-
-
-
-
-def add_bigram_trigram(toks, addB=True, addT=True):
-    """
-    add bigrams and trigrams to the original list
-    :param toks: list of tokens
-    :param addB: add bigrams or not
-    :param addT: add trigrams or not
-    :return:
-    """
-    def find_ngrams(input_list, n):
-        joiner = " ".join
-        input_list = zip(*[input_list[i:] for i in range(n)])  # [(a,b),....]
-        return [joiner(words) for words in input_list]
-
-    if addB and addT: toks.extend(find_ngrams(toks, 2)), toks.extend(find_ngrams(toks, 3))
-    elif addB: toks.extend(find_ngrams(toks, 2))
-    elif addT: toks.extend(find_ngrams(toks, 3))
-    return toks
-
-
-
-
-
-
-
-
-
-def combine_features(fea_score1, fea_score2, lamb1=0.5, lamb2=0.5):
-    """
-
-    :param fea_score1:
-    :param fea_score2:
-    :param lamb1:
-    :param lamb2:
-    :return:
-    """
-    def add_list_elment(list1, list2, lam1, lam2):
-        """
-
-        :param list1: [1,2,3,4]
-        :param list2:
-        :return:
-        """
-        v1 = np.array(list1)
-        v2 = np.array(list2)
-        return (v1*lam1 + v2*lam2).tolist()
-
-    feature_score = []
-    for (fea1, fea2) in zip(fea_score1,fea_score2):
-        fea = add_list_elment(fea1, fea2, lamb1, lamb2)
-        feature_score.append(fea)
-    return feature_score
-
-
-
-
-
-
-
-'''
-
-
-
+######################################################
 

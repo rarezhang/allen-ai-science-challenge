@@ -223,9 +223,9 @@ hitsPerPage = 5  # keep top 5
 # modify ``corpus_name`` and ``file_format_type``
 
 # todo: modify here to index/make features for different corpus
-# corpus_name = 'ck12'
+corpus_name = 'ck12'
 # corpus_name = 'study_cards'
-corpus_name = 'simple_wiki'
+# corpus_name = 'simple_wiki'
 
 # todo: change file format type (1, 2, 3, 4) -> def read_file()
 file_format_type = 1
@@ -250,9 +250,9 @@ general_feature_path = '../data/feature/'
 
 # todo: change flag -> use entire question | just noun | just noun,verb,adj,adv
 # only one can be true at a time
-flag_entire_ques_ans = 0
+flag_entire_ques_ans = 1
 flag_noun_ques_ans = 0
-flag_nva_ques_ans = 1
+flag_nva_ques_ans = 0
 
 if flag_entire_ques_ans + flag_noun_ques_ans + flag_nva_ques_ans != 1:
     raise ValueError('check the value of flag_entire_ques_ans | flag_noun_ques_ans | flag_nva_ques_ans')
@@ -276,6 +276,8 @@ retrieval_features = retrieval_score_features(ques_ans, fea_type, path=retrieval
 
 # single retrieval feature
 # if single feature does not exist, dump single feature
-dump_feature(fea_type, retrieval_score_features_path, retrieval_features)
 
+# do not normalize
+dump_feature(fea_type, retrieval_score_features_path, retrieval_features, flag_normalize_feature=False)
+dump_feature(fea_type, retrieval_score_features_path, retrieval_features, flag_normalize_feature=True)
 

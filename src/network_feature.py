@@ -224,11 +224,13 @@ fea_type = [shortest_path_feature, number_path_feature, random_walk_feature_max,
 
 general_feature_path = '../data/feature/'
 
-length_of_inference = 2  # todo: hyperparameter -> nx.all_simple_paths cutoff
+# number of hops allowed
+length_of_inference = 3  # todo: hyperparameter -> nx.all_simple_paths cutoff
 
 network_features_path = ''.join((general_feature_path, corpus_name, '_network_features_', str(length_of_inference), 'lp_'))
 network_features = network_score_feature(que_ans_nodes, fea_type, graph, path=network_features_path)  # @load_or_make
 
 # single network feature
 print('single network feature...')
-dump_feature(fea_type, network_features_path, network_features)
+dump_feature(fea_type, network_features_path, network_features, flag_normalize_feature=False)
+dump_feature(fea_type, network_features_path, network_features, flag_normalize_feature=True)
