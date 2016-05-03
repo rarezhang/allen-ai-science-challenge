@@ -220,9 +220,9 @@ hitsPerPage = 5  # keep top 5
 ##################################################################################
 # index
 # different corpus different index directories
-# change ``corpus_name`` and ``file_format_type``
+# modify ``corpus_name`` and ``file_format_type``
 
-# todo: change here to index/make features for different corpus
+# todo: modify here to index/make features for different corpus
 # corpus_name = 'ck12'
 # corpus_name = 'study_cards'
 corpus_name = 'simple_wiki'

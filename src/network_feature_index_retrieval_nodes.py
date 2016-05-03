@@ -138,7 +138,7 @@ print('read network nodes...')
 general_network_path = '../data/network/'
 general_corpus_path = '../data/corpus/'
 
-corpus_name = 'aristo_table'  # todo: change here if want to build other networks
+corpus_name = 'aristo_table'  # todo: modify here if want to build other networks
 corpus_path = general_corpus_path + corpus_name
 table_path = ''.join((general_network_path, corpus_name, '.text'))
 

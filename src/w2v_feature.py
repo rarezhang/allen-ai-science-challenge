@@ -115,7 +115,7 @@ def word2vec_score_feature(question_answer_similarity, feature_type, path=''):
 ##################################################################################
 # build w2v bin file: different corpus different bin file
 
-# todo: change here to index/make features for different corpus
+# todo: modify here to index/make features for different corpus
 corpus_name = 'ck12'
 # corpus_name = 'study_cards'
 

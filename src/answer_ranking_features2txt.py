@@ -38,7 +38,7 @@ all_features = os.listdir(general_feature_path)
 exclude_pat = '_.pkl'
 all_features = [fea for fea in all_features if not fea.endswith(exclude_pat)]
 
-# todo: change here to decide include what features
+# todo: modify here to decide include what features
 # only use these features
 
 #include_pat = 'noun_class_sub'
