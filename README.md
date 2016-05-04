@@ -162,18 +162,15 @@ to do
 ```
 
 
-
-
-
-svm_rank_normalized_.txt 0.4407114624505929
-svm_rank_normalized_ck12.txt 0.4723320158102767
-svm_rank_normalized_class_sub.txt 0.4031620553359684
-svm_rank_normalized_network.txt 0.21936758893280633
-svm_rank_normalized_noun_class_sub.txt 0.3774703557312253
-svm_rank_normalized_retrieval.txt 0.5592885375494071
-svm_rank_normalized_retrieval_w2v.txt 0.5612648221343873
-svm_rank_normalized_retrieval_w2v_network.txt 0.44861660079051385
-svm_rank_normalized_retrieval_w2v_network_class_sub.txt 0.4407114624505929
-svm_rank_normalized_simple_wiki.txt 0.3814229249011858
-svm_rank_normalized_study_cards.txt 0.5335968379446641
-svm_rank_normalized_w2v.txt 0.2134387351778656
+svm_rank_normalized_.txt 0.5533596837944664
+svm_rank_normalized_ck12.txt 0.47035573122529645
+svm_rank_normalized_class_sub.txt 0.4268774703557312
+svm_rank_normalized_network.txt 0.20948616600790515
+svm_rank_normalized_noun_class_sub.txt 0.4268774703557312
+svm_rank_normalized_retrieval.txt 0.5395256916996047
+svm_rank_normalized_retrieval_w2v.txt 0.541501976284585
+svm_rank_normalized_retrieval_w2v_network.txt 0.541501976284585
+svm_rank_normalized_retrieval_w2v_network_class_sub.txt 0.5533596837944664
+svm_rank_normalized_simple_wiki.txt 0.3932806324110672
+svm_rank_normalized_study_cards.txt 0.5098814229249012
+svm_rank_normalized_w2v.txt 0.2015810276679842
