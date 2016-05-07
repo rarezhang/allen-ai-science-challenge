@@ -169,7 +169,7 @@ def lucene_retrieval(q_string, feature_type, use_BM25=False):
                 # yield (file_name, doc_name, score, text)
                 yield score
         doc_score_list = list(doc_score(hists))
-        return map(lambda f: f(doc_score_list), feature_type)  # feature_type is a list of function
+        return map(lambda f: f(doc_score_list), feature_type) if len(doc_score_list) != 0 else [0]*len(feature_type) # feature_type is a list of function
 
     # escape special characters via escape function
     query = QueryParser(version, 'text', analyzer).parse(QueryParser.escape(q_string))
@@ -200,7 +200,10 @@ def retrieval_score_features(que_ans_pairs, feature_type, path=''):
     :return:
     """
     def feature_scores(que_ans_pairs):
+        #count = 1
         for q_a_pairs in que_ans_pairs:
+            #print(str(count))
+            #count += 1
             yield [lucene_retrieval(q_a, feature_type) for q_a in q_a_pairs]
     # sum(list, []) : [[[1],[2]], [[3],[4]], ...] -> [[1,2], [3,4]]
     return sum(feature_scores(que_ans_pairs), [])
@@ -223,9 +226,9 @@ hitsPerPage = 5  # keep top 5
 # modify ``corpus_name`` and ``file_format_type``
 
 # todo: modify here to index/make features for different corpus
-corpus_name = 'ck12'
+# corpus_name = 'ck12'
 # corpus_name = 'study_cards'
-# corpus_name = 'simple_wiki'
+corpus_name = 'simple_wiki'
 
 # todo: change file format type (1, 2, 3, 4) -> def read_file()
 file_format_type = 1
@@ -243,7 +246,7 @@ check_lucene_index(index_path, corpus_path, file_type=file_format_type)
 
 
 ##################################################################################
-# single retrieval feature
+# retrieval feature
 
 fea_type = [max, sum]  # list of functions
 general_feature_path = '../data/feature/'
@@ -281,3 +284,64 @@ retrieval_features = retrieval_score_features(ques_ans, fea_type, path=retrieval
 dump_feature(fea_type, retrieval_score_features_path, retrieval_features, flag_normalize_feature=False)
 dump_feature(fea_type, retrieval_score_features_path, retrieval_features, flag_normalize_feature=True)
 
+
+############################################
+############################################
+# validation and test set
+############################################
+'''
+import gc
+############################################
+# validation set
+print('validation set....')
+general_feature_path = '../data/validation/feature/'
+
+if flag_entire_ques_ans:
+    ques_ans_path = '../data/validation/validation_set.tsv_entire_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_retrieval_features_'))
+elif flag_noun_ques_ans:
+    ques_ans_path = '../data/validation/validation_set.tsv_noun_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_noun_retrieval_features_'))
+else:  # flag_nva_ques_ans:
+    ques_ans_path = '../data/validation/validation_set.tsv_nva_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_nva_retrieval_features_'))
+
+ques_ans = load_pickle(ques_ans_path)
+
+# all retrieval features
+# @load_or_make
+print('validation set retrieval features ....')
+gc.disable()
+retrieval_features = retrieval_score_features(ques_ans, fea_type, path=retrieval_score_features_path)
+gc.enable()
+# single retrieval feature
+# if single feature does not exist, dump single feature
+dump_feature(fea_type, retrieval_score_features_path, retrieval_features, flag_normalize_feature=True)
+
+
+############################################
+# test set
+general_feature_path = '../data/test/feature/'
+
+if flag_entire_ques_ans:
+    ques_ans_path = '../data/test/test_set.tsv_entire_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_retrieval_features_'))
+elif flag_noun_ques_ans:
+    ques_ans_path = '../data/test/test_set.tsv_noun_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_noun_retrieval_features_'))
+else:  # flag_nva_ques_ans:
+    ques_ans_path = '../data/test/test_set.tsv_nva_ques_ans.pkl'
+    retrieval_score_features_path = ''.join((general_feature_path, corpus_name, '_nva_retrieval_features_'))
+
+ques_ans = load_pickle(ques_ans_path)
+
+# all retrieval features
+# @load_or_make
+print('test set retrieval features ....')
+gc.disable()
+retrieval_features = retrieval_score_features(ques_ans, fea_type, path=retrieval_score_features_path)
+gc.enable()
+# single retrieval feature
+# if single feature does not exist, dump single feature
+dump_feature(fea_type, retrieval_score_features_path, retrieval_features, flag_normalize_feature=True)
+'''

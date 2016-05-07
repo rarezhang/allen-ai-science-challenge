@@ -106,7 +106,7 @@ def word2vec_score_feature(question_answer_similarity, feature_type, path=''):
     :param path:
     :return:
     """
-    w2v_score_feature = [[map(lambda f: f(q_a_sim), feature_type) if len(q_a_sim) != 0 else [99]*len(feature_type) for q_a_sim in que_ans_sim] for que_ans_sim in question_answer_similarity]
+    w2v_score_feature = [[map(lambda f: f(q_a_sim), feature_type) if len(q_a_sim) != 0 else [0]*len(feature_type) for q_a_sim in que_ans_sim] for que_ans_sim in question_answer_similarity]
     return sum(w2v_score_feature, [])
 
 
@@ -116,7 +116,7 @@ def word2vec_score_feature(question_answer_similarity, feature_type, path=''):
 # build w2v bin file: different corpus different bin file
 
 # todo: modify here to index/make features for different corpus
-# corpus_name = 'ck12'
+#corpus_name = 'ck12'
 corpus_name = 'study_cards'
 
 
@@ -171,3 +171,79 @@ word2vec_features = word2vec_score_feature(ques_ans_sim, fea_type, path=word2vec
 dump_feature(fea_type, word2vec_features_path, word2vec_features, flag_normalize_feature=False)
 dump_feature(fea_type, word2vec_features_path, word2vec_features, flag_normalize_feature=True)
 
+
+########################################################################################
+# validation and test set
+"""
+import gc
+########################################################################################
+# validation set
+general_feature_path = '../data/validation/feature/'
+validation_path = '../data/validation/validation_set.tsv'
+general_path = validation_path
+
+# just use nouns in each question
+# load questions / answers: use results from question_answer_analysis.py
+noun_ques_path = general_path + '_noun_ques.pkl'
+ques = load_pickle(noun_ques_path)
+ans_path = general_path + '_ans.pkl'
+ans = load_pickle(ans_path)
+
+ques_w2v_path = noun_ques_path.replace('.pkl', '') + '_w2v'
+ques_w2v = text_to_w2v(ques, flag_ques=True, path=ques_w2v_path)  # @load_or_make
+
+ans_w2v_path = ans_path.replace('.pkl', '') + '_w2v'
+ans_w2v = text_to_w2v(ans, flag_ques=False, path=ans_w2v_path)  # @load_or_make
+##################################################################################
+# calculate cosine similarity between answers-vector and question-vector
+ques_ans_sim_path = general_path + '_ques_ans_sim'
+gc.disable()
+ques_ans_sim = ques_ans_cosine_sim(ques_w2v, ans_w2v, path=ques_ans_sim_path)  # @load_or_make
+gc.enable()
+##################################################################################
+# feature matrix
+# all word2vec features
+word2vec_features_path = ''.join((general_feature_path, corpus_name, '_noun_w2v_features_'))
+gc.disable()
+word2vec_features = word2vec_score_feature(ques_ans_sim, fea_type, path=word2vec_features_path)  # @load_or_make
+gc.enable()
+##################################################################################
+# single word2vec feature
+dump_feature(fea_type, word2vec_features_path, word2vec_features, flag_normalize_feature=True)
+
+
+##################################################################################
+# test set
+general_feature_path = '../data/test/feature/'
+test_path = '../data/test/test_set.tsv'
+general_path = test_path
+
+# just use nouns in each question
+# load questions / answers: use results from question_answer_analysis.py
+noun_ques_path = general_path + '_noun_ques.pkl'
+ques = load_pickle(noun_ques_path)
+ans_path = general_path + '_ans.pkl'
+ans = load_pickle(ans_path)
+
+ques_w2v_path = noun_ques_path.replace('.pkl', '') + '_w2v'
+ques_w2v = text_to_w2v(ques, flag_ques=True, path=ques_w2v_path)  # @load_or_make
+
+ans_w2v_path = ans_path.replace('.pkl', '') + '_w2v'
+ans_w2v = text_to_w2v(ans, flag_ques=False, path=ans_w2v_path)  # @load_or_make
+##################################################################################
+# calculate cosine similarity between answers-vector and question-vector
+ques_ans_sim_path = general_path + '_ques_ans_sim'
+gc.disable()
+ques_ans_sim = ques_ans_cosine_sim(ques_w2v, ans_w2v, path=ques_ans_sim_path)  # @load_or_make
+gc.enable()
+##################################################################################
+# feature matrix
+# all word2vec features
+word2vec_features_path = ''.join((general_feature_path, corpus_name, '_noun_w2v_features_'))
+gc.disable()
+word2vec_features = word2vec_score_feature(ques_ans_sim, fea_type, path=word2vec_features_path)  # @load_or_make
+gc.enable()
+##################################################################################
+# single word2vec feature
+dump_feature(fea_type, word2vec_features_path, word2vec_features, flag_normalize_feature=True)
+"""

@@ -163,6 +163,7 @@ check_lucene_index(index_path, corpus)   # todo remove the index after testing
 
 
 ##############################################################
+
 # load question and answer
 # just use nouns in each question
 # load questions / answers: use results from question_answer_analysis.py
@@ -182,3 +183,42 @@ ans = load_pickle(ans_path)
 question_answer_nodes_path = general_network_path + 'que_ans_nodes'
 question_answer_nodes = question_answer_retrieval(ques, ans, path=question_answer_nodes_path)  # @load_or_make
 
+
+
+########################################################################################
+# validation and test set
+"""
+import gc
+########################################################################################
+# validation set
+print('load question and answer...validation...')
+validation_path = '../data/validation/validation_set.tsv'
+general_path = validation_path
+
+noun_ques_path = general_path + '_noun_ques.pkl'
+ques = load_pickle(noun_ques_path)
+ans_path = general_path + '_ans.pkl'
+ans = load_pickle(ans_path)
+
+que_ans_nodes_path = general_network_path + 'validation_que_ans_nodes'
+
+gc.disable()
+question_answer_nodes = question_answer_retrieval(ques, ans, path=que_ans_nodes_path)  # @load_or_make
+gc.enable()
+
+########################################################################################
+# test set
+print('load question and answer...test...')
+test_path = '../data/test/test_set.tsv'
+general_path = test_path
+
+noun_ques_path = general_path + '_noun_ques.pkl'
+ques = load_pickle(noun_ques_path)
+ans_path = general_path + '_ans.pkl'
+ans = load_pickle(ans_path)
+
+que_ans_nodes_path = general_network_path + 'test_que_ans_nodes'
+gc.disable()
+question_answer_nodes = question_answer_retrieval(ques, ans, path=que_ans_nodes_path)  # @load_or_make
+gc.enable()
+"""

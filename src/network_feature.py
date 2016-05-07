@@ -234,3 +234,55 @@ network_features = network_score_feature(que_ans_nodes, fea_type, graph, path=ne
 print('single network feature...')
 dump_feature(fea_type, network_features_path, network_features, flag_normalize_feature=False)
 dump_feature(fea_type, network_features_path, network_features, flag_normalize_feature=True)
+
+
+########################################################################################
+# validation and test set
+"""
+import gc
+########################################################################################
+# validation set
+que_ans_nodes_path = general_network_path + 'validation_que_ans_nodes.pkl'
+if not check_file_exist(que_ans_nodes_path):
+    print('run `network_feature_index_retrieval_nodes.py` now')
+    exit(0)
+
+que_ans_nodes = load_pickle(que_ans_nodes_path)
+
+# shortest path feature/ random walk feature
+print('build network features matrix...')
+
+general_feature_path = '../data/validation/feature/'
+
+network_features_path = ''.join((general_feature_path, corpus_name, '_network_features_', str(length_of_inference), 'lp_'))
+gc.disable()
+network_features = network_score_feature(que_ans_nodes, fea_type, graph, path=network_features_path)  # @load_or_make
+gc.enable()
+
+# single network feature
+print('single network feature...')
+dump_feature(fea_type, network_features_path, network_features, flag_normalize_feature=True)
+
+########################################################################################
+# test set
+que_ans_nodes_path = general_network_path + 'test_que_ans_nodes.pkl'
+if not check_file_exist(que_ans_nodes_path):
+    print('run `network_feature_index_retrieval_nodes.py` now')
+    exit(0)
+
+que_ans_nodes = load_pickle(que_ans_nodes_path)
+
+# shortest path feature/ random walk feature
+print('build network features matrix...')
+
+general_feature_path = '../data/test/feature/'
+
+network_features_path = ''.join((general_feature_path, corpus_name, '_network_features_', str(length_of_inference), 'lp_'))
+gc.disable()
+network_features = network_score_feature(que_ans_nodes, fea_type, graph, path=network_features_path)  # @load_or_make
+gc.enable()
+
+# single network feature
+print('single network feature...')
+dump_feature(fea_type, network_features_path, network_features, flag_normalize_feature=True)
+"""

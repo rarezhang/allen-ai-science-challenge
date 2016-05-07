@@ -19,7 +19,7 @@ def split_file(general_svm_file_path, number_training):
     :param number_training:
     :return:
     """
-    exclude_files = ['training', 'testing']
+    exclude_files = ['training', 'testing', 'test', 'validation']
     svm_files = [f for f in os.listdir(general_svm_file_path) if (f not in exclude_files) and (not f.endswith('.prediction'))]
     for svm_f in svm_files:
         svm_path = ''.join((general_svm_file_path, svm_f))
@@ -40,7 +40,7 @@ def split_file(general_svm_file_path, number_training):
 ####################################################
 # training & classifying
 
-def svm_rank(general_svm_file_path):
+def svm_rank(general_svm_file_path):  # todo code refactoring
     """
 
     :param path_training:
@@ -57,10 +57,11 @@ def svm_rank(general_svm_file_path):
     path_model = path_win + 'model.dat'
 
     # training & testing files
-    exclude_files = ['training', 'testing']
+    exclude_files = ['training', 'testing', 'test', 'validation']
     svm_files = [f for f in os.listdir(general_svm_file_path) if (f not in exclude_files) and (not f.endswith('.prediction'))]
 
     for svm_f in svm_files:
+        print(svm_f)
         svm_path = ''.join((general_svm_file_path, svm_f))
         training_path = ''.join((general_svm_file_path, 'training/', svm_f, '.training'))
         testing_path = ''.join((general_svm_file_path, 'testing/', svm_f, '.testing'))

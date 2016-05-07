@@ -114,8 +114,9 @@ def dump_feature(feature_type, feature_path, features, flag_normalize_feature=Tr
     :return:
     """
     def normalize(l):
-        s = sum(l)
-        return [float(x) / s for x in l]
+        min_x = min(l)
+        max_x = max(l)
+        return [(float(x) - min_x / max_x - min_x) for x in l]
 
     for ind, fea in enumerate(feature_type):
         if flag_normalize_feature:

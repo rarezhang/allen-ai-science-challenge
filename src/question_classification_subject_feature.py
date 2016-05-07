@@ -128,7 +128,9 @@ def subject_class_features(que_ans_pairs, question_class, feature_type, path='')
 # main
 ########################################################
 # global
-flag_entire_ques = False  # False: just noun
+# todo: modify here, entire question or just noun
+flag_entire_ques = True  # False: just noun
+
 # question subjects
 sub_dic = {'0': 'biology', '1': 'physics', '2': 'earth', '3': 'life', '4': 'chemistry', '5': 'physical'}
 
@@ -192,3 +194,72 @@ retrieval_features = subject_class_features(ques_ans, ques_sub_class, fea_type, 
 # if single feature does not exist, dump single feature
 dump_feature(fea_type, subject_class_features_path, retrieval_features, flag_normalize_feature=False)
 dump_feature(fea_type, subject_class_features_path, retrieval_features, flag_normalize_feature=True)
+
+
+
+
+########################################################################################
+# validation and test set
+import gc
+"""
+########################################################################################
+# validation
+# read question subjects classification results
+general_question_classification_path = '../data/questionclass/'
+subject_classification_path = general_question_classification_path + 'validation/'
+
+ques_subject_path = subject_classification_path + 'validation_subject.txt'
+
+
+_, ques_sub_class = read_question_class(ques_subject_path)  # return q_id, q_sub
+
+validation_path = '../data/validation/validation_set.tsv'
+general_path = validation_path
+
+
+general_feature_path = '../data/validation/feature/'
+
+ques_ans_path = general_path + '_entire_ques_ans.pkl'
+subject_class_features_path = ''.join((general_feature_path, corpus_name, '_class_sub_features_'))
+
+
+ques_ans = load_pickle(ques_ans_path)   # [[q1+A, ...],...]
+gc.disable()
+retrieval_features = subject_class_features(ques_ans, ques_sub_class, fea_type, path=subject_class_features_path)
+gc.enable
+
+# single retrieval feature
+# if single feature does not exist, dump single feature
+dump_feature(fea_type, subject_class_features_path, retrieval_features, flag_normalize_feature=True)
+
+
+########################################################################################
+# test
+# read question subjects classification results
+general_question_classification_path = '../data/questionclass/'
+subject_classification_path = general_question_classification_path + 'test/'
+
+ques_subject_path = subject_classification_path + 'test_subject.txt'
+
+
+_, ques_sub_class = read_question_class(ques_subject_path)  # return q_id, q_sub
+
+test_path = '../data/test/test_set.tsv'
+general_path = test_path
+
+
+general_feature_path = '../data/test/feature/'
+
+ques_ans_path = general_path + '_entire_ques_ans.pkl'
+subject_class_features_path = ''.join((general_feature_path, corpus_name, '_class_sub_features_'))
+
+
+ques_ans = load_pickle(ques_ans_path)   # [[q1+A, ...],...]
+gc.disable()
+retrieval_features = subject_class_features(ques_ans, ques_sub_class, fea_type, path=subject_class_features_path)
+gc.enable
+
+# single retrieval feature
+# if single feature does not exist, dump single feature
+dump_feature(fea_type, subject_class_features_path, retrieval_features, flag_normalize_feature=True)
+"""

@@ -163,15 +163,96 @@ nva_ques_ans_path = general_path + '_nva_ques_ans'
 nva_ques_ans = que_concat_ans(nva_ques, ans, path=nva_ques_ans_path)
 
 
+##############################################
+# validation_set
+
+validation_path = '../data/validation/validation_set.tsv'
+general_path = validation_path
+
+# get questions, correct answers, answers
+# list
+# save q_id, ques, as .pkl files
+q_id, ques, ans = read_kaggle_file(path=general_path, training_set_flag=False)  # @load_or_make
+
+# part of speech tag for each token in each question
+# list of lists [[(t1,pos),(t2,pos)],[],...]
+pos_ques_path = general_path + '_pos_ques'
+pos_ques = pos_questions(ques, path=pos_ques_path)  # @load_or_make
+
+# answer pre-process: replace `all of the above`, `none of the above`, `both A and B`
+ans_path = general_path + '_ans'
+ans = answer_preprocess(ans, path=ans_path)  # @load_or_make
 
 
+# concat entire questions with each answer
+# list: [[q1+A, q1+B,...],[q2+A, q2+B,...],...]
+entire_ques_ans_path = general_path + '_entire_ques_ans'
+entire_ques_ans = que_concat_ans(ques, ans, path=entire_ques_ans_path)  # @load_or_make
 
 
+# concat questions(noun) with each answer
+# nouns in questions
+noun_ques_path = general_path + '_noun_ques'
+noun_ques = slim_questions(pos_ques, V=False, N=True, A=False, path=noun_ques_path)  # @load_or_make
+# list: [[q1(noun)+A, q1(noun)+B,...],[q2(noun)+A, q2(noun)+B,...],...]
+noun_ques_ans_path = general_path + '_noun_ques_ans'
+noun_ques_ans = que_concat_ans(noun_ques, ans, path=noun_ques_ans_path)  # @load_or_make
 
 
+# concat questions(noun,verb,adj/adv) with each answer
+# (noun,verb,adj/adv) in questions
+nva_ques_path = general_path + '_nva_ques'
+nva_ques = slim_questions(pos_ques, V=True, N=True, A=True, path=nva_ques_path)  # @load_or_make
+
+# list: [[q1(nva)+A, q1(nva)+B,...],[q2(nva)+A, q2(nva)+B,...],...]
+# @load_or_make
+nva_ques_ans_path = general_path + '_nva_ques_ans'
+nva_ques_ans = que_concat_ans(nva_ques, ans, path=nva_ques_ans_path)
+
+##############################################
+
+# test_set
+test_path = '../data/test/test_set.tsv'
+general_path = test_path
+
+# get questions, correct answers, answers
+# list
+# save q_id, ques, as .pkl files
+q_id, ques, ans = read_kaggle_file(path=general_path, training_set_flag=False)  # @load_or_make
+
+# part of speech tag for each token in each question
+# list of lists [[(t1,pos),(t2,pos)],[],...]
+pos_ques_path = general_path + '_pos_ques'
+pos_ques = pos_questions(ques, path=pos_ques_path)  # @load_or_make
+
+# answer pre-process: replace `all of the above`, `none of the above`, `both A and B`
+ans_path = general_path + '_ans'
+ans = answer_preprocess(ans, path=ans_path)  # @load_or_make
 
 
+# concat entire questions with each answer
+# list: [[q1+A, q1+B,...],[q2+A, q2+B,...],...]
+entire_ques_ans_path = general_path + '_entire_ques_ans'
+entire_ques_ans = que_concat_ans(ques, ans, path=entire_ques_ans_path)  # @load_or_make
 
 
+# concat questions(noun) with each answer
+# nouns in questions
+noun_ques_path = general_path + '_noun_ques'
+noun_ques = slim_questions(pos_ques, V=False, N=True, A=False, path=noun_ques_path)  # @load_or_make
+# list: [[q1(noun)+A, q1(noun)+B,...],[q2(noun)+A, q2(noun)+B,...],...]
+noun_ques_ans_path = general_path + '_noun_ques_ans'
+noun_ques_ans = que_concat_ans(noun_ques, ans, path=noun_ques_ans_path)  # @load_or_make
+
+# list: [[q1(nva)+A, q1(nva)+B,...],[q2(nva)+A, q2(nva)+B,...],...]
+# @load_or_make
+nva_ques_path = general_path + '_nva_ques'
+nva_ques = slim_questions(pos_ques, V=True, N=True, A=True, path=nva_ques_path)  # @load_or_make
+
+nva_ques_ans_path = general_path + '_nva_ques_ans'
+nva_ques_ans = que_concat_ans(nva_ques, ans, path=nva_ques_ans_path)
+print(len(entire_ques_ans))
+print(len(noun_ques_ans))
+print(len(nva_ques_ans))
 
 
