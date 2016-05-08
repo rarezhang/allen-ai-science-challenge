@@ -125,12 +125,30 @@ query.add(subject_query, BooleanClause.Occur.MUST) # the keyword MUST occur
 ## Performance
 - Training: allen-ai-training: 100001 - 101994  
 - Testing: allen-ai-training: 101995 - 102500  
-- Single feature type  
-![Single feature type](https://cloud.githubusercontent.com/assets/5633774/14944024/35ccc6ca-0f9d-11e6-8296-2577321fc987.png " Single feature type")
-- Feature combination  
-![Feature combination](https://cloud.githubusercontent.com/assets/5633774/14944041/7d0e1ca0-0f9d-11e6-8f16-7e55faf221c1.png " Feature combination")
-- Different Corpuses  
-![Different Corpuses](https://cloud.githubusercontent.com/assets/5633774/14944068/12082008-0f9e-11e6-9e9a-ee39535c7caf.png " Different Corpuses")
+  - Single feature type  
+
+| Feature type  | Retrieval	| Word2vec	| Netowrk	| QuesClass(sub)|
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| P@1		|  53.95%	|  20.16%	|  20.95%	|  44.69%	|
+
+  - Feature combination  
+
+| Features| Retrieval + Word2vec	| Retrieval + Word2vec + Netowrk| Retrieval + Word2vec + Netowrk + QuesClass(sub)|
+| ------------- | ------------- | ------------- | ------------- | 
+| P@1		|  56.13%	|  54.15%	|  55.34%	|  
+
+  - Different Corpuses  
+
+| Corpus	| CK12		| Study Cards	| Simple wiki	|
+| ------------- | ------------- | ------------- | ------------- | 
+| P@1		|  47.04%	|  50.99%	|  39.33%	|  
+
+- Training: allen-ai-training: 100001 - 102500  
+- Testing: allen-ai-test: 102501 - 123798 
+
+| Public Score	| Private Score	| 
+| ------------- | ------------- | 
+|  49.250%	|  50.285%	| 
 
 ### Performance - Network Features
 Ni Lao 2011:  Random walk probability is useful as a feature in a combined ranking method, although not by itself a high precision feature 
@@ -160,17 +178,3 @@ to do
   - Need more `tables` (facts and relations extracted from textual data) 
   - Modularity: combine with question classification (subjects & question type )
 ```
-
-
-svm_rank_normalized_.txt 0.5533596837944664
-svm_rank_normalized_ck12.txt 0.47035573122529645
-svm_rank_normalized_class_sub.txt 0.4268774703557312
-svm_rank_normalized_network.txt 0.20948616600790515
-svm_rank_normalized_noun_class_sub.txt 0.4268774703557312
-svm_rank_normalized_retrieval.txt 0.5395256916996047
-svm_rank_normalized_retrieval_w2v.txt 0.541501976284585
-svm_rank_normalized_retrieval_w2v_network.txt 0.541501976284585
-svm_rank_normalized_retrieval_w2v_network_class_sub.txt 0.5533596837944664
-svm_rank_normalized_simple_wiki.txt 0.3932806324110672
-svm_rank_normalized_study_cards.txt 0.5098814229249012
-svm_rank_normalized_w2v.txt 0.2015810276679842
