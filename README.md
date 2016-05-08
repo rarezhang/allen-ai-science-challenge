@@ -125,19 +125,14 @@ query.add(subject_query, BooleanClause.Occur.MUST) # the keyword MUST occur
 ## Performance
 - Training: allen-ai-training: 100001 - 101994  
 - Testing: allen-ai-training: 101995 - 102500  
-  - Single feature type  
 
 | Feature type  | Retrieval	| Word2vec	| Netowrk	| QuesClass(sub)|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | P@1		|  53.95%	|  20.16%	|  20.95%	|  44.69%	|
 
-  - Feature combination  
-
 | Features| Retrieval + Word2vec	| Retrieval + Word2vec + Netowrk| Retrieval + Word2vec + Netowrk + QuesClass(sub)|
 | ------------- | ------------- | ------------- | ------------- | 
 | P@1		|  56.13%	|  54.15%	|  55.34%	|  
-
-  - Different Corpuses  
 
 | Corpus	| CK12		| Study Cards	| Simple wiki	|
 | ------------- | ------------- | ------------- | ------------- | 
