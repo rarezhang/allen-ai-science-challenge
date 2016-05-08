@@ -104,7 +104,11 @@ Each token in question V.S each token in each answer
 
 ### Question Classification Features: soft inference
 #### Classification Features - Subjects
-- add xxxxxxxxxxxxxxxxxxxx
+- Question subjects (6 subjects): Biology | Physics | Earth Science | Life Science | Chemistry | Physical Science  
+- Corpus: CK12 Textbooks
+  - Compute the probability of all word wi  in the corpus appearing in the text of subject Sj: P(wi|Sj)
+  - Sum the log P(wi|Sj) for all the words in the question and for all subjects   
+![Question subjects](https://cloud.githubusercontent.com/assets/5633774/15100928/f2f4840c-1535-11e6-8953-3882a6b1f100.png "Question subjects")
 - Index (3 fields)
   - Data source (book title) -> subjects classification 
   - Document name (section title) -> question type classification
@@ -120,17 +124,29 @@ query.add(subject_query, BooleanClause.Occur.MUST) # the keyword MUST occur
 
 
 #### Classification Features – Question type
-
+- Question types (7 types):  Is-a |  Definition |  Property of objects |  Examples of situations |  Causality | Processes |  Domain specific models  
+- Manually label 800 questions into 7 question types  
+- Multi-class logistic regression classification with unigram-bigram features to classify the questions into 7 types
+- Question types require inference  
+  - Domain specific question
+    - e.g., A boat is acted on by a river current flowing north and by wind blowing on its sails. The boat travels northeast. In which direction is the wind most likely applying force to the sails of the boat?
+    - Abstraction 
+  - Causality
+    - e.g., What reason best explains why more people get colds in colder temperatures? 
+    - Causal relation
+  - Examples of situations
+    - e.g., Which is an example of a chemical change? 
+    - Instantiation
 
 ## Performance
 - Training: allen-ai-training: 100001 - 101994  
 - Testing: allen-ai-training: 101995 - 102500  
 
-| Feature type  | Retrieval	| Word2vec	| Netowrk	| QuesClass(sub)|
+| Feature type  | Retrieval	| Word2vec	| Netowrk (2hops + 3hops)	| QuesClass(sub)|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | P@1		|  53.95%	|  20.16%	|  20.95%	|  44.69%	|
 
-| Features| Retrieval + Word2vec	| Retrieval + Word2vec + Netowrk| Retrieval + Word2vec + Netowrk + QuesClass(sub)|
+| Features| Retrieval + Word2vec	| Retrieval + Word2vec + Netowrk(2hops + 3hops)| Retrieval + Word2vec + Netowrk(2hops + 3hops) + QuesClass(sub)|
 | ------------- | ------------- | ------------- | ------------- | 
 | P@1		|  56.13%	|  54.15%	|  55.34%	|  
 
